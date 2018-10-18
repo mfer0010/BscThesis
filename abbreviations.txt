@@ -1,0 +1,10 @@
+This document contains some abbreviations commonly used in papers 
+to do with CERN and the LHC and their meaning.
+
+BCT - Beam Current Transformers
+BQM - Beam Quality Monitor
+IQC - Injection Quality Check
+LHC - Large Hadron Collider
+MKI - LHC injection kicker system (LHC kicker Magnet)
+RF  - Radiofrequency 
+SPS - Super Proton Synchrotron (Particle Accelerator)
