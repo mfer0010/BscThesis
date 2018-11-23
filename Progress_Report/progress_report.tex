@@ -1,13 +1,14 @@
-\documentclass[12pt,a4paper,final]{report}
+\documentclass[12pt]{report}
 
 %Packages
 \usepackage{setspace} %for onehalf spacing
 \usepackage{graphicx} %for includegraphics
 \usepackage{float} %for H pointer in graphics
+\usepackage{titlesec} %to make section titles smaller
 
 %Parameters
 \onehalfspacing
-\renewcommand\thesection{\arabic{section}} %change numbering style of sections
+\titleformat*{\section}{\large\bfseries}
 
 \begin{document}
 	%Title Page:
