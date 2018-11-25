@@ -41,9 +41,10 @@
 	\pagebreak
 	
 	\section{Abstract}
-	\paragraph{ }The CERN particle accelerator complex generates around 2 TB of data per week from almost 1 million signals. In this dissertation, unsupervised machine learning techniques for applications such as clustering and anomaly detection shall be used to analyze past LHC data in order to visualize correlations, determine data driven models and identify opportunities for improving the LHC machine availability and performance reach.
+	\paragraph{ }The CERN particle accelerator complex generates around 2 TB of data per week from almost 1 million signals. In this dissertation, unsupervised machine learning techniques for applications such as clustering and anomaly detection shall be used to analyse past LHC data in order to visualize correlations, determine data driven models and identify opportunities for improving the LHC machine availability and performance reach.
 	
-	\section{Introduction \& Motivation}
+	\section{Introduction \& Motivation}	
+	\paragraph{ }The LHC is filled to flat top intensity by injecting each beam with kicker waves 12 times. This is a challenging task given the high energy of the beam, the very small apertures and the delivery precision's tight tolerances \cite{r:BeamQC}, thus multiple sensors are installed around the CERN particle accelerator complex \cite{r:Diagram} which gather readings and data that can be used to check the quality of the injected beam. This data is stored using CERN's LS (Logging Service). The LS is heavily used and in 2013, it was noted that close to 1000 users relied on it \cite{r:LS}. While many studies have been made using this logged data and lots of statistical tests have been done with regards to injection quality checks for the LHC (such as \cite{r:AutomaticIQCChecks} and \cite{r:BeamQC}), no studies can be found on the CERN Document Server \cite{r:CERNDocumentServer} where the researchers used unsupervised machine learning methods to analyse this data.
 	
 	\section{Why is the Problem non-Trivial}
 	
@@ -59,5 +60,20 @@
 	
 	\section{Progress}
 	
-	\section{References}
+	\begin{thebibliography}{5}
+		\bibitem{r:BeamQC}
+		V. Kain \textit{et. al}, ``Injection beam loss and beam quality checks for the lhc." in \textit{Proc. IPAC}, 2010, pp. 1671-1673.
+		
+		\bibitem{r:Diagram}
+		C. Lefevre. ``The cern accelerator complex." Technical report, 2008.
+		
+		\bibitem{r:LS}
+		C. Roderick, L. Burdzanowski and G. Kruk. ``The cern accelerator logging service- 10 years in operation: a look at the past, present and future," presented at the 14\textsuperscript{th} Int. Conf. Accelerator \& Large Experimental Physics Control Systems, USA, 2013.
+		
+		\bibitem{r:AutomaticIQCChecks}
+		L. N. Drosdal \textit{et. al.}, ``Automatic injection quality checks for the lhc." in \textit{Proc. ICALEPCS}, 2011, pp. 1077-1080.
+		
+		\bibitem{r:CERNDocumentServer}
+		``Cern document server" Internet: \texttt{cds.cern.ch}, [Nov. 11, 2018].
+	\end{thebibliography}
 \end{document}
