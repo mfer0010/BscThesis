@@ -16,6 +16,7 @@
 \onehalfspacing
 \renewcommand\thesection{\arabic{section}} %change numbering style of sections
 \titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\small\bfseries}
 
 \begin{document}
 	%Title Page:
@@ -56,10 +57,22 @@
 	
 	\section{Why is the Problem non-Trivial}
 	
-	\par The LS currently generates around 2 TB of data per week. This data is generated from multiple machines each measuring different features of the waves at different points in the accelerator complex. Thus the data must be thoroughly analysed and normalised in order to be able to apply the machine learning analysis techniques properly. Identifying opportunities to improve the beam lifetime, beam stability and luminosity is also a non-trivial problem to tackle.
+	\paragraph{ }The LS currently generates around 2 TB of data per week. This data is generated from multiple machines each measuring different features of the waves at different points in the accelerator complex. Thus the data must be thoroughly analysed and normalised in order to be able to apply the machine learning analysis techniques properly. Identifying opportunities to improve the beam lifetime, beam stability and luminosity is also a non-trivial problem to tackle.
 	
 	
 	\section{Background Research and Literature Review}
+	\subsection{Unsupervised Machine Learning Techniques}
+	\paragraph{ }Unsupervised machine learning algorithms refer to the class of machine learning algorithms where only the observations are available as there is no access to a training set, or the aim of the algorithm is simply to observe patterns in these observations. In fact, A. Hyv{\"a}rinen states in \cite{r:lecturenotes} that for unsupervised learning ``(w)e don't have separate ``inputs" and ``outputs", just a lot of observations of one variable or vector". Hyv{\"a}rinen continues to state some goals of unsupervised learning, for this particular study, the following goals are of interest:
+	\begin{itemize}
+		\item \textit{Visualization}:
+		\item \textit{Noise Reduction and Feature Extraction}:
+		\item \textit{Finding Interesting Components}:
+	\end{itemize} 
+	
+		
+	\subsection{The Package Used}
+	\paragraph{ }Although performance of k-means and k-Nearest Neighbours is not as optimal as in other Python packages (such as `\textit{PyMVPA}' \cite{r:pymvpa} or `\textit{shogun}' \cite{r:shogun}), it was decided to use the `\textit{scikit-learn}' machine learning package for this thesis due to its ``state-of-the-art implementation" and ``easy-to-use interface tightly integrated with the Python language" \cite{r:sklearn}. Furthermore, the algorithms implemented using this package can be ``used as building blocks for approaches specific to a use case" \cite{r:sklearn} which will be useful if one would like to extend the scope of this thesis.
+	
 	
 	\section{Aims and Objectives}
 	
@@ -71,7 +84,7 @@
 	
 	\section{Progress}
 	
-	\begin{thebibliography}{5}
+	\begin{thebibliography}{8}
 		\bibitem{r:BeamQC}
 		V. Kain \textit{et. al}, ``Injection beam loss and beam quality checks for the lhc." in \textit{Proc. IPAC}, 2010, pp. 1671-1673.
 		
@@ -86,5 +99,14 @@
 		
 		\bibitem{r:CERNDocumentServer}
 		``Cern document server" Internet: \texttt{cds.cern.ch}, [Nov. 11, 2018].
+		
+		\bibitem{r:pymvpa}
+		PyMVPA Authors. ``Pymvpa developer guidelines." Internet: \texttt{www.pymvpa.org}, Aug. 28, 2017 [Nov. 26, 2018].
+		
+		\bibitem{r:shogun}
+		``The shogun machine learning toolbox." Internet: \texttt{pypi.org/project/shogun-ml/}, [Nov. 26, 2018].
+		
+		\bibitem{r:sklearn}
+		F. Pendregosa \textit{et. al.}. ``Scikit learn: machine learning in python." \textit{Journal of Machine Learning Research}, vol. 12, pp. 2825-2830, Oct. 2011.
 	\end{thebibliography}
 \end{document}
