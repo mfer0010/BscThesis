@@ -62,12 +62,19 @@
 	
 	\section{Background Research and Literature Review}
 	\subsection{Unsupervised Machine Learning Techniques}
-	\paragraph{ }Unsupervised machine learning algorithms refer to the class of machine learning algorithms where only the observations are available as there is no access to a training set, or the aim of the algorithm is simply to observe patterns in these observations. In fact, A. Hyv{\"a}rinen states in \cite{r:lecturenotes} that for unsupervised learning ``(w)e don't have separate ``inputs" and ``outputs", just a lot of observations of one variable or vector". Hyv{\"a}rinen continues to state some goals of unsupervised learning, for this particular study, the following goals are of interest:
+	\paragraph{ }Unsupervised machine learning algorithms refer to the class of machine learning algorithms where the observations only are available to the learner as there is no access to a training set or the aim of the algorithm is simply to observe patterns in these observations. In fact, A. Hyv{\"a}rinen states in \cite{r:lecturenotes} that for unsupervised learning ``(w)e don't have separate ``inputs" and ``outputs", just a lot of observations of one variable or vector". Hyv{\"a}rinen continues to state some goals of unsupervised learning which include data visualisation, noise reduction, feature extraction and finding interesting components, which are all of particular interest for this study.
+	\par The following points are a summary of the research made on some of the unsupervised machine learning algorithms that will be used in this study:
 	\begin{itemize}
-		\item \textit{Visualization}:
-		\item \textit{Noise Reduction and Feature Extraction}:
-		\item \textit{Finding Interesting Components}:
-	\end{itemize} 
+		\item \textit{K-Means Clustering}: K-Means is considered to be one of the most popular clustering methods \cite{r:jin}. The idea behind the algorithm is to split the data into $k$ clusters where a data point forms part of the cluster with the closest centroid. The time complexity for this algorithm is $O(nki)$ and the space complexity is $O(n(d+k))$ where $n$ is the number of points, $k$ the number of centres, $d$ the number of dimensions and $i$ the number of iterations required to converge \cite{r:jin}. 
+		\item \textit{DBSCAN}: This algorithm was created from the necessity of having a clustering algorithm with the following requirements:
+		\begin{enumerate}
+			\item ``Minimal requirements of domain knowledge to determine the input parameters,"
+			\item ``Discovery of clusters with arbitrary shape," and
+			\item ``Good efficiency on large databases" \cite{r:DBSCAN}
+		\end{enumerate}
+		DBSCAN manages to attain the above requirements by viewing clusters as ``areas of high density separated by areas of low density" \cite{r:skclustering}. This algorithm also introduces the concept of \textit{core samples} which was then used in the designing of other machine learning algorithms such as LOF (Local Outlier Factor).
+		\item \textit{Local Outlier Factor}: The LOF refers to a ``degree of outlier-ness" that this algorithm considers for each point in the data rather than using the concept that ``being and outlier is binary" \cite{r:LOF}. This algorithm uses a clustering technique which takes concepts from DBSCAN to measure the LOF of each point where an LOF value $>1$ implies that the point has lower density than its neighbours and is thus probably an outlier. 	
+	\end{itemize}
 	
 		
 	\subsection{The Package Used}
@@ -84,9 +91,9 @@
 	
 	\section{Progress}
 	
-	\begin{thebibliography}{8}
+	\begin{thebibliography}{13}
 		\bibitem{r:BeamQC}
-		V. Kain \textit{et. al}, ``Injection beam loss and beam quality checks for the lhc." in \textit{Proc. IPAC}, 2010, pp. 1671-1673.
+		V. Kain \textit{et. al} ``Injection beam loss and beam quality checks for the lhc." in \textit{Proc. IPAC}, 2010, pp. 1671-1673.
 		
 		\bibitem{r:Diagram}
 		C. Lefevre. ``The cern accelerator complex." Technical report, 2008.
@@ -95,10 +102,25 @@
 		C. Roderick, L. Burdzanowski and G. Kruk. ``The cern accelerator logging service- 10 years in operation: a look at the past, present and future," presented at the 14\textsuperscript{th} Int. Conf. Accelerator \& Large Experimental Physics Control Systems, USA, 2013.
 		
 		\bibitem{r:AutomaticIQCChecks}
-		L. N. Drosdal \textit{et. al.}, ``Automatic injection quality checks for the lhc." in \textit{Proc. ICALEPCS}, 2011, pp. 1077-1080.
+		L. N. Drosdal \textit{et. al.} ``Automatic injection quality checks for the lhc." in \textit{Proc. ICALEPCS}, 2011, pp. 1077-1080.
 		
 		\bibitem{r:CERNDocumentServer}
 		``Cern document server" Internet: \texttt{cds.cern.ch}, [Nov. 11, 2018].
+		
+		\bibitem{r:lecturenotes}
+		A. Hyv{\"a}rinen. Lecture Notes, Topic: ``Unsupervised machine learning." University of Helsinki, 2015.
+		
+		\bibitem{r:jin}
+		J. Xin and H. Jiawei. ``K-means clustering." \textit{Encyclopaedia of Machine Learning}, pp. 563-564, 2011.
+		
+		\bibitem{r:DBSCAN}
+		M. Ester \textit{et. al.} ``A density-based algorithm for discovering clusters in large spatial databases with noise." in \textit{Proc. KDD}, 1996, pp. 226-231.
+		
+		\bibitem{r:skclustering}
+		``Clustering." Internet: \texttt{scikit-learn.org/stable/modules/clustering.html}, [Nov. 27, 2018].
+		
+		\bibitem{r:LOF}
+		M. Breunig \textit{et. al.} ``Lof: identifying density-based local outliers," in \textit{Proc. ACM SIGMOD}, 2000, pp. 1-12.
 		
 		\bibitem{r:pymvpa}
 		PyMVPA Authors. ``Pymvpa developer guidelines." Internet: \texttt{www.pymvpa.org}, Aug. 28, 2017 [Nov. 26, 2018].
