@@ -7,9 +7,10 @@
 \contentsline {section}{\numberline {4}Background Research and Literature Review}{4}
 \contentsline {subsection}{\numberline {4.1}Unsupervised Machine Learning Techniques}{4}
 \contentsline {paragraph}{ }{4}
-\contentsline {subsection}{\numberline {4.2}The Package Used}{5}
+\contentsline {subsection}{\numberline {4.2}Choosing a Python Package}{5}
 \contentsline {paragraph}{ }{5}
 \contentsline {section}{\numberline {5}Aims and Objectives}{5}
+\contentsline {paragraph}{ }{5}
 \contentsline {section}{\numberline {6}Methods and Techniques Used or Planned}{5}
 \contentsline {section}{\numberline {7}The Evaluation Strategy and Technique being Proposed}{5}
 \contentsline {section}{\numberline {8}Deliverables}{5}
