@@ -9,9 +9,10 @@
 \contentsline {paragraph}{ }{4}
 \contentsline {subsection}{\numberline {4.2}Choosing a Python Package}{5}
 \contentsline {paragraph}{ }{5}
-\contentsline {section}{\numberline {5}Aims and Objectives}{5}
+\contentsline {section}{\numberline {5}Methods and Techniques Used or Planned}{5}
+\contentsline {subsection}{\numberline {5.1}The Parameters Studied}{5}
 \contentsline {paragraph}{ }{5}
-\contentsline {section}{\numberline {6}Methods and Techniques Used or Planned}{5}
-\contentsline {section}{\numberline {7}The Evaluation Strategy and Technique being Proposed}{5}
-\contentsline {section}{\numberline {8}Deliverables}{5}
-\contentsline {section}{\numberline {9}Progress}{5}
+\contentsline {paragraph}{ }{5}
+\contentsline {section}{\numberline {6}The Evaluation Strategy and Technique being Proposed}{6}
+\contentsline {section}{\numberline {7}Deliverables}{6}
+\contentsline {section}{\numberline {8}Progress}{6}

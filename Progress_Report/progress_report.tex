@@ -81,10 +81,30 @@
 	\paragraph{ }Although performance of k-means and k-Nearest Neighbours is not as optimal as in other Python packages (such as `\textit{PyMVPA}' \cite{r:pymvpa} or `\textit{shogun}' \cite{r:shogun}), it was decided to use the `\textit{scikit-learn}' machine learning package for this thesis due to its ``state-of-the-art implementation" and ``easy-to-use interface tightly integrated with the Python language" \cite{r:sklearn}. Furthermore, the algorithms implemented using this package can be ``used as building blocks for approaches specific to a use case" \cite{r:sklearn} which will be useful if one would like to extend the scope of this thesis.
 	
 	
-	\section{Aims and Objectives}
-	\paragraph{ }The aim of this project is to utilise unsupervised machine learning algorithms to analyse past LHC data with the hopes of identifying opportunities to improve the LHC machine availability and performance reach in terms of beam lifetime, beam stability and luminosity.
+	%\section{Aims and Objectives}
+	%\paragraph{ }The aim of this project is to utilise unsupervised machine learning algorithms to analyse past LHC data with the hopes of identifying opportunities to improve the LHC machine availability and performance reach in terms of beam lifetime, beam stability and luminosity.
 	
 	\section{Methods and Techniques Used or Planned}
+	\subsection{The Parameters Studied}
+	\paragraph{ }In this subsection, the data that has already been studied as part of this project shall be discussed in some detail. Furthermore, the readings to be included in the model that have not yet been studied will be listed and discussed in the next subsection.
+	
+	\paragraph{ }\textit{Beam Loss Monitors:} BLMs were installed around the CERN particle accelerator complex to detect losses in the beam intensities as they're circulating. These monitors are safety critical as a very large amount of energy is stored in these circulating beams. In fact, as Barbara Holzer \textit{et. al.} mention in \cite{r:BLMs}, ``(t)he loss of even a very small fraction of this beam may ... cause physical damage to machine components." Furthermore as stated in \cite{r:BLMs}, a fast loss of $3\times10^{-9}$ and a constant loss of $3\times10^{-12}$ times the flat top beam intensity can quench a dipole magnet and a one turn loss of $3\times10^{-6}$ times the nominal intensity can even damage a magnet. As of yet, readings from the TCDIs (Transfer Line Collimators) BLMs for both beams have been analysed. Each collimator in the TDI has 3 BLMs each taking readings of the beam losses at the same time in order to ensure accuracy in the readings. As can be seen in Figure \ref{fig:BLMlosses}, it was noted that there is a spike in the readings which corresponds to the time of injection from the SPS to the LHC. These readings were then filtered and a scatter plot as seen in Figure \ref{fig:BLMscatter} was derived to visualise the correlation between the readings of the three BLMs. 
+	\begin{figure}[t]
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{BLM1}
+			\captionof{figure}{BLM losses at injection}
+			\label{fig:BLMlosses}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{BLM2}
+			\captionof{figure}{Normalised losses of 3 BLMs}
+			\label{fig:BLMscatter}
+		\end{minipage}
+	\end{figure}
+	
 	
 	\section{The Evaluation Strategy and Technique being Proposed}
 	
@@ -92,7 +112,7 @@
 	
 	\section{Progress}
 	
-	\begin{thebibliography}{13}
+	\begin{thebibliography}{14}
 		\bibitem{r:BeamQC}
 		V. Kain \textit{et. al} ``Injection beam loss and beam quality checks for the lhc." in \textit{Proc. IPAC}, 2010, pp. 1671-1673.
 		
@@ -131,5 +151,8 @@
 		
 		\bibitem{r:sklearn}
 		F. Pendregosa \textit{et. al.}. ``Scikit learn: machine learning in python." \textit{Journal of Machine Learning Research}, vol. 12, pp. 2825-2830, Oct. 2011.
+		
+		\bibitem{r:BLMs}
+		E. Barbara Holzer, \textit{et. al.} ``Beam loss monitoring system for the lhc." in \textit{Proc. IEEE NSS}, 2005. 
 	\end{thebibliography}
 \end{document}
