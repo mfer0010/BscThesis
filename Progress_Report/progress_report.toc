@@ -1,18 +1,18 @@
-\contentsline {section}{\numberline {1}Abstract}{3}
+\contentsline {section}{\numberline {1}Abstract}{1}
+\contentsline {paragraph}{ }{1}
+\contentsline {section}{\numberline {2}Introduction \& Motivation}{1}
+\contentsline {paragraph}{ }{1}
+\contentsline {section}{\numberline {3}Why is the Problem non-Trivial}{1}
+\contentsline {paragraph}{ }{1}
+\contentsline {section}{\numberline {4}Background Research and Literature Review}{2}
+\contentsline {subsection}{\numberline {4.1}Unsupervised Anomaly Detection Techniques}{2}
+\contentsline {paragraph}{ }{2}
+\contentsline {subsection}{\numberline {4.2}Choosing a Python Package}{3}
 \contentsline {paragraph}{ }{3}
-\contentsline {section}{\numberline {2}Introduction \& Motivation}{3}
+\contentsline {section}{\numberline {5}Methods and Techniques Used or Planned}{3}
+\contentsline {subsection}{\numberline {5.1}The Parameters Studied}{3}
 \contentsline {paragraph}{ }{3}
-\contentsline {section}{\numberline {3}Why is the Problem non-Trivial}{3}
-\contentsline {paragraph}{ }{3}
-\contentsline {section}{\numberline {4}Background Research and Literature Review}{4}
-\contentsline {subsection}{\numberline {4.1}Unsupervised Machine Learning Techniques}{4}
-\contentsline {paragraph}{ }{4}
-\contentsline {subsection}{\numberline {4.2}Choosing a Python Package}{5}
+\contentsline {section}{\numberline {6}The Evaluation Strategy and Technique being Proposed}{5}
 \contentsline {paragraph}{ }{5}
-\contentsline {section}{\numberline {5}Methods and Techniques Used or Planned}{5}
-\contentsline {subsection}{\numberline {5.1}The Parameters Studied}{5}
-\contentsline {paragraph}{ }{5}
-\contentsline {paragraph}{ }{5}
-\contentsline {section}{\numberline {6}The Evaluation Strategy and Technique being Proposed}{6}
-\contentsline {section}{\numberline {7}Deliverables}{6}
-\contentsline {section}{\numberline {8}Progress}{6}
+\contentsline {section}{\numberline {7}Deliverables}{5}
+\contentsline {section}{\numberline {8}Current Progress}{5}
