@@ -54,37 +54,38 @@
 	\pagenumbering{arabic}
 	
 	\section{Abstract}
-	\paragraph{ }The CERN particle accelerator complex generates around 2 TB of data per week from almost 1 million signals. In this dissertation, unsupervised machine learning techniques for applications such as anomaly detection shall be used to analyse past LHC and SPS data in order to visualize correlations, determine data driven models and identify opportunities for improving the LHC machine availability and performance reach.
+	\paragraph{ }The CERN particle accelerator complex generates around 2 TB of data per week from almost 1 million signals. In this dissertation, unsupervised machine learning techniques for anomaly detection will be used to analyse past LHC and SPS data in order to select which features to consider for anomaly detection, and understand the sources of the anomalies for improving the LHC machine availability and performance reach.
 	
 	\section{Introduction \& Motivation}	
-	\paragraph{ }The LHC (Large Hadron Collider) is filled to flat top intensity by injecting each beam with kicker waves 12 times \cite{r:BeamQC}. This is a challenging task given the high energy of the beam, the very small apertures and the delivery precision's tight tolerances, thus multiple sensors are installed around the CERN particle accelerator complex \cite{r:Diagram} which gather readings and data that can be used to check the quality of the injected beam. For this dissertation, the sensors around the injection from the SPS (Super Proton Synchrotron) to the LHC will be of particular interest. This data is stored using CERN's LS (Logging Service). The LS is heavily used and in 2013, it was noted that close to 1000 users relied on it \cite{r:LS}. While many studies have been made using this logged data and lots of statistical tests have been done with regards to injection quality checks for the LHC (such as \cite{r:AutomaticIQCChecks} and \cite{r:BeamQC}), no studies can be found on the CERN Document Server \cite{r:CERNDocumentServer} where researchers used unsupervised machine learning methods to analyse this data.
-	\par The purpose of this FYP is to go through the entire process in a data science project and learn to use unsupervised machine learning techniques for anomaly detection. These techniques will then be used to analyse past LHC data in different machine configurations to visualise correlations, determine data-driven models and identify opportunities for improving the LHC machine availability and performance reach in terms of beam lifetime, beam stability and luminosity.
+	\paragraph{ }The LHC (Large Hadron Collider) is filled to a given maximum intensity by injecting bunch trains from the SPS through a transfer line using kicker magnets \cite{r:BeamQC}. This is a challenging task given the high energy of the beam, the very small apertures and the delivery precision's tight tolerances, thus multiple sensors are installed around the CERN particle accelerator complex \cite{r:Diagram} which gather readings and data that can be used to check the quality of the injected beam. For this dissertation, the sensors around the injection from the SPS (Super Proton Synchrotron) to the LHC will be of particular interest. This data is stored using CERN's LS (Logging Service) \cite{r:LS}. While many studies have been made using this logged data and lots of statistical tests have been done with regards to injection quality checks for the LHC (such as \cite{r:AutomaticIQCChecks} and \cite{r:BeamQC}), no literature was uncovered where researchers used unsupervised machine learning methods to analyse this data.
+	\par The purpose of this FYP is to formulate the problem of detecting anomalous SPS-LHC injections as one which can be solved using machine learning techniques. These techniques will then be used to analyse past LHC data in different machine configurations to understand the sources of the anomalies and identify opportunities for improving the LHC machine availability and performance reach in terms of beam lifetime, beam stability and luminosity.
 	
 	\section{Why is the Problem non-Trivial}
 	
-	\paragraph{ }The LS currently generates around 2 TB of data per week. This data is generated from multiple machines each measuring different features of the waves at different points in the accelerator complex. Thus the data must be thoroughly analysed and normalised in order to be able to apply the machine learning analysis techniques properly. Identifying opportunities to improve the beam lifetime, beam stability and luminosity is also a non-trivial problem to tackle.
+	\paragraph{ }The LS currently generates around 2 TB of data per week. This data is generated from multiple machines each measuring different features of the beam at different points in the accelerator complex. Thus the data must be thoroughly analysed and normalised in order to be able to apply the machine learning analysis techniques properly. Furthermore, the Injection Quality Check Software (IQC) currently installed has a set of hard-coded rules for detecting anomalies in the SPS-LHC injection \cite{r:AutomaticIQCChecks}, however there are documented cases in the past where situations occurred which were outside the originally foreseen rules and were therefore not caught as anomalies. Identifying opportunities to improve the beam lifetime, beam stability and luminosity is also a non-trivial problem to tackle.
 	
 	
 	\section{Background Research and Literature Review}
+	\subsection{Feature Selection and Reduction Techniques}
+	\paragraph{ }PCA (Principal Component Analysis) uses statistical and mathematical techniques to reduce the dimension of a given set of data by exploiting the correlation between the different columns. The resultant transformed data points are called principal components. It's used commonly as a first step in analysing large data sets as well as in applications such as data compression and de-noising signals \cite{r:PCA}. Some other techniques that will be used for dimension reduction in this study include Recursive Feature Selection and MDA (Multilinear Discriminant Analysis). 
+	
 	\subsection{Unsupervised Anomaly Detection Techniques}
-	\paragraph{ }Unsupervised machine learning algorithms refer to the class of machine learning algorithms where the observations only are available to the learner as there is no access to a training set or the aim of the algorithm is simply to observe patterns in these observations. In fact, A. Hyv{\"a}rinen states in \cite{r:lecturenotes} that for unsupervised learning ``(w)e don't have separate ``inputs" and ``outputs", just a lot of observations of one variable or vector". Hyv{\"a}rinen continues to state some goals of unsupervised learning which include data visualisation, noise reduction, feature extraction and finding interesting components, which are all of particular interest for this study.
+	\paragraph{ }Unsupervised machine learning algorithms refer to the class of machine learning algorithms where only the input features are available to the learner as there is no access to output labels corresponding to each input feature vector, or the aim of the algorithm is simply to observe or detect patterns in the available data. In fact, A. Hyv{\"a}rinen states in \cite{r:lecturenotes} that for unsupervised learning ``We don't have separate ``inputs" and ``outputs", just a lot of observations of one variable or vector". Hyv{\"a}rinen continues to state some goals of unsupervised learning which include data visualisation, noise reduction, feature extraction and finding interesting components, which are all of particular interest for this study.
 	\par The following points are a summary of the research made on some of the unsupervised anomaly detection algorithms that will be used in this study:
 	\begin{itemize} 
-		\item \textit{DBSCAN}: This algorithm was created from the necessity of having a clustering algorithm with the following requirements:
+		\item \textit{Density Based Spatial Clustering of Applications with Noise (DBSCAN)}: This algorithm was created from the necessity of having a clustering algorithm with the following requirements:
 		\begin{enumerate}
 			\item ``Minimal requirements of domain knowledge to determine the input parameters,"
 			\item ``Discovery of clusters with arbitrary shape," and
 			\item ``Good efficiency on large databases" \cite{r:DBSCAN}
 		\end{enumerate}
-		DBSCAN manages to attain the above requirements by viewing clusters as ``areas of high density separated by areas of low density" \cite{r:skclustering}. This algorithm also introduces the concept of \textit{core samples} which was then used in the designing of other machine learning algorithms such as LOF (Local Outlier Factor).
+		DBSCAN manages to attain the above requirements by viewing clusters as ``areas of high density separated by areas of low density" \cite{r:skclustering}. The points with a lower density will thus be considered as anomalies when compared to the regular clusters which have a higher density. This algorithm also introduces the concept of \textit{core samples} which was then used in the designing of other machine learning algorithms such as LOF (Local Outlier Factor).
 		\item \textit{Local Outlier Factor}: The LOF refers to a ``degree of outlier-ness" that this algorithm considers for each point in the data rather than using the concept that ``being and outlier is binary" \cite{r:LOF}. This algorithm uses a clustering technique which takes concepts from DBSCAN to measure the LOF of each point where an LOF value $>1$ implies that the point has lower density than its neighbours and is thus probably an outlier. 
-		\item \textit{PCA (Principal Component Analysis)}: This technique uses statistical and mathematical techniques to reduce the dimension of a given set of data by exploiting the correlation between the different columns. The resultant transformed data points are called principal components. It's used commonly as a first step in analysing large data sets as well as in applications such as data compression and de-noising signals \cite{r:PCA}.
-		\item \textit{Other Algorithms and Techniques:} Some other techniques and algorithms that will be used in this study include Recursive Feature Selection and MDA (Multilinear Discriminant Analysis). 
 	\end{itemize}
 	
 		
-	\subsection{Choosing a Python Package}
-	\paragraph{ }Although performance of k-means and k-Nearest Neighbours is not as optimal as in other Python packages (such as `\textit{PyMVPA}' \cite{r:pymvpa} or `\textit{shogun}' \cite{r:shogun}), it was decided to use the `\textit{scikit-learn}' machine learning package for this thesis due to its ``state-of-the-art implementation" and ``easy-to-use interface tightly integrated with the Python language" \cite{r:sklearn}. Furthermore, the algorithms implemented using this package can be ``used as building blocks for approaches specific to a use case" \cite{r:sklearn} which will be useful if one would like to extend the scope of this thesis.
+	\subsection{Software Implementation}
+	\paragraph{ }Although performance of k-means and k-Nearest Neighbours is not as optimal as in other Python packages such as `\textit{PyMVPA}' \cite{r:pymvpa} or `\textit{shogun}' \cite{r:shogun} (see Table 1 in \cite{r:sklearn}), it was decided to use the `\textit{scikit-learn}' machine learning package for this FYP due to its ``state-of-the-art implementation" and ``easy-to-use interface tightly integrated with the Python language" \cite{r:sklearn}. Furthermore, the algorithms implemented using this package can be ``used as building blocks for approaches specific to a use case" \cite{r:sklearn} which will be useful if one would like to extend the scope of this thesis.
 	
 	
 	%\section{Aims and Objectives}
@@ -94,25 +95,27 @@
 	\subsection{The Parameters Studied}
 	\paragraph{ }In this subsection, the data that has already been studied as part of this project shall be discussed in some detail. Furthermore, the readings to be included in the model that have not yet been studied will be listed and discussed.
 	
-	\par \textit{Beam Loss Monitors:} BLMs were installed around the CERN particle accelerator complex to detect losses in the beam intensities as they're circulating. These monitors are safety critical as a very large amount of energy is stored in these circulating beams. In fact, as Barbara Holzer \textit{et. al.} mention in \cite{r:BLMs}, ``The loss of even a very small fraction of this beam may ... cause physical damage to machine components." As of yet, readings from the TDI BLMs for both beams have been analysed. Each collimator in the TDI has 3 BLMs each taking readings of the beam losses at the same time in order to ensure accuracy in the readings. As can be seen in Figure \ref{fig:BLMlosses}, it was noted that there is a spike in the readings which corresponds to the time of injection into the LHC. As expected, since these readings are being taken for the same beam at almost the same position, they are highly correlated. Furthermore, some other readings (yet to be analysed) that will be included as parameters to the implemented model are the TCDI (Transfer Line Collimator) BLMs as well as the BLMs present at the point of extraction from the SPS. Figure \ref{fig:CERNAccelerator} shows the positions of these monitors in the CERN accelerator complex.
+	\par \textit{Beam Loss Monitors:} BLMs are installed around the CERN particle accelerator complex to detect localized beam losses. These monitors are safety critical as a very large amount of energy is stored in these circulating beams \cite{r:BLMs}.The amount of losses is in general proportional to the circulating beam intensity. However, high losses would be a good indicator of anomalous conditions. As of yet, readings from the TDI BLMs for both beams have been analysed. Each collimator in the TDI has 3 BLMs each taking readings of the beam losses at the same time in order to ensure accuracy in the readings. As can be seen in Figure \ref{fig:BLMlosses}, it was noted that there is a spike in the readings which corresponds to the time of injection into the LHC. Furthermore, some other readings (yet to be analysed) that will be included as parameters to the implemented model are the TCDI (Transfer Line Collimator) BLMs as well as the BLMs present at the point of extraction from the SPS. Figure \ref{fig:CERNAccelerator} shows the positions of these monitors in the CERN accelerator complex.
 	
 	\begin{figure}[t]
 		\centering
-		\begin{minipage}{.5\textwidth}
-			\centering
-			\includegraphics[width=\linewidth]{BLM1}
-			\captionof{figure}{BLM losses at injection}
-			\label{fig:BLMlosses}
-		\end{minipage}%
-		\begin{minipage}{.5\textwidth}
+		\begin{minipage}{.4\textwidth}
 			\centering
 			\includegraphics[width=.7\linewidth]{CERNComplex}
 			\captionof{figure}{Diagram of the particular area of interest of the CERN particle accelerator complex for this dissertation}
 			\label{fig:CERNAccelerator}
 		\end{minipage}
+		\begin{minipage}{.2\textwidth}
+		\end{minipage}
+		\begin{minipage}{.4\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{BLM1}
+			\captionof{figure}{BLM losses recorded during 5 injections into the LHC}
+			\label{fig:BLMlosses}
+		\end{minipage}%
 	\end{figure}
 	
-	\par \textit{Abort Gap:} The abort gap refers to the number of buckets in a row which are kept empty in order to account for the time it takes for the beam abort kicker magnets to rise. In order to fill the LHC with the nominal 2808 bunches, there must be an abort gap of at least 3$\mu s$ \cite{r:AbortGap}. These readings have also been extracted, analysed and prepared to be included as a parameter for the anomaly detection algorithms.
+	\par \textit{Abort Gap:} The abort gap refers to the number of RF buckets in a row which are kept empty in order to account for the time it takes for the magnetic field in the beam abort kicker magnets to rise. In order to fill the LHC with the nominal 2808 bunches, there must be an abort gap of at least 3$\mu s$ \cite{r:AbortGap}. The hypothesis is that in the case of a bad injection, the abort gap will have a higher population of particles than normal. These readings have also been extracted, analysed and prepared to be included as a parameter for the anomaly detection algorithms.
 	
 	\par \textit{Beam Intensity:} The beam intensity readings were taken from two sources; at the moment of extraction from the SPS and at the moment injection into the LHC. These readings were also analysed and prepared to be included as parameters for the anomaly detection algorithms. Some points of interest at this stage can already be identified as anomalies, an example of such an anomaly is when the SPS would have a positive intensity reading at the point of extraction but the change in intensity at the LHC would actually be negative.
 	
@@ -120,38 +123,34 @@
 	
 	\section{The Evaluation Strategy and Technique being Proposed}
 	
-	\paragraph{ } In order to evaluate the performance of the anomaly detection algorithms being proposed, the results produced will be checked with those of the current IQC (Injection Quality Check). However since the purpose of this FYP is to improve the performance of the IQC and propose a better technique for injection quality checks, the results will also be examined manually on a case-by-case basis.
+	\paragraph{ } In order to evaluate the performance of the anomaly detection algorithms being proposed, the results produced will be checked with those of the IQC. However since the purpose of this FYP is to improve the performance of the IQC and propose a better technique for injection quality checks, the results will also be examined manually on a case-by-case basis.
 	
 	\section{Deliverables}
-	\begin{itemize}
-		\item A detailed literature review on understanding the problem domain as well as extensive details on the anomaly detection algorithms used.
-		\item Details on the methodology used and techniques applied for analysis.
-		\item The results obtained and comparisons with the IQC.
-	\end{itemize}
+	\paragraph{ }The deliverables for this FYP include a detailed literature review on understanding the problem domain as well as extensive details on the anomaly detection algorithms used, details on the methodology used and techniques applied for analysis. The results obtained with their comparisons with the IQC will also be presented.
 	
 	\section{Current Progress}
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=\linewidth]{GnattChart}
-		\captionof{figure}{Gnatt Chart showing progress}
+		\captionof{figure}{Gantt Chart showing the progress achieved so far and the tasks which will be completed in the future.}
 		\label{fig:GnattChart}
 	\end{figure}
 	
 	\begin{thebibliography}{12}
 		\bibitem{r:BeamQC}
-		V. Kain \textit{et. al} ``Injection beam loss and beam quality checks for the lhc." in \textit{Proc. IPAC}, 2010, pp. 1671-1673.
+		V. Kain \textit{et. al} ``Injection beam loss and beam quality checks for the LHC." in \textit{Proc. IPAC}, 2010, pp. 1671-1673.
 		
 		\bibitem{r:Diagram}
-		C. Lefevre. ``The cern accelerator complex." Technical report, 2008.
+		C. Lefevre. ``The CERN accelerator complex." Technical report, 2008.
 		
 		\bibitem{r:LS}
-		C. Roderick, L. Burdzanowski and G. Kruk. ``The cern accelerator logging service- 10 years in operation: a look at the past, present and future," presented at the 14\textsuperscript{th} Int. Conf. Accelerator \& Large Experimental Physics Control Systems, USA, 2013.
+		C. Roderick, L. Burdzanowski and G. Kruk. ``The CERN accelerator logging service- 10 years in operation: a look at the past, present and future," presented at the 14\textsuperscript{th} Int. Conf. Accelerator \& Large Experimental Physics Control Systems, USA, 2013.
 		
 		\bibitem{r:AutomaticIQCChecks}
-		L. N. Drosdal \textit{et. al.} ``Automatic injection quality checks for the lhc." in \textit{Proc. ICALEPCS}, 2011, pp. 1077-1080.
+		L. N. Drosdal \textit{et. al.} ``Automatic injection quality checks for the LHC." in \textit{Proc. ICALEPCS}, 2011, pp. 1077-1080.
 		
-		\bibitem{r:CERNDocumentServer}
-		``Cern document server" Internet: \texttt{cds.cern.ch}, [Nov. 11, 2018].
+		%\bibitem{r:CERNDocumentServer}
+		%``Cern document server" Internet: \texttt{cds.cern.ch}, [Nov. 11, 2018].
 		
 		\bibitem{r:lecturenotes}
 		A. Hyv{\"a}rinen. Lecture Notes, Topic: ``Unsupervised machine learning." University of Helsinki, 2015.
@@ -166,7 +165,7 @@
 		``Clustering." Internet: \texttt{scikit-learn.org/stable/modules/clustering.html}, [Nov. 27, 2018].
 		
 		\bibitem{r:LOF}
-		M. Breunig \textit{et. al.} ``Lof: identifying density-based local outliers," in \textit{Proc. ACM SIGMOD}, 2000, pp. 1-12.
+		M. Breunig \textit{et. al.} ``LOF: identifying density-based local outliers," in \textit{Proc. ACM SIGMOD}, 2000, pp. 1-12.
 		
 		\bibitem{r:PCA}
 		M. Richardson. Class Lecture, Topic: ``Principal Component Analysis." May, 2009.
@@ -181,9 +180,9 @@
 		F. Pendregosa \textit{et. al.}. ``Scikit learn: machine learning in python." \textit{Journal of Machine Learning Research}, vol. 12, pp. 2825-2830, Oct. 2011.
 		
 		\bibitem{r:BLMs}
-		E. Barbara Holzer \textit{et. al.} ``Beam loss monitoring system for the lhc." in \textit{Proc. IEEE NSS}, 2005. 
+		E. Barbara Holzer \textit{et. al.} ``Beam loss monitoring system for the LHC." in \textit{Proc. IEEE NSS}, 2005. 
 		
 		\bibitem{r:AbortGap}
-		M. Meddahi \textit{et. al.} ``Lhc abort gap monitoring and cleaning," presented at the 1\textsuperscript{st} Int. Particle Accelerator Conf, Japan, 2010.   
+		M. Meddahi \textit{et. al.} ``LHC abort gap monitoring and cleaning," presented at the 1\textsuperscript{st} Int. Particle Accelerator Conf, Japan, 2010.   
 	\end{thebibliography}
 \end{document}
