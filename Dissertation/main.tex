@@ -1,0 +1,69 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%						Preamble						  %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[l2tabu, orthodox]{nag} % tells you of any bad LaTeX usage
+
+% choose parameter accordingly: twoside for Viva Docs, oneside for final submission
+\documentclass[oneside]{um}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%						Packages						  %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\listfiles %used packages will be isted at the bottom of the .log file
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%						Data							  %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Anomaly Detection Using\\Machine Learning\\Techniques for Beam\\Injections from the SPS\\ to the LHC at CERN}
+\tagline{}
+\author{Marc Ferriggi}
+\supervisor{Dr. Gianluca Valentino}
+\department{Department of Computer Science}
+\faculty{Faculty of ICT}
+\degree{B.Sc. (Hons.) Computing Science AND Statistics and Operations Research}
+\doctype{FYP}
+\degreedate{May, 2019}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%					Document Settings					  %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{./images/}}
+\makeindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	\frontmatter 
+	\maketitle
+	\input{frontmatter/originality}    
+	\input{frontmatter/dedication}        % include a dedication.tex file
+	\input{frontmatter/acknowledgements}   % include an acknowledgements.tex file
+	\input{frontmatter/abstract}\if@openright\cleardoublepage\else\clearpage\fi
+	\tableofcontents*\if@openright\cleardoublepage\else\clearpage\fi
+	\listoffigures*\if@openright\cleardoublepage\else\clearpage\fi
+	\listoftables*\if@openright\cleardoublepage\else\clearpage\fi
+	\input{frontmatter/abbreviations}\if@openright\cleardoublepage\else\clearpage\fi
+	
+	%% Note: always use \input as you cannot nest \includes (amongst other things)
+	\pagestyle{umpage}
+	\mainmatter 
+	\input{Chapter1/introduction} 
+	\input{Chapter2/background}
+%	\input{chap3/materials_and_methods_main}
+%	\input{chap4/results_and_discussion_main}
+%	\input{chap5/evaluation_main}
+%	\input{chap6/conclusions_main}
+%	\appendix
+%	\input{appA/appendix_a_main}     % these are just test names as I didn't know what you'd want
+%	\input{appB/appendix_b_main}    
+%	\input{appC/appendix_c_main} 
+	
+%	{\backmatter
+%		% Bibliography
+%		\if@openright\cleardoublepage\else\clearpage\fi
+%		\bibliographystyle{um-plainnat} %% specific plainnat does not show url for articles
+%		{\footnotesize\bibliography{chap1/introduction_biblio,chap2/background_and_lit_overview_biblio}}
+%		\printindex
+%	}
+	
+	
+\end{document}
