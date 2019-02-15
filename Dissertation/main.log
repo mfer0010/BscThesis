@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  15 FEB 2019 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  15 FEB 2019 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1033,7 +1033,7 @@ line 34.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 34.
 
-<./images/umlogo_red.png, id=12, 597.432pt x 597.432pt>
+<./images/umlogo_red.png, id=20, 597.432pt x 597.432pt>
 File: ./images/umlogo_red.png Graphic file (type png)
 
 <use ./images/umlogo_red.png>
@@ -1090,7 +1090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 
  []
 
-<./images/umlogo_gray.png, id=14, 597.432pt x 597.432pt>
+<./images/umlogo_gray.png, id=22, 597.432pt x 597.432pt>
 File: ./images/umlogo_gray.png Graphic file (type png)
 
 <use ./images/umlogo_gray.png>
@@ -1161,7 +1161,14 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 
 ] (./main.lot) [7
 
-] (./frontmatter/abbreviations.tex) [8
+] (./frontmatter/abbreviations.tex
+Package acronym Info: Acronym CERN used in text but not spelled out in full in 
+text on input line 14.
+Package acronym Info: Acronym LHC used in text but not spelled out in full in t
+ext on input line 16.
+Package acronym Info: Acronym SPS used in text but not spelled out in full in t
+ext on input line 21.
+) [8
 
 
 ] (./Chapter1/introduction.tex)
@@ -1169,7 +1176,14 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 
 
 
-])
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
+Package acronym Info: Label `acro:LS' newly defined as it shall be overridden
+although it is yet undefined on input line 12.
+Package acronym Info: Label `acro:IQC' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+)
 No complaints by nag.
 [2
 
@@ -1189,27 +1203,27 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 17FACA5BC41B7ADB6929DB6574143CAB;114.
+(rerunfilecheck)             Checksum: 30473C5C608C3D06CBAA19ACA7D0265B;250.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
- 11728 strings out of 493029
- 162679 string characters out of 6136235
- 296851 words of memory out of 5000000
- 15046 multiletter control sequences out of 15000+600000
- 58159 words of font info for 70 fonts, out of 8000000 for 9000
+ 11782 strings out of 493029
+ 163148 string characters out of 6136235
+ 298851 words of memory out of 5000000
+ 15088 multiletter control sequences out of 15000+600000
+ 60539 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,38p,298b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,38p,1078b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/avantgar/uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/avantgar/uagko8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
 no/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
 b>
-Output written on main.pdf (10 pages, 162185 bytes).
+Output written on main.pdf (10 pages, 170054 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 27 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
