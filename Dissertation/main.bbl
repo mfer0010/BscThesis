@@ -1,0 +1,17 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Richardson(2009)]{Richardson2009}
+Mark Richardson.
+\newblock Principal {C}omponent {A}nalysis, May 2009.
+\newblock Class Lecture.
+
+\bibitem[Shlens(2014)]{Shlens2014}
+Jonathon Shlens.
+\newblock A {T}utorial on {P}rincipal {C}omponent {A}nalysis, April 2014.
+
+\end{thebibliography}
