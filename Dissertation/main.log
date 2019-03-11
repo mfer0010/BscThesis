@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  21 FEB 2019 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  11 MAR 2019 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,11 +931,11 @@ Sidefoothsep and sidefootwidth: 7pt and 49pt
 Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ******************************************************
 
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 73.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 74.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Try loading font information for T1+fla on input line 73.
+LaTeX Font Info:    Try loading font information for T1+fla on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lato/t1fla.fd
 File: t1fla.fd 2011/12/25 Fontinst v1.933 font definitions for T1/fla.
@@ -944,7 +944,7 @@ File: t1fla.fd 2011/12/25 Fontinst v1.933 font definitions for T1/fla.
 \cftbeforesubfigureskip=\skip188
 \cftsubfigureindent=\skip189
 \cftsubfigurenumwidth=\skip190
-Package hyperref Info: Option `colorlinks' set `false' on input line 95.
+Package hyperref Info: Option `colorlinks' set `false' on input line 96.
 )
 \main@idxfile=\write5
 \openout5 = `main.idx'.
@@ -1033,7 +1033,7 @@ line 34.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 34.
 
-<./images/umlogo_red.png, id=32, 597.432pt x 597.432pt>
+<./images/umlogo_red.png, id=28, 597.432pt x 597.432pt>
 File: ./images/umlogo_red.png Graphic file (type png)
 
 <use ./images/umlogo_red.png>
@@ -1090,7 +1090,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 
  []
 
-<./images/umlogo_gray.png, id=34, 597.432pt x 597.432pt>
+<./images/umlogo_gray.png, id=30, 597.432pt x 597.432pt>
 File: ./images/umlogo_gray.png Graphic file (type png)
 
 <use ./images/umlogo_gray.png>
@@ -1164,12 +1164,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 ] (./frontmatter/abbreviations.tex
 Package acronym Info: Acronym CERN used in text but not spelled out in full in 
 text on input line 14.
-Package acronym Info: Acronym LHC used in text but not spelled out in full in t
-ext on input line 16.
+Package acronym Info: Acronym MJ used in text but not spelled out in full in te
+xt on input line 18.
 Package acronym Info: Acronym PCA used in text but not spelled out in full in t
-ext on input line 19.
+ext on input line 20.
 Package acronym Info: Acronym SPS used in text but not spelled out in full in t
-ext on input line 22.
+ext on input line 23.
 ) [8
 
 
@@ -1181,13 +1181,22 @@ ext on input line 22.
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
+Package acronym Info: Label `acro:LHC' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
 Package acronym Info: Label `acro:LS' newly defined as it shall be overridden
-although it is yet undefined on input line 12.
+although it is yet undefined on input line 8.
+
+<./images/CERNComplex.png, id=115, 537.00626pt x 605.26125pt>
+File: ./images/CERNComplex.png Graphic file (type png)
+
+<use ./images/CERNComplex.png>
+Package pdftex.def Info: ./images/CERNComplex.png used on input line 13.
+(pdftex.def)             Requested size: 168.39743pt x 189.7994pt.
 Package acronym Info: Label `acro:IQC' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
+although it is yet undefined on input line 19.
  [2
 
-]) [3] (./main.bbl)
+]) [3 <./images/CERNComplex.png>] (./main.bbl)
 No file main.ind.
 No complaints by nag.
 [4
@@ -1204,34 +1213,35 @@ No complaints by nag.
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 74DBCEE9B1CB970F63FC553AAAB82220;471.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
+(rerunfilecheck)             Checksum: 76A73B6A861C8D3178A0A24ACA19C1EF;414.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 11839 strings out of 493029
- 163852 string characters out of 6136235
- 299851 words of memory out of 5000000
- 15127 multiletter control sequences out of 15000+600000
- 80317 words of font info for 101 fonts, out of 8000000 for 9000
+ 11891 strings out of 493029
+ 164702 string characters out of 6136235
+ 300826 words of memory out of 5000000
+ 15167 multiletter control sequences out of 15000+600000
+ 83476 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,38p,1078b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}{/usr/share/t
-exlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fo
+ 39i,14n,38p,764b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/share/texlive/texmf-dist/fo
 nts/type1/public/lato/Lato-Reg.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/
 uagk8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (12 pages, 187976 bytes).
+texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (12 pages, 242815 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

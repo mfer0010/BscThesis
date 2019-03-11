@@ -33,7 +33,8 @@
 \RequirePackage[pdftex]{graphicx}    % For pictures
 \RequirePackage{amssymb}             % at least, for black squares in bullet list
 \RequirePackage[pdfusetitle]{hyperref}            % for hyperreferences
-\RequirePackage[authoryear,semicolon,square,sort]{natbib}     % for [Ebejer, 2012; Alba, 2013] kind of references
+%\RequirePackage[authoryear,semicolon,square,sort]{natbib}     % for [Ebejer, 2012; Alba, 2013] kind of references
+\RequirePackage[numbers]{natbib}
 
 \usepackage[defaultsans]{lato}
 \usepackage[printonlyused,withpage]{acronym}
