@@ -23,13 +23,12 @@
 \paragraph{ }Throughout this study, different data recorded as the beam leaves the \acs{SPS} and enters the \acs{LHC} was used as input parameters to the chosen anomaly detection algorithms. This data was recorded using different censors located in different parts of the injection life cycle. This section describes the different types of censors that were used to collect the data, highlighting the particular points which need to be considered when analysing the data.
 
 %BLMs & TDI BLMs
-\paragraph{ }The \acs{BLM}s are some of the most safety critical modules of the \acs{LHC} because a loss of a very small fraction of this beam may damage parts of the machine or cause a quench in the superconducting magnets \cite{Holzer2006}. A high beam loss reading could also indicate over-injection. In fact, an injection of a high intensity beam into the LHC is only allowed if there is a low intensity bunch circulating the LHC in order to avoid settings errors \cite{Kain2010}. The \acs{BLM} module is the mostly used module in the current IQC checks \cite{Drosdal2011}. The \acs{BLM}s must be reliable; the probability of not detecting a dangerous loss was found to be $5\times10^{-6}$ per channel and they are only expected to generate 20 false dumps per year \cite{Holzer2006}. The \acs{BLM}s are extensively logged to a database for offline analysis \cite{Holzer2006}. 
+\paragraph{ }The \ac{BLM} are some of the most safety critical modules of the \acs{LHC} because a loss of a very small fraction of this beam may damage parts of the machine or cause a quench in the superconducting magnets \cite{Holzer2006}. A high beam loss reading could also indicate over-injection. In fact, an injection of a high intensity beam into the LHC is only allowed if there is a low intensity bunch circulating the LHC in order to avoid settings errors \cite{Kain2010}. The \acs{BLM} module is the mostly used module in the current IQC checks \cite{Drosdal2011}. The \acs{BLM}s must be reliable; the probability of not detecting a dangerous loss was found to be $5\times10^{-6}$ per channel and they are only expected to generate 20 false dumps per year \cite{Holzer2006}. The \acs{BLM}s are extensively logged to a database for offline analysis \cite{Holzer2006}. 
 
 \paragraph{ }For this particular study, the readings logged for the \ac{TDI} \acs{BLM}s and the \ac{TL} \acs{BLM}s in TI2 and TI8 will be used (refer to Figure \ref{fig::SPStoLHCInjection}). These readings come in 10 second windows around the injection of a bunch in \ac{Gy/s}.
 
-
 %BPMs
-%TO DO
+\paragraph{ }The \ac{BPM} were installed as a system for fast monitoring of the beam's position with respect to it's orbit drift \cite{Schmidt2006}. The trajectory offsets recorded by the \acs{BLM}s in the transfer lines must be minimised in order to reduce losses \cite{Drosdal2011}. In fact, if the change in orbit substantially exceeds its provided boundary values then the beam should be dumped \cite{Schmidt2006} so as to not cause any damage to the equipment. Unlike the \acs{TDI} \acs{BLM}s, the \acs{BPM} system is independent to the collimator system. For this study, the readings from the transfer line \acs{BPM}s around TI2 and TI8 will be used (refer to Figure \ref{fig::SPStoLHCInjection}). Raw values for these readings are stored by the \acs{LS} in \ac{mm} and are logged ever 1 - 5 seconds on average.
 
 %Abort Gap
 %TO DO
@@ -47,7 +46,7 @@
 \section{Feature Selection and Reduction Techniques}
 
 %% Intro:
-%% What are Feature selection and reduction techniques and how will these be used in this FYP (TO DO)
+%% Curse of Dimensionality & Importance of Normalisation
 
 %% PCA:
 \paragraph{ } \acs{PCA} uses statistical and mathematical techniques to reduce the dimension of large data sets, thus allowing a large data set to be interpreted in less variables called principal components \cite{Richardson2009}. This non-parametric method can be used as a means of revealing the simplified structures underlying complex datasets with minimal effort. The fact that this technique is non-parametric gives it the advantage that each result is unique and only dependent on the provided data set since no parameter tweaking is required \cite{Shlens2014} however, this is also a weakness of this technique as there is no way of exploiting prior expert knowledge on the data set.

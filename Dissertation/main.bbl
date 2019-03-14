@@ -54,6 +54,13 @@ E.~Holzer, B.~Dehning, E.~Effinger, J.~Emery, G.~Ferioli, J.~Gonzalez,
   V.~Prieto, M.~Stockner, and C.~Zamantzas, ``{B}eam {L}oss {M}onitoring
   {S}ystem for the {LHC},'' presented at the IEEE NSS, 2006.
 
+\bibitem{Schmidt2006}
+\BIBentryALTinterwordspacing
+\emph{{P}rotection of the {CERN} {L}arge {H}adron {C}ollider}, ser. New Journal
+  of Physics, vol.~8, no. 290, CERN, 2006. [Online]. Available:
+  \url{http://www.njp.org/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Richardson2009}
 M.~Richardson, ``Principal {C}omponent {A}nalysis,'' May 2009, {C}lass
   {L}ecture.
