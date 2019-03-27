@@ -8,55 +8,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Chapter2/background_biblio.bib
-I was expecting a `{' or a `('---line 28 of file Chapter2/background_biblio.bib
- : 
- : @TECHREPORT{Lefevre2008,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 9 entries,
+You've used 11 entries,
             4087 wiz_defined-function locations,
-            879 strings with 9433 characters,
-and the built_in function-call counts, 6107 in all, are:
-= -- 409
-> -- 224
+            888 strings with 9981 characters,
+and the built_in function-call counts, 7637 in all, are:
+= -- 498
+> -- 318
 < -- 22
-+ -- 117
-- -- 50
-* -- 288
-:= -- 889
-add.period$ -- 17
-call.type$ -- 9
-change.case$ -- 8
++ -- 163
+- -- 73
+* -- 361
+:= -- 1101
+add.period$ -- 21
+call.type$ -- 11
+change.case$ -- 10
 chr.to.int$ -- 54
-cite$ -- 9
-duplicate$ -- 452
-empty$ -- 546
-format.name$ -- 55
-if$ -- 1413
+cite$ -- 11
+duplicate$ -- 566
+empty$ -- 672
+format.name$ -- 80
+if$ -- 1766
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 110
-newline$ -- 52
-num.names$ -- 8
-pop$ -- 296
+int.to.str$ -- 11
+missing$ -- 147
+newline$ -- 58
+num.names$ -- 10
+pop$ -- 399
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 464
+skip$ -- 571
 stack$ -- 0
-substring$ -- 136
-swap$ -- 324
+substring$ -- 138
+swap$ -- 406
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 9
+type$ -- 11
 warning$ -- 0
-while$ -- 14
-width$ -- 10
-write$ -- 101
-(There was 1 error message)
+while$ -- 16
+width$ -- 13
+write$ -- 118
