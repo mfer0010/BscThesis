@@ -73,11 +73,22 @@ T.~Lefevre, S.~Bert~Pedersen, A.~Boccardi, E.~Bravin, A.~Jeff, A.~Rabiller, and
   F.~Roncarolo, ``{F}irst {O}peration of the {A}bort {G}ap {M}onitors for
   {LHC},'' CERN, Tech. Rep., 2010.
 
-\bibitem{Richardson2009}
-M.~Richardson, ``Principal {C}omponent {A}nalysis,'' May 2009, {C}lass
-  {L}ecture.
+\bibitem{Scikitlearn}
+\BIBentryALTinterwordspacing
+(2019, April) {I}mportance of {F}eature {S}caling. [Online]. Available:
+  \url{scikit-learn.org}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Shlens2014}
 J.~Shlens, ``A {T}utorial on {P}rincipal {C}omponent {A}nalysis,'' April 2014.
+
+\bibitem{Zimek2012}
+A.~Zimek, E.~Schubert, and H.-P. Kriegel, ``A {S}urvey on {U}nsupervised
+  {O}utlier {D}etection in {H}igh-{D}imensional {N}umerical {D}ata,''
+  \emph{Statistical Analysis and Data Mining 5}, 2012.
+
+\bibitem{Richardson2009}
+M.~Richardson, ``Principal {C}omponent {A}nalysis,'' May 2009, {C}lass
+  {L}ecture.
 
 \end{thebibliography}

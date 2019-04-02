@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  27 MAR 2019 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  2 APR 2019 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,8 +1166,6 @@ Package acronym Info: Acronym CERN used in text but not spelled out in full in
 text on input line 15.
 Package acronym Info: Acronym MJ used in text but not spelled out in full in te
 xt on input line 20.
-Package acronym Info: Acronym PCA used in text but not spelled out in full in t
-ext on input line 24.
 Package acronym Info: Acronym SPS used in text but not spelled out in full in t
 ext on input line 27.
 ) [8
@@ -1186,12 +1184,12 @@ although it is yet undefined on input line 5.
 Package acronym Info: Label `acro:LS' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 
-<./images/CERNComplex.png, id=147, 537.00626pt x 605.26125pt>
-File: ./images/CERNComplex.png Graphic file (type png)
+<./images/CERNComplex.jpg, id=149, 618.31pt x 619.31375pt>
+File: ./images/CERNComplex.jpg Graphic file (type jpg)
 
-<use ./images/CERNComplex.png>
-Package pdftex.def Info: ./images/CERNComplex.png used on input line 12.
-(pdftex.def)             Requested size: 168.39743pt x 189.7994pt.
+<use ./images/CERNComplex.jpg>
+Package pdftex.def Info: ./images/CERNComplex.jpg used on input line 12.
+(pdftex.def)             Requested size: 168.39743pt x 168.67224pt.
 Package acronym Info: Label `acro:IQC' newly defined as it shall be overridden
 although it is yet undefined on input line 18.
  [2
@@ -1206,7 +1204,7 @@ although it is yet undefined on input line 28.
 Package acronym Info: Label `acro:Gy/s' newly defined as it shall be overridden
 
 although it is yet undefined on input line 28.
- [3 <./images/CERNComplex.png>]
+ [3 <./images/CERNComplex.jpg>]
 Package acronym Info: Label `acro:BPM' newly defined as it shall be overridden
 although it is yet undefined on input line 31.
 Package acronym Info: Label `acro:mm' newly defined as it shall be overridden
@@ -1217,15 +1215,17 @@ Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
 although it is yet undefined on input line 34.
 Package acronym Info: Label `acro:AGM' newly defined as it shall be overridden
 although it is yet undefined on input line 34.
-) [4]
-(./main.bbl)
+Package acronym Info: Label `acro:PCA' newly defined as it shall be overridden
+although it is yet undefined on input line 47.
+ [4]) [5]
+(./main.bbl [6
+
+
+
+])
 No file main.ind.
 No complaints by nag.
-[5
-
-
-
-]
+[7]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1241,17 +1241,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 11645BA10CC5E8F1106A9F5A953B56C5;495.
+(rerunfilecheck)             Checksum: C04187AA9F1D0FA74F6ECFEBF9F6005C;493.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 11980 strings out of 493029
- 165568 string characters out of 6136235
+ 11996 strings out of 493029
+ 165771 string characters out of 6136235
  301826 words of memory out of 5000000
- 15219 multiletter control sequences out of 15000+600000
+ 15227 multiletter control sequences out of 15000+600000
  86432 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,38p,950b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,38p,988b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/share/texlive/texmf-dist/fo
 nts/type1/public/lato/Lato-Reg.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1262,10 +1262,10 @@ r/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (13 pages, 265792 bytes).
+Output written on main.pdf (15 pages, 274808 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 255 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 500000)
  72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
