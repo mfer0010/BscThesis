@@ -91,4 +91,22 @@ A.~Zimek, E.~Schubert, and H.-P. Kriegel, ``A {S}urvey on {U}nsupervised
 M.~Richardson, ``Principal {C}omponent {A}nalysis,'' May 2009, {C}lass
   {L}ecture.
 
+\bibitem{Hyvarinen2015}
+A.~Hyv\"{a}rinen, ``{U}nsupervised {M}achine {L}earning,'' Lecture Notes,
+  University of Helsinki.
+
+\bibitem{Ester1996}
+M.~Ester, H.~Kriegel, J.~Sander, and X.~Xu, ``{A} {D}ensity {B}ased {A}lgorithm
+  for {D}iscovering {C}lusters,'' in \emph{Proc. KDD-96}, 1996, pp. 226--231.
+
+\bibitem{Sklearn2}
+\BIBentryALTinterwordspacing
+(2018, November) {C}lustering. [Online]. Available: \url{scikit-learn.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Breunig2000}
+M.~Breunig, H.~Kriegel, and J.~Sander, ``{LOF}: {I}dentifying {D}ensity-{B}ased
+  {L}ocal {O}utliers,'' in \emph{Proc. ACM SIGMOD 2000 Int. Conf. On Management
+  of Data}, 2000.
+
 \end{thebibliography}

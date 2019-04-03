@@ -59,3 +59,17 @@
 
 
 \section{Unsupervised Anomaly Detection Techniques}
+
+\paragraph{ }Unsupervised machine learning algorithms refer to the class of machine learning algorithms where only the input features are available to the learner as there is no access to output labels corresponding to each input feature vector, or the aim of the algorithm is simply to observe or detect patterns in the available data. A. Hyv\"{a}rinen states in \cite{Hyvarinen2015} that some of the goals of unsupervised learning include data visualisation, noise reduction, feature extraction and finding interesting components; all of which are of particular interest in this study.
+
+\paragraph{ }In this study, \ac{DBSCAN} and \ac{LOF} will both be used as unsupervised anomaly detection algorithms to detect and classify anomalous injections of the past year. Furthermore when working in 3 dimensions or less, these points can also be visualised to help the reader understand better the cause of these anomalies. 
+
+\paragraph{ }\acs{DBSCAN} was created out of the necessity of having a clustering algorithm with the following requirements:
+\begin{enumerate}
+	\item ``Minimal requirements of domain knowledge to determine the input parameters,''
+	\item ``Discovery of clusters with arbitrary shape,'' and
+	\item ``Good efficiency on large databases'' \cite{Ester1996}
+\end{enumerate}
+\acs{DBSCAN} manages to attain these requirements by viewing clusters as ``areas of high density separated by areas of low density'' \cite{Sklearn2}. The points with a lower density will thus be considered as anomalies when compared to the regular clusters which have a higher density. This algorithm also introduces the concept of \textit{core samples} which was then used in the design of other unsupervised anomaly detection algorithms such as \acs{LOF}. 
+
+\paragraph{ }The \acs{LOF} refers to a ``degree of outlier-ness'' that this algorithm considers for each point in the data rather than using the concept that ``being an outlier is binary'' \cite{Breunig2000}. This algorithm uses a clustering technique which takes concepts from \acs{DBSCAN} to measure the \acs{LOF} of each point where a \acs{LOF} value greater than 1 implies that the point has a lower density than its neighbours and is thus probably an outlier.
