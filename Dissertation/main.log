@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  3 APR 2019 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  3 APR 2019 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,14 +1161,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 
 ] (./main.lot) [7
 
-] (./frontmatter/abbreviations.tex
-Package acronym Info: Acronym CERN used in text but not spelled out in full in 
-text on input line 15.
-Package acronym Info: Acronym MJ used in text but not spelled out in full in te
-xt on input line 22.
-Package acronym Info: Acronym SPS used in text but not spelled out in full in t
-ext on input line 29.
-) [8
+] (./frontmatter/abbreviations.tex) [8
 
 
 ] (./Chapter1/introduction.tex)
@@ -1181,50 +1174,58 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
 Package acronym Info: Label `acro:LHC' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
+Package acronym Info: Label `acro:CERN' newly defined as it shall be overridden
+
+although it is yet undefined on input line 5.
+Package acronym Info: Label `acro:TeV' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
+Package acronym Info: Label `acro:SPS' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
+Package acronym Info: Label `acro:MJ' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
 Package acronym Info: Label `acro:LS' newly defined as it shall be overridden
-although it is yet undefined on input line 8.
-
-<./images/CERNComplex.jpg, id=155, 618.31pt x 619.31375pt>
-File: ./images/CERNComplex.jpg Graphic file (type jpg)
-
-<use ./images/CERNComplex.jpg>
-Package pdftex.def Info: ./images/CERNComplex.jpg used on input line 12.
-(pdftex.def)             Requested size: 168.39743pt x 168.67224pt.
-Package acronym Info: Label `acro:IQC' newly defined as it shall be overridden
-although it is yet undefined on input line 18.
+although it is yet undefined on input line 12.
  [2
 
 ]
+<./images/CERNComplex.jpg, id=185, 618.31pt x 619.31375pt>
+File: ./images/CERNComplex.jpg Graphic file (type jpg)
+
+<use ./images/CERNComplex.jpg>
+Package pdftex.def Info: ./images/CERNComplex.jpg used on input line 16.
+(pdftex.def)             Requested size: 168.39743pt x 168.67224pt.
+Package acronym Info: Label `acro:IQC' newly defined as it shall be overridden
+although it is yet undefined on input line 22.
 Package acronym Info: Label `acro:BLM' newly defined as it shall be overridden
-although it is yet undefined on input line 26.
+although it is yet undefined on input line 30.
+ [3 <./images/CERNComplex.jpg>]
 Package acronym Info: Label `acro:TDI' newly defined as it shall be overridden
-although it is yet undefined on input line 28.
+although it is yet undefined on input line 32.
 Package acronym Info: Label `acro:TL' newly defined as it shall be overridden
-although it is yet undefined on input line 28.
+although it is yet undefined on input line 32.
 Package acronym Info: Label `acro:Gy/s' newly defined as it shall be overridden
 
-although it is yet undefined on input line 28.
- [3 <./images/CERNComplex.jpg>]
+although it is yet undefined on input line 32.
 Package acronym Info: Label `acro:BPM' newly defined as it shall be overridden
-although it is yet undefined on input line 31.
+although it is yet undefined on input line 35.
 Package acronym Info: Label `acro:mm' newly defined as it shall be overridden
-although it is yet undefined on input line 31.
+although it is yet undefined on input line 35.
 Package acronym Info: Label `acro:MKD' newly defined as it shall be overridden
-although it is yet undefined on input line 34.
+although it is yet undefined on input line 38.
 Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
-although it is yet undefined on input line 34.
+although it is yet undefined on input line 38.
 Package acronym Info: Label `acro:AGM' newly defined as it shall be overridden
-although it is yet undefined on input line 34.
+although it is yet undefined on input line 38.
 Package acronym Info: Label `acro:PCA' newly defined as it shall be overridden
-although it is yet undefined on input line 47.
+although it is yet undefined on input line 51.
  [4]
 Package acronym Info: Label `acro:DBSCAN' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 65.
+although it is yet undefined on input line 69.
 Package acronym Info: Label `acro:LOF' newly defined as it shall be overridden
-although it is yet undefined on input line 65.
- [5])
-[6] (./main.bbl [7
+although it is yet undefined on input line 69.
+ [5]) [6]
+(./main.bbl [7
 
 
 
@@ -1247,17 +1248,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B52467EE4429BE4B26AD3523D443D8D7;493.
+(rerunfilecheck)             Checksum: 8F7164E1FB1435F64E6487398057B4EC;476.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 12035 strings out of 493029
- 166266 string characters out of 6136235
- 302002 words of memory out of 5000000
- 15250 multiletter control sequences out of 15000+600000
+ 12057 strings out of 493029
+ 166490 string characters out of 6136235
+ 302182 words of memory out of 5000000
+ 15264 multiletter control sequences out of 15000+600000
  87329 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,38p,988b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,38p,989b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/share/texlive/texmf-dist/fo
 nts/type1/public/lato/Lato-Reg.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1268,10 +1269,10 @@ r/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (16 pages, 280831 bytes).
+Output written on main.pdf (16 pages, 282706 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 103 named destinations out of 1000 (max. 500000)
  72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

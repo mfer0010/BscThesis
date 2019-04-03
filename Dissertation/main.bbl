@@ -21,6 +21,9 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Evans2008}
+L.~Evans and P.~Bryant, ``{LHC} {M}achine,'' \emph{JINST 3}, pp. 1,7, 2008.
+
 \bibitem{Valentino2017}
 G.~Valentino, R.~Brruce, S.~Redaelli, R.~Rossi, P.~Theodoropoulos, and
   S.~Jaster-Merz, ``Anomaly {D}etection for {B}eam {L}oss {M}aps in the {L}arge
