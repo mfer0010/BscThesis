@@ -23,4 +23,6 @@
 \contentsline {paragraph}{ }{5}{section*.33}
 \contentsline {paragraph}{ }{6}{section*.36}
 \contentsline {paragraph}{ }{6}{section*.37}
-\contentsline {chapter}{References}{7}{section*.39}
+\contentsline {section}{\numberline {2.5}Applying Machine Learning to LHC Data}{6}{section.2.5}
+\contentsline {paragraph}{ }{6}{section*.38}
+\contentsline {chapter}{References}{7}{section*.40}
