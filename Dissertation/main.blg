@@ -11,46 +11,47 @@ Database file #1: Chapter2/background_biblio.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** IEEEtran BST control entry "IEEEexample:BSTcontrol" detected.
 
 Done.
-You've used 18 entries,
+You've used 19 entries,
             4087 wiz_defined-function locations,
-            929 strings with 10821 characters,
-and the built_in function-call counts, 11013 in all, are:
-= -- 753
-> -- 386
-< -- 34
-+ -- 199
-- -- 86
-* -- 500
-:= -- 1636
+            931 strings with 10865 characters,
+and the built_in function-call counts, 9433 in all, are:
+= -- 705
+> -- 188
+< -- 36
++ -- 103
+- -- 38
+* -- 397
+:= -- 1515
 add.period$ -- 33
-call.type$ -- 18
-change.case$ -- 17
-chr.to.int$ -- 84
-cite$ -- 18
-duplicate$ -- 839
-empty$ -- 1003
-format.name$ -- 97
-if$ -- 2554
+call.type$ -- 19
+change.case$ -- 18
+chr.to.int$ -- 94
+cite$ -- 19
+duplicate$ -- 757
+empty$ -- 914
+format.name$ -- 47
+if$ -- 2175
 int.to.chr$ -- 0
 int.to.str$ -- 18
-missing$ -- 200
+missing$ -- 151
 newline$ -- 83
 num.names$ -- 15
-pop$ -- 548
+pop$ -- 368
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 2
-skip$ -- 841
+quote$ -- 4
+skip$ -- 775
 stack$ -- 0
-substring$ -- 213
-swap$ -- 581
-text.length$ -- 6
+substring$ -- 215
+swap$ -- 483
+text.length$ -- 8
 text.prefix$ -- 0
-top$ -- 5
-type$ -- 18
+top$ -- 6
+type$ -- 19
 warning$ -- 0
-while$ -- 27
+while$ -- 31
 width$ -- 20
 write$ -- 178

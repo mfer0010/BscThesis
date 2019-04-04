@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  4 APR 2019 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  4 APR 2019 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -945,6 +945,39 @@ File: t1fla.fd 2011/12/25 Fontinst v1.933 font definitions for T1/fla.
 \cftsubfigureindent=\skip189
 \cftsubfigurenumwidth=\skip190
 Package hyperref Info: Option `colorlinks' set `false' on input line 96.
+) (./ieeetrantools.sty
+
+LaTeX Warning: You have requested package `ieeetrantools',
+               but the package provides `IEEEtrantools'.
+
+Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
+-- See the "IEEEtrantools_doc.txt" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/tools/
+\@IEEEtrantmpdimenA=\dimen154
+\@IEEEtrantmpdimenB=\dimen155
+\@IEEEtrantmpdimenC=\dimen156
+\@IEEEtrantmpcountA=\count157
+\@IEEEtrantmpcountB=\count158
+\@IEEEtrantmpcountC=\count159
+\@IEEEtrantmptoksA=\toks27
+\IEEEnormaljot=\dimen157
+\IEEEquantizedlength=\dimen158
+\IEEEquantizedlengthdiff=\dimen159
+\IEEEquantizedtextheightdiff=\dimen160
+\IEEEilabelindentA=\dimen161
+\IEEEilabelindentB=\dimen162
+\IEEEilabelindent=\dimen163
+\IEEEelabelindent=\dimen164
+\IEEEdlabelindent=\dimen165
+\IEEElabelindent=\dimen166
+\IEEEiednormlabelsep=\dimen167
+\IEEEiedmathlabelsep=\dimen168
+\IEEEiedtopsep=\skip191
+\c@IEEEsubequation=\count160
+\@IEEEeqnnumcols=\count161
+\@IEEEeqncolcnt=\count162
+\@IEEEsubeqnnumrollback=\count163
+\IEEEPARstartletwidth=\dimen169
 )
 \main@idxfile=\write5
 \openout5 = `main.idx'.
@@ -954,38 +987,38 @@ Writing index file main.idx
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 34.
+line 35.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 34.
-\big@size=\dimen154
+ line 35.
+\big@size=\dimen170
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count157
-\scratchdimen=\dimen155
+\scratchcounter=\count164
+\scratchdimen=\dimen171
 \scratchbox=\box29
-\nofMPsegments=\count158
-\nofMParguments=\count159
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count160
-\MPscratchDim=\dimen156
-\MPnumerator=\count161
-\makeMPintoPDFobject=\count162
-\everyMPtoPDFconversion=\toks28
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen172
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks29
 )
 \AtBeginShipoutBox=\box30
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -1002,7 +1035,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 35.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1010,83 +1043,83 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count170
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 34.
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 34.
+put line 35.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 34.
+t line 35.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 34.
+t line 35.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 34.
+line 35.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 34.
+line 35.
 
 <./images/umlogo_red.png, id=36, 597.432pt x 597.432pt>
 File: ./images/umlogo_red.png Graphic file (type png)
 
 <use ./images/umlogo_red.png>
-Package pdftex.def Info: ./images/umlogo_red.png used on input line 36.
+Package pdftex.def Info: ./images/umlogo_red.png used on input line 39.
 (pdftex.def)             Requested size: 91.04881pt x 91.04214pt.
 
-Overfull \hbox (6.8501pt too wide) in paragraph at lines 36--36
+Overfull \hbox (6.8501pt too wide) in paragraph at lines 39--39
  [][]
  []
 
-LaTeX Font Info:    Try loading font information for T1+pag on input line 36.
+LaTeX Font Info:    Try loading font information for T1+pag on input line 39.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 )
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 36.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <12> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 36.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 36.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/pag/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/pag/b/sc' tried instead on input line 36.
+(Font)              Font shape `T1/pag/b/sc' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/pag/b/sc' in size <17.28> not available
-(Font)              Font shape `T1/pag/db/sc' tried instead on input line 36.
+(Font)              Font shape `T1/pag/db/sc' tried instead on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 36.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <10> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 36.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 39.
 
-Overfull \hbox (5.76138pt too wide) in paragraph at lines 36--36
+Overfull \hbox (5.76138pt too wide) in paragraph at lines 39--39
 [][] |  [][][] |  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
@@ -1094,7 +1127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 File: ./images/umlogo_gray.png Graphic file (type png)
 
 <use ./images/umlogo_gray.png>
-Package pdftex.def Info: ./images/umlogo_gray.png used on input line 36.
+Package pdftex.def Info: ./images/umlogo_gray.png used on input line 39.
 (pdftex.def)             Requested size: 418.25368pt x 418.26337pt.
  [1
 
@@ -1242,23 +1275,23 @@ No complaints by nag.
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B841AC389BEDBF4E7EF80FF1BA86994A;559.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 12060 strings out of 493029
- 166525 string characters out of 6136235
- 302182 words of memory out of 5000000
- 15265 multiletter control sequences out of 15000+600000
+ 12479 strings out of 493029
+ 174920 string characters out of 6136235
+ 314556 words of memory out of 5000000
+ 15681 multiletter control sequences out of 15000+600000
  87329 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,38p,989b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,38p,989b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/share/texlive/texmf-dist/fo
 nts/type1/public/lato/Lato-Reg.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1269,7 +1302,7 @@ r/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (16 pages, 284589 bytes).
+Output written on main.pdf (16 pages, 283879 bytes).
 PDF statistics:
  385 PDF objects out of 1000 (max. 8388607)
  349 compressed objects within 4 object streams

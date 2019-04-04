@@ -25,16 +25,13 @@
 L.~Evans and P.~Bryant, ``{LHC} {M}achine,'' \emph{JINST 3}, pp. 1--7, 2008.
 
 \bibitem{Valentino2017}
-G.~Valentino, R.~Brruce, S.~Redaelli, R.~Rossi, P.~Theodoropoulos, and
-  S.~Jaster-Merz, ``Anomaly {D}etection for {B}eam {L}oss {M}aps in the {L}arge
-  {H}adron {C}ollider,'' presented at the 8\textsuperscript{th} {I}nt.
-  {P}article {A}ccelerator {C}onference, 2017.
+G.~Valentino, R.~Brruce \emph{et~al.}, ``Anomaly {D}etection for {B}eam {L}oss
+  {M}aps in the {L}arge {H}adron {C}ollider,'' presented at the
+  8\textsuperscript{th} {I}nt. {P}article {A}ccelerator {C}onference, 2017.
 
 \bibitem{Drosdal2011}
-L.~N. Drosdal, B.~Goddard, D.~Jacquet, R.~Gorbonosov, S.~Jackson, V.~Kain,
-  D.~Khasbulatov, M.~Misiowiec, J.~Wenninger, and C.~Zamantzas, ``{A}utomatic
-  {I}njection {Q}uality {C}hecks for the {LHC},'' in \emph{Proc. ICALEPCS},
-  2011, pp. 1077--1080.
+L.~N. Drosdal, B.~Goddard \emph{et~al.}, ``{A}utomatic {I}njection {Q}uality
+  {C}hecks for the {LHC},'' in \emph{Proc. ICALEPCS}, 2011, pp. 1077--1080.
 
 \bibitem{Lefevre2008}
 C.~Lefevre, ``The {CERN} {A}ccelerator {C}omplex,'' CERN, Tech. Rep., 2008.
@@ -46,16 +43,13 @@ C.~Roderick, L.~Burdzanowski, and G.~Kruk, ``The {CERN} {A}ccelerator {L}ogging
   Accelerator \& {L}arge {E}xperimental {P}hysics {C}ontrol {S}ystems, 2013.
 
 \bibitem{Kain2010}
-V.~Kain, V.~Baggiolini, W.~Bartmann, C.~Bracco, L.~Norderhaug~Drosdal,
-  B.~Goddard, E.~Holzer, D.~Khasbulatov, N.~Magnin, M.~Meddahi, A.~Nordt,
-  M.~Sapinski, and M.~Vogt, ``Injection {B}eam {L}oss and {B}eam {Q}uality
-  {C}hecks for the {LHC},'' in \emph{Proc. of IPAC}, 2010, pp. 1671--1673.
+V.~Kain, V.~Baggiolini \emph{et~al.}, ``Injection {B}eam {L}oss and {B}eam
+  {Q}uality {C}hecks for the {LHC},'' in \emph{Proc. of IPAC}, 2010, pp.
+  1671--1673.
 
 \bibitem{Holzer2006}
-E.~Holzer, B.~Dehning, E.~Effinger, J.~Emery, G.~Ferioli, J.~Gonzalez,
-  E.~Gschwendtner, G.~Guaglio, M.~Hodgson, D.~Kramer, R.~Leitner, L.~Ponce,
-  V.~Prieto, M.~Stockner, and C.~Zamantzas, ``{B}eam {L}oss {M}onitoring
-  {S}ystem for the {LHC},'' presented at the IEEE NSS, 2006.
+E.~Holzer, B.~Dehning \emph{et~al.}, ``{B}eam {L}oss {M}onitoring {S}ystem for
+  the {LHC},'' presented at the IEEE NSS, 2006.
 
 \bibitem{Schmidt2006}
 \BIBentryALTinterwordspacing
@@ -65,16 +59,12 @@ E.~Holzer, B.~Dehning, E.~Effinger, J.~Emery, G.~Ferioli, J.~Gonzalez,
 \BIBentrySTDinterwordspacing
 
 \bibitem{Meddahi2010}
-M.~Meddahi, S.~Bart~Pedersen, A.~Boccardi, A.~Butterworth, B.~Goddard,
-  G.~Hemelsoet, W.~H{\"o}fle, D.~Jacquet, M.~Jaussi, K.~V., T.~Lefevre,
-  E.~Shapoahnikova, J.~Uythoven, D.~Valuch, E.~Gianfelice-Wendt, and A.~Fisher,
-  ``{LHC} {A}bort {G}ap {M}onitoring and {C}leaning,'' presented at the IPAC,
-  2010.
+M.~Meddahi, S.~Bart~Pedersen \emph{et~al.}, ``{LHC} {A}bort {G}ap {M}onitoring
+  and {C}leaning,'' presented at the IPAC, 2010.
 
 \bibitem{Lefevre2010}
-T.~Lefevre, S.~Bert~Pedersen, A.~Boccardi, E.~Bravin, A.~Jeff, A.~Rabiller, and
-  F.~Roncarolo, ``{F}irst {O}peration of the {A}bort {G}ap {M}onitors for
-  {LHC},'' CERN, Tech. Rep., 2010.
+T.~Lefevre, S.~Bert~Pedersen \emph{et~al.}, ``{F}irst {O}peration of the
+  {A}bort {G}ap {M}onitors for {LHC},'' CERN, Tech. Rep., 2010.
 
 \bibitem{Scikitlearn}
 \BIBentryALTinterwordspacing
@@ -99,8 +89,8 @@ A.~Hyv\"{a}rinen, ``{U}nsupervised {M}achine {L}earning,'' Lecture Notes,
   University of Helsinki.
 
 \bibitem{Ester1996}
-M.~Ester, H.~Kriegel, J.~Sander, and X.~Xu, ``{A} {D}ensity {B}ased {A}lgorithm
-  for {D}iscovering {C}lusters,'' in \emph{Proc. KDD-96}, 1996, pp. 226--231.
+M.~Ester, H.~Kriegel \emph{et~al.}, ``{A} {D}ensity {B}ased {A}lgorithm for
+  {D}iscovering {C}lusters,'' in \emph{Proc. KDD-96}, 1996, pp. 226--231.
 
 \bibitem{Sklearn2}
 \BIBentryALTinterwordspacing
