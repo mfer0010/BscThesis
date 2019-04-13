@@ -1,28 +1,34 @@
 \changetocdepth {2}
 \select@language {english}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\chapternumberline {2}Background and Literature Review}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}The LHC Machine}{2}{section.2.1}
-\contentsline {paragraph}{ }{2}{section*.2}
-\contentsline {paragraph}{ }{2}{section*.5}
-\contentsline {paragraph}{ }{2}{section*.9}
-\contentsline {paragraph}{ }{2}{section*.10}
-\contentsline {paragraph}{ }{3}{section*.12}
-\contentsline {section}{\numberline {2.2}The Instruments Used to Gather Data}{3}{section.2.2}
-\contentsline {paragraph}{ }{3}{section*.14}
+\contentsline {paragraph}{ }{1}{section*.2}
+\contentsline {paragraph}{ }{1}{section*.5}
+\contentsline {paragraph}{ }{1}{section*.9}
+\contentsline {paragraph}{ }{1}{section*.10}
+\contentsline {paragraph}{ }{2}{section*.12}
 \contentsline {paragraph}{ }{3}{section*.15}
+\contentsline {chapter}{\chapternumberline {2}Background and Literature Review}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Instruments Used to Gather Data}{4}{section.2.1}
+\contentsline {paragraph}{ }{4}{section*.16}
 \contentsline {paragraph}{ }{4}{section*.17}
-\contentsline {paragraph}{ }{4}{section*.21}
-\contentsline {paragraph}{ }{4}{section*.24}
-\contentsline {section}{\numberline {2.3}Feature Scaling and Reduction Techniques}{4}{section.2.3}
-\contentsline {paragraph}{ }{4}{section*.28}
+\contentsline {paragraph}{ }{4}{section*.19}
+\contentsline {paragraph}{ }{5}{section*.23}
+\contentsline {paragraph}{ }{5}{section*.26}
 \contentsline {paragraph}{ }{5}{section*.30}
-\contentsline {paragraph}{ }{5}{section*.31}
-\contentsline {section}{\numberline {2.4}Unsupervised Anomaly Detection Techniques}{5}{section.2.4}
+\contentsline {section}{\numberline {2.2}Feature Scaling and Reduction Techniques}{5}{section.2.2}
 \contentsline {paragraph}{ }{5}{section*.32}
-\contentsline {paragraph}{ }{5}{section*.33}
+\contentsline {paragraph}{ }{6}{section*.34}
+\contentsline {paragraph}{ }{6}{section*.35}
+\contentsline {section}{\numberline {2.3}Unsupervised Anomaly Detection Techniques}{6}{section.2.3}
 \contentsline {paragraph}{ }{6}{section*.36}
 \contentsline {paragraph}{ }{6}{section*.37}
-\contentsline {section}{\numberline {2.5}Applying Machine Learning to LHC Data}{6}{section.2.5}
-\contentsline {paragraph}{ }{6}{section*.38}
-\contentsline {chapter}{References}{7}{section*.40}
+\contentsline {paragraph}{ }{6}{section*.40}
+\contentsline {paragraph}{ }{7}{section*.41}
+\contentsline {section}{\numberline {2.4}Anomaly Detection at CERN}{7}{section.2.4}
+\contentsline {paragraph}{ }{7}{section*.42}
+\contentsline {paragraph}{ }{7}{section*.43}
+\contentsline {paragraph}{ }{8}{section*.45}
+\contentsline {paragraph}{ }{8}{section*.46}
+\contentsline {section}{\numberline {2.5}Software Implementation}{8}{section.2.5}
+\contentsline {paragraph}{ }{8}{section*.47}
+\contentsline {chapter}{References}{9}{section*.49}

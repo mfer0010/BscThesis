@@ -25,13 +25,13 @@
 L.~Evans and P.~Bryant, ``{LHC} {M}achine,'' \emph{JINST 3}, pp. 1--7, 2008.
 
 \bibitem{Valentino2017}
-G.~Valentino, R.~Brruce \emph{et~al.}, ``Anomaly {D}etection for {B}eam {L}oss
-  {M}aps in the {L}arge {H}adron {C}ollider,'' presented at the
-  8\textsuperscript{th} {I}nt. {P}article {A}ccelerator {C}onference, 2017.
+G.~Valentino \emph{et~al.}, ``Anomaly {D}etection for {B}eam {L}oss {M}aps in
+  the {L}arge {H}adron {C}ollider,'' presented at the 8\textsuperscript{th}
+  {I}nt. {P}article {A}ccelerator {C}onference, 2017.
 
 \bibitem{Drosdal2011}
-L.~N. Drosdal, B.~Goddard \emph{et~al.}, ``{A}utomatic {I}njection {Q}uality
-  {C}hecks for the {LHC},'' in \emph{Proc. ICALEPCS}, 2011, pp. 1077--1080.
+L.~N. Drosdal \emph{et~al.}, ``{A}utomatic {I}njection {Q}uality {C}hecks for
+  the {LHC},'' in \emph{Proc. ICALEPCS}, 2011, pp. 1077--1080.
 
 \bibitem{Lefevre2008}
 C.~Lefevre, ``The {CERN} {A}ccelerator {C}omplex,'' CERN, Tech. Rep., 2008.
@@ -43,13 +43,16 @@ C.~Roderick, L.~Burdzanowski, and G.~Kruk, ``The {CERN} {A}ccelerator {L}ogging
   Accelerator \& {L}arge {E}xperimental {P}hysics {C}ontrol {S}ystems, 2013.
 
 \bibitem{Kain2010}
-V.~Kain, V.~Baggiolini \emph{et~al.}, ``Injection {B}eam {L}oss and {B}eam
-  {Q}uality {C}hecks for the {LHC},'' in \emph{Proc. of IPAC}, 2010, pp.
-  1671--1673.
+V.~Kain \emph{et~al.}, ``Injection {B}eam {L}oss and {B}eam {Q}uality {C}hecks
+  for the {LHC},'' in \emph{Proc. of IPAC}, 2010, pp. 1671--1673.
+
+\bibitem{Halilovic2018}
+A.~Halilovic, ``{A}nomaly {D}etection for the {CERN} {L}arge {H}adron
+  {C}ollider {I}njection {M}agnets,'' Master's thesis, KU Leuven, 2018.
 
 \bibitem{Holzer2006}
-E.~Holzer, B.~Dehning \emph{et~al.}, ``{B}eam {L}oss {M}onitoring {S}ystem for
-  the {LHC},'' presented at the IEEE NSS, 2006.
+E.~Holzer \emph{et~al.}, ``{B}eam {L}oss {M}onitoring {S}ystem for the {LHC},''
+  presented at the IEEE NSS, 2006.
 
 \bibitem{Schmidt2006}
 \BIBentryALTinterwordspacing
@@ -59,12 +62,16 @@ E.~Holzer, B.~Dehning \emph{et~al.}, ``{B}eam {L}oss {M}onitoring {S}ystem for
 \BIBentrySTDinterwordspacing
 
 \bibitem{Meddahi2010}
-M.~Meddahi, S.~Bart~Pedersen \emph{et~al.}, ``{LHC} {A}bort {G}ap {M}onitoring
-  and {C}leaning,'' presented at the IPAC, 2010.
+M.~Meddahi \emph{et~al.}, ``{LHC} {A}bort {G}ap {M}onitoring and {C}leaning,''
+  presented at the IPAC, 2010.
 
 \bibitem{Lefevre2010}
-T.~Lefevre, S.~Bert~Pedersen \emph{et~al.}, ``{F}irst {O}peration of the
-  {A}bort {G}ap {M}onitors for {LHC},'' CERN, Tech. Rep., 2010.
+T.~Lefevre \emph{et~al.}, ``{F}irst {O}peration of the {A}bort {G}ap {M}onitors
+  for {LHC},'' CERN, Tech. Rep., 2010.
+
+\bibitem{Jones2007}
+O.~R. Jones, ``{LHC} {B}eam {I}nstrumentation,'' in \emph{Proc. of PAC}, 2007,
+  pp. 2630--2634.
 
 \bibitem{Scikitlearn}
 \BIBentryALTinterwordspacing
@@ -89,8 +96,8 @@ A.~Hyv\"{a}rinen, ``{U}nsupervised {M}achine {L}earning,'' Lecture Notes,
   University of Helsinki.
 
 \bibitem{Ester1996}
-M.~Ester, H.~Kriegel \emph{et~al.}, ``{A} {D}ensity {B}ased {A}lgorithm for
-  {D}iscovering {C}lusters,'' in \emph{Proc. KDD-96}, 1996, pp. 226--231.
+M.~Ester \emph{et~al.}, ``{A} {D}ensity {B}ased {A}lgorithm for {D}iscovering
+  {C}lusters,'' in \emph{Proc. KDD-96}, 1996, pp. 226--231.
 
 \bibitem{Sklearn2}
 \BIBentryALTinterwordspacing
@@ -101,5 +108,30 @@ M.~Ester, H.~Kriegel \emph{et~al.}, ``{A} {D}ensity {B}ased {A}lgorithm for
 M.~Breunig, H.~Kriegel, and J.~Sander, ``{LOF}: {I}dentifying {D}ensity-{B}ased
   {L}ocal {O}utliers,'' in \emph{Proc. ACM SIGMOD 2000 Int. Conf. On Management
   of Data}, 2000.
+
+\bibitem{Edelen2018}
+A.~Edelen, C.~Mayes, and D.~Bowring, ``{O}pportunities in {M}achine {L}earning
+  for {P}article {A}ccelerators,'' \emph{ArXiv}, 2018.
+
+\bibitem{Wielgosz2017}
+M.~Wielgosz \emph{et~al.}, ``{T}he {M}odel of an {A}nomaly {D}etector for
+  {H}i{L}umi {LHC} magnets based on {R}ecurrent {N}eural {N}etworks and
+  {A}daptive {Q}uantization,'' \emph{ArXiv}, 2017.
+
+\bibitem{PyMVPA}
+\BIBentryALTinterwordspacing
+(2018, November) {P}y{MVPA} {D}eveloper {G}uidelines. [Online]. Available:
+  \url{pymvpa.org}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Shogun}
+\BIBentryALTinterwordspacing
+(2018, November) {T}he {S}hogun {M}achine {L}earning {T}oolbox. [Online].
+  Available: \url{pypi.org/project/shogun-ml}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Pedregosa2011}
+\emph{{S}cikit-learn: {M}achine {L}earning in {P}ython}, ser. Journal of
+  Machine Learning Research, vol.~12, 2011.
 
 \end{thebibliography}

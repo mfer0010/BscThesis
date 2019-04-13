@@ -1,8 +1,8 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Background and Literature Review}{}% 2
-\BOOKMARK [1][-]{section.2.1}{The LHC Machine}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{The Instruments Used to Gather Data}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{Feature Scaling and Reduction Techniques}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{Unsupervised Anomaly Detection Techniques}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.5}{Applying Machine Learning to LHC Data}{chapter.2}% 7
-\BOOKMARK [0][-]{section*.40}{References}{}% 8
+\BOOKMARK [1][-]{section.2.1}{The Instruments Used to Gather Data}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Feature Scaling and Reduction Techniques}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Unsupervised Anomaly Detection Techniques}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Anomaly Detection at CERN}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Software Implementation}{chapter.2}% 7
+\BOOKMARK [0][-]{section*.49}{References}{}% 8
