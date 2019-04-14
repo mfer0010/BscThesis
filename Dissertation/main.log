@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  11 APR 2019 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  14 APR 2019 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,7 +1066,7 @@ line 35.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 35.
 
-<./images/umlogo_red.png, id=36, 597.432pt x 597.432pt>
+<./images/umlogo_red.png, id=60, 597.432pt x 597.432pt>
 File: ./images/umlogo_red.png Graphic file (type png)
 
 <use ./images/umlogo_red.png>
@@ -1123,7 +1123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
-<./images/umlogo_gray.png, id=38, 597.432pt x 597.432pt>
+<./images/umlogo_gray.png, id=62, 597.432pt x 597.432pt>
 File: ./images/umlogo_gray.png Graphic file (type png)
 
 <use ./images/umlogo_gray.png>
@@ -1212,14 +1212,14 @@ although it is yet undefined on input line 7.
 Package acronym Info: Label `acro:LS' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
 
-<./images/CERNComplex.jpg, id=183, 618.31pt x 619.31375pt>
+<./images/CERNComplex.jpg, id=225, 618.31pt x 619.31375pt>
 File: ./images/CERNComplex.jpg Graphic file (type jpg)
 
 <use ./images/CERNComplex.jpg>
 Package pdftex.def Info: ./images/CERNComplex.jpg used on input line 16.
 (pdftex.def)             Requested size: 168.39743pt x 168.67224pt.
 
-<./images/AnomalousInjections.png, id=184, 576.1525pt x 344.28625pt>
+<./images/AnomalousInjections.png, id=226, 576.1525pt x 344.28625pt>
 File: ./images/AnomalousInjections.png Graphic file (type png)
 
 <use ./images/AnomalousInjections.png>
@@ -1239,49 +1239,79 @@ although it is yet undefined on input line 29.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
 Package acronym Info: Label `acro:BLM' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
+although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:TDI' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
+although it is yet undefined on input line 12.
 Package acronym Info: Label `acro:TL' newly defined as it shall be overridden
-although it is yet undefined on input line 11.
+although it is yet undefined on input line 12.
 Package acronym Info: Label `acro:Gy/s' newly defined as it shall be overridden
 
-although it is yet undefined on input line 11.
+although it is yet undefined on input line 12.
 Package acronym Info: Label `acro:BPM' newly defined as it shall be overridden
-although it is yet undefined on input line 14.
+although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:mm' newly defined as it shall be overridden
-although it is yet undefined on input line 14.
+although it is yet undefined on input line 15.
  [4
 
 ]
 Package acronym Info: Label `acro:MKD' newly defined as it shall be overridden
-although it is yet undefined on input line 17.
+although it is yet undefined on input line 18.
 Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
-although it is yet undefined on input line 17.
+although it is yet undefined on input line 18.
 Package acronym Info: Label `acro:AGM' newly defined as it shall be overridden
-although it is yet undefined on input line 17.
+although it is yet undefined on input line 18.
 Package acronym Info: Label `acro:BCT' newly defined as it shall be overridden
-although it is yet undefined on input line 20.
+although it is yet undefined on input line 21.
 Package acronym Info: Label `acro:PCA' newly defined as it shall be overridden
-although it is yet undefined on input line 30.
+although it is yet undefined on input line 31.
  [5]
 Package acronym Info: Label `acro:DBSCAN' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 41.
+although it is yet undefined on input line 42.
 Package acronym Info: Label `acro:LOF' newly defined as it shall be overridden
-although it is yet undefined on input line 41.
+although it is yet undefined on input line 42.
  [6]
 Package acronym Info: Label `acro:GMM' newly defined as it shall be overridden
-although it is yet undefined on input line 58.
+although it is yet undefined on input line 59.
 
-[7]) [8] (./main.bbl [9
+[7]) (./Chapter3/methodology.tex [8]
+Package acronym Info: Label `acro:TIMBER' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 4.
+ [9
+
+]
+<./images/Histogram_of_Sum_of_Beam_Losses.png, id=438, 433.62pt x 289.08pt>
+File: ./images/Histogram_of_Sum_of_Beam_Losses.png Graphic file (type png)
+
+<use ./images/Histogram_of_Sum_of_Beam_Losses.png>
+Package pdftex.def Info: ./images/Histogram_of_Sum_of_Beam_Losses.png used on i
+nput line 18.
+(pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
+
+<./images/Raw_Beam_Loss.png, id=439, 433.62pt x 289.08pt>
+File: ./images/Raw_Beam_Loss.png Graphic file (type png)
+
+<use ./images/Raw_Beam_Loss.png>
+Package pdftex.def Info: ./images/Raw_Beam_Loss.png used on input line 25.
+(pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
+
+<./images/BLM_3D_Plot.png, id=440, 454.69875pt x 310.15875pt>
+File: ./images/BLM_3D_Plot.png Graphic file (type png)
+
+<use ./images/BLM_3D_Plot.png>
+Package pdftex.def Info: ./images/BLM_3D_Plot.png used on input line 33.
+(pdftex.def)             Requested size: 252.60257pt x 172.30579pt.
+ [10 <./images/Histogram_of_Sum_of_Beam_Losses.png> <./images/Raw_Beam_Loss.png
+> <./images/BLM_3D_Plot.png>]) [11] (./main.bbl
+[12
 
 
 
 ])
 No file main.ind.
 No complaints by nag.
-[10]
+[13]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1296,32 +1326,40 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 698AAC89B758EC34A58B14AB801D183C;555.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 300F03E4A677B3A39441404A4A92289A;913
+(rerunfilecheck)             After:  273C455676A6768B684DDACD543193A5;976.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 12542 strings out of 493029
- 175862 string characters out of 6136235
- 315895 words of memory out of 5000000
- 15721 multiletter control sequences out of 15000+600000
- 87329 words of font info for 114 fonts, out of 8000000 for 9000
+ 12608 strings out of 493029
+ 177137 string characters out of 6136235
+ 316398 words of memory out of 5000000
+ 15760 multiletter control sequences out of 15000+600000
+ 88260 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,38p,1175b,642s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,38p,1175b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/share/texlive/texmf-dist/fo
 nts/type1/public/lato/Lato-Reg.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uag
-d8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (18 pages, 330662 bytes).
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpa
+zo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagd8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/palatino/uplri8a.pfb>
+Output written on main.pdf (21 pages, 424246 bytes).
 PDF statistics:
- 456 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 127 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 491 compressed objects within 5 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
