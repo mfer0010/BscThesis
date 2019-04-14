@@ -38,6 +38,35 @@
 \paragraph{ }Once the relevant readings were kept, the sum column was dropped and this data set was saved to be used for anomaly detection. Furthermore, after scaling these points using MinMax scaling, it was noted from Figure \ref{fig::TDI_BLM_3D} that the readings from the 3 monitors are highly correlated. This was confirmed by computing the correlation matrix which gave a Pearson Correlation value $> 0.98$ for all pairwise comparisons.
 
 \subsection{Abort Gap}
+\paragraph{ }Similar to the \acs{TDI} \acs{BLM} readings, the Abort Gap readings also come in groups of 10 readings around the moment of injection. In this case however, the change in Abort Gap population is of interest for this study, thus the difference between every 10\textsuperscript{th} reading was kept and saved to be used for anomaly detection.
+
+\begin{figure}[!t]
+	\begin{minipage}[b]{0.475\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Histogram_of_Abort_Gap_Population}
+		\caption[Abort Gap Histogram]{Histogram of Abort Gap Population for Beam 1}
+		\label{fig::Abort_Gap_hist}
+	\end{minipage}	
+	\hspace{0.25cm}
+	\begin{minipage}[b]{0.475\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{Histogram_of_Change_in_Abort_Gap_Population}
+		\caption[Change in Abort Gap Histogram]{Histogram of Change in Abort Gap Population for Beam 1}
+		\label{fig::Change_in_Abort_Gap_hist}
+	\end{minipage}	
+\end{figure}
+
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Time_Series_of_Abort_Gap_Population}
+	\caption[Abort Gap Time Series]{Time Series of Abort Gap  Population for the First 8 Injections}
+	\label{fig::Abort_Gap_Time_Series}
+\end{figure}  
+
+
+\paragraph{ }Figures \ref{fig::Abort_Gap_hist} and \ref{fig::Change_in_Abort_Gap_hist} show the histograms of the Abort Gap Population and the Change in Abort Gap Population respectively. A time series plot of the Abort Gap Readings can be seen in Figure \ref{fig::Abort_Gap_Time_Series}.
+
+\subsection{SPS and LHC Intensities}
 
 \section{Feature Selection}
 

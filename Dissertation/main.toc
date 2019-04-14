@@ -41,6 +41,9 @@
 \contentsline {paragraph}{ }{10}{section*.52}
 \contentsline {paragraph}{ }{10}{section*.53}
 \contentsline {subsection}{\numberline {3.2.2}Abort Gap}{11}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Feature Selection}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}Merging the Dataset}{11}{section.3.4}
-\contentsline {chapter}{References}{12}{section*.55}
+\contentsline {paragraph}{ }{11}{section*.54}
+\contentsline {paragraph}{ }{12}{section*.55}
+\contentsline {subsection}{\numberline {3.2.3}SPS and LHC Intensities}{12}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Feature Selection}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Merging the Dataset}{12}{section.3.4}
+\contentsline {chapter}{References}{13}{section*.57}
