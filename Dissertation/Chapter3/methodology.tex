@@ -95,6 +95,7 @@
 \paragraph{ }The histograms of the change in \acs{LHC} intensities and \acs{SPS} intensities can be seen in Figures \ref{fig::LHC_Intensity_hist} and \ref{fig::SPS_Intensity_hist} respectively. Figure \ref{fig::SPS_and_LHC} shows the increase in the \acs{LHC} reading and the corresponding \acs{SPS} intensity.
 
 \subsection{\acs{TL} \acs{BLM}s}
+\label{subsec::TLBLM}
 \paragraph{ }Each \acs{TL} has 61 \acs{BLM}s each recording the amount of losses separately. The issue with these readings however is that their readings are not consistently stored after the experiments have been performed. In fact, during the time of the study, 13 of these monitors didn't have any logged data at all. The data which was logged was either 0 or close to 0. Thus, it was decided to drop this feature from the study.   
 
 \subsection{\acs{TL} \acs{BPM}s}
@@ -123,6 +124,42 @@
 
 \section{Feature Selection}
 
+\paragraph{ }The anomaly detection algorithms will first be run on a three dimensional subset of the chosen features so as to be able to properly visualise the anomalies and understand the main features that are causing them. From past experience working with \acs{LHC} data, it was decided to use one of the \acs{TDI} \acs{BLM}s, the change in \acs{LHC} intensity minus the \acs{SPS} intensity (i.e. the amount of beam intensity lost in the transfer line) and the \acs{MSE} of the \acs{BPM} readings as the three dimensional features. Note that all readings were appropriately normalised by the number of bunches.
+
+\paragraph{ }When performing the study on the full set of data, it was decided that due to the high correlation between the 3 \acs{TDI} \acs{BLM} readings, only one of these would be needed as a feature. Furthermore, as mentioned in Section \ref{subsec::TLBLM}, the readings from the \acs{TL} \acs{BLM}s will not be used. Thus, the total number of dimensions used in the full model was 21 dimensions and are listed below:
+
+\begin{enumerate}
+	\begin{minipage}[t]{0.475\linewidth}
+		\item Normalised Abort Gap Population
+		\item Normalised \acs{LHC} - \acs{SPS} Intensities
+		\item Normalised \acs{BLM} Reading
+		\item \acs{BPM} 1 Reading
+		\item \acs{BPM} 2 Reading
+		\item \acs{BPM} 3 Reading
+		\item \acs{BPM} 4 Reading
+		\item \acs{BPM} 5 Reading
+		\item \acs{BPM} 6 Reading
+		\item \acs{BPM} 7 Reading
+		\item \acs{BPM} 8 Reading
+	\end{minipage}	
+	\hspace{0.25cm}
+	\begin{minipage}[t]{0.475\linewidth}
+		\item \acs{BPM} 9 Reading
+		\item \acs{BPM} 10 Reading
+		\item \acs{BPM} 11 Reading
+		\item \acs{BPM} 12 Reading
+		\item \acs{BPM} 13 Reading
+		\item \acs{BPM} 14 Reading
+		\item \acs{BPM} 15 Reading
+		\item \acs{BPM} 16 Reading
+		\item \acs{BPM} 17 Reading
+		\item \acs{BPM} 18 Reading
+		\item Number of Bunches Injected into the \acs{LHC}
+	\end{minipage}	
+\end{enumerate}
 
 \section{Merging the Dataset}
 \label{sec::Merging_the_Dataset}
+\paragraph{ }Since there's no \textit{`injection number'} or a similar index for the data points, correctly merging the data proved to be quite a challenge. The only available information to be able to tell what injection a particular data point corresponded to was the time stamp. However, the readings are taken at different points in the \acs{LHC} machine cycle thus care had to be taken when matching these time intervals to ensure correctly matching data.  
+
+\paragraph{ }After cleaning and merging the datasets, from an original 1624 injections collected, 859 injections were kept for Beam 1 and 1212 injections were kept for Beam 2. Although this might seem like a large loss of data, it was vital to ensure that the data being used was accurate.

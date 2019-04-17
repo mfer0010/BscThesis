@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  16 APR 2019 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  17 APR 2019 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,7 +1066,7 @@ line 35.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 35.
 
-<./images/umlogo_red.png, id=84, 597.432pt x 597.432pt>
+<./images/umlogo_red.png, id=88, 597.432pt x 597.432pt>
 File: ./images/umlogo_red.png Graphic file (type png)
 
 <use ./images/umlogo_red.png>
@@ -1123,7 +1123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
-<./images/umlogo_gray.png, id=86, 597.432pt x 597.432pt>
+<./images/umlogo_gray.png, id=90, 597.432pt x 597.432pt>
 File: ./images/umlogo_gray.png Graphic file (type png)
 
 <use ./images/umlogo_gray.png>
@@ -1212,14 +1212,14 @@ although it is yet undefined on input line 7.
 Package acronym Info: Label `acro:LS' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
 
-<./images/CERNComplex.jpg, id=277, 618.31pt x 619.31375pt>
+<./images/CERNComplex.jpg, id=290, 618.31pt x 619.31375pt>
 File: ./images/CERNComplex.jpg Graphic file (type jpg)
 
 <use ./images/CERNComplex.jpg>
 Package pdftex.def Info: ./images/CERNComplex.jpg used on input line 16.
 (pdftex.def)             Requested size: 168.39743pt x 168.67224pt.
 
-<./images/AnomalousInjections.png, id=278, 576.1525pt x 344.28625pt>
+<./images/AnomalousInjections.png, id=291, 576.1525pt x 344.28625pt>
 File: ./images/AnomalousInjections.png Graphic file (type png)
 
 <use ./images/AnomalousInjections.png>
@@ -1281,7 +1281,7 @@ although it is yet undefined on input line 4.
  [9
 
 ]
-<./images/Histogram_of_Sum_of_Beam_Losses.png, id=490, 433.62pt x 289.08pt>
+<./images/Histogram_of_Sum_of_Beam_Losses.png, id=503, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_Sum_of_Beam_Losses.png Graphic file (type png)
 
 <use ./images/Histogram_of_Sum_of_Beam_Losses.png>
@@ -1289,14 +1289,14 @@ Package pdftex.def Info: ./images/Histogram_of_Sum_of_Beam_Losses.png used on i
 nput line 18.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Raw_Beam_Loss.png, id=491, 433.62pt x 289.08pt>
+<./images/Raw_Beam_Loss.png, id=504, 433.62pt x 289.08pt>
 File: ./images/Raw_Beam_Loss.png Graphic file (type png)
 
 <use ./images/Raw_Beam_Loss.png>
 Package pdftex.def Info: ./images/Raw_Beam_Loss.png used on input line 25.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/BLM_3D_Plot.png, id=492, 454.69875pt x 310.15875pt>
+<./images/BLM_3D_Plot.png, id=505, 454.69875pt x 310.15875pt>
 File: ./images/BLM_3D_Plot.png Graphic file (type png)
 
 <use ./images/BLM_3D_Plot.png>
@@ -1304,7 +1304,7 @@ Package pdftex.def Info: ./images/BLM_3D_Plot.png used on input line 33.
 (pdftex.def)             Requested size: 252.60257pt x 172.30579pt.
  [10 <./images/Histogram_of_Sum_of_Beam_Losses.png> <./images/Raw_Beam_Loss.png
 > <./images/BLM_3D_Plot.png>]
-<./images/Histogram_of_Abort_Gap_Population.png, id=505, 433.62pt x 289.08pt>
+<./images/Histogram_of_Abort_Gap_Population.png, id=518, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_Abort_Gap_Population.png Graphic file (type png)
 
 <use ./images/Histogram_of_Abort_Gap_Population.png>
@@ -1312,7 +1312,7 @@ Package pdftex.def Info: ./images/Histogram_of_Abort_Gap_Population.png used on
  input line 46.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Histogram_of_Change_in_Abort_Gap_Population.png, id=506, 433.62pt x 2
+<./images/Histogram_of_Change_in_Abort_Gap_Population.png, id=519, 433.62pt x 2
 89.08pt>
 File: ./images/Histogram_of_Change_in_Abort_Gap_Population.png Graphic file (ty
 pe png)
@@ -1321,7 +1321,7 @@ Package pdftex.def Info: ./images/Histogram_of_Change_in_Abort_Gap_Population.p
 ng used on input line 53.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Time_Series_of_Abort_Gap_Population.png, id=507, 433.62pt x 289.08pt>
+<./images/Time_Series_of_Abort_Gap_Population.png, id=520, 433.62pt x 289.08pt>
 File: ./images/Time_Series_of_Abort_Gap_Population.png Graphic file (type png)
 <use ./images/Time_Series_of_Abort_Gap_Population.png>
 Package pdftex.def Info: ./images/Time_Series_of_Abort_Gap_Population.png used 
@@ -1330,7 +1330,7 @@ on input line 61.
  [11 <./images/Histogram_of_Abort_Gap_Population.png> <./images/Histogram_of_Ch
 ange_in_Abort_Gap_Population.png> <./images/Time_Series_of_Abort_Gap_Population
 .png>]
-<./images/Histogram_of_Change_in_LHC_Intensity.png, id=536, 433.62pt x 289.08pt
+<./images/Histogram_of_Change_in_LHC_Intensity.png, id=549, 433.62pt x 289.08pt
 >
 File: ./images/Histogram_of_Change_in_LHC_Intensity.png Graphic file (type png)
 
@@ -1339,7 +1339,7 @@ Package pdftex.def Info: ./images/Histogram_of_Change_in_LHC_Intensity.png used
  on input line 75.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Histogram_of_SPS_Intensity.png, id=537, 433.62pt x 289.08pt>
+<./images/Histogram_of_SPS_Intensity.png, id=550, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_SPS_Intensity.png Graphic file (type png)
 
 <use ./images/Histogram_of_SPS_Intensity.png>
@@ -1347,7 +1347,7 @@ Package pdftex.def Info: ./images/Histogram_of_SPS_Intensity.png used on input
 line 82.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/SPS_and_LHC_Intensities.png, id=538, 433.62pt x 289.08pt>
+<./images/SPS_and_LHC_Intensities.png, id=551, 433.62pt x 289.08pt>
 File: ./images/SPS_and_LHC_Intensities.png Graphic file (type png)
 
 <use ./images/SPS_and_LHC_Intensities.png>
@@ -1356,30 +1356,60 @@ e 90.
 (pdftex.def)             Requested size: 252.60257pt x 168.40314pt.
  [12 <./images/Histogram_of_Change_in_LHC_Intensity.png> <./images/Histogram_of
 _SPS_Intensity.png>]
-<./images/Histogram_of_BPM.png, id=566, 433.62pt x 289.08pt>
+<./images/Histogram_of_BPM.png, id=579, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_BPM.png Graphic file (type png)
 
 <use ./images/Histogram_of_BPM.png>
-Package pdftex.def Info: ./images/Histogram_of_BPM.png used on input line 105.
+Package pdftex.def Info: ./images/Histogram_of_BPM.png used on input line 106.
 (pdftex.def)             Requested size: 252.60257pt x 168.40314pt.
  [13 <./images/SPS_and_LHC_Intensities.png> <./images/Histogram_of_BPM.png>]
-<./images/Number_of_Bunches.png, id=579, 433.62pt x 289.08pt>
+<./images/Number_of_Bunches.png, id=592, 433.62pt x 289.08pt>
 File: ./images/Number_of_Bunches.png Graphic file (type png)
 
 <use ./images/Number_of_Bunches.png>
-Package pdftex.def Info: ./images/Number_of_Bunches.png used on input line 117.
+Package pdftex.def Info: ./images/Number_of_Bunches.png used on input line 118.
 
 (pdftex.def)             Requested size: 252.60257pt x 168.40314pt.
-) (./Chapter4/results.tex [14 <./images/Number_of_Bunches.png>]) [15
+ [14 <./images/Number_of_Bunches.png>])
+(./Chapter4/results.tex [15]
+<./images/BPM_MSE_Trend_B1.png, id=668, 433.62pt x 289.08pt>
+File: ./images/BPM_MSE_Trend_B1.png Graphic file (type png)
 
-] (./main.bbl [16
+<use ./images/BPM_MSE_Trend_B1.png>
+Package pdftex.def Info: ./images/BPM_MSE_Trend_B1.png used on input line 11.
+(pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
+
+<./images/BPM_MSE_Trend_B2.png, id=669, 433.62pt x 289.08pt>
+File: ./images/BPM_MSE_Trend_B2.png Graphic file (type png)
+
+<use ./images/BPM_MSE_Trend_B2.png>
+Package pdftex.def Info: ./images/BPM_MSE_Trend_B2.png used on input line 18.
+(pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
+ [16
+
+ <./images/BPM_MSE_Trend_B1.png> <./images/BPM_MSE_Trend_B2.png>]
+<./images/BPM_MSE_Diff_B1.png, id=689, 433.62pt x 289.08pt>
+File: ./images/BPM_MSE_Diff_B1.png Graphic file (type png)
+
+<use ./images/BPM_MSE_Diff_B1.png>
+Package pdftex.def Info: ./images/BPM_MSE_Diff_B1.png used on input line 33.
+(pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
+
+<./images/BPM_MSE_Diff_B2.png, id=690, 433.62pt x 289.08pt>
+File: ./images/BPM_MSE_Diff_B2.png Graphic file (type png)
+
+<use ./images/BPM_MSE_Diff_B2.png>
+Package pdftex.def Info: ./images/BPM_MSE_Diff_B2.png used on input line 40.
+(pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
+) [17 <./images/BPM_MSE_Diff_B1.png> <./images/BPM_MSE_Diff_B2.png>] (./main.bb
+l [18
 
 
 
 ])
 No file main.ind.
 No complaints by nag.
-[17]
+[19]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1395,14 +1425,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 596606F76BB6CBC7040B8B727E9A0676;1289.
+(rerunfilecheck)             Checksum: 3FC8928E58FBDDD6E465BA169B151A2B;1363.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 12704 strings out of 493029
- 179753 string characters out of 6136235
- 317037 words of memory out of 5000000
- 15818 multiletter control sequences out of 15000+600000
+ 12772 strings out of 493029
+ 180887 string characters out of 6136235
+ 317387 words of memory out of 5000000
+ 15845 multiletter control sequences out of 15000+600000
  88260 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,14n,38p,1175b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1417,10 +1447,10 @@ e/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (25 pages, 639550 bytes).
+Output written on main.pdf (27 pages, 816693 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 610 compressed objects within 7 object streams
- 173 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 796 PDF objects out of 1000 (max. 8388607)
+ 712 compressed objects within 8 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
