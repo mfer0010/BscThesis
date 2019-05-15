@@ -3,7 +3,7 @@
 \BOOKMARK [1][-]{section.2.1}{Beam Instrumentation}{chapter.2}% 3
 \BOOKMARK [1][-]{section.2.2}{Feature Scaling and Reduction Techniques}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.3}{Unsupervised Anomaly Detection Techniques}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{Anomaly Detection at CERN}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.4}{Anomaly Detection in Particle Accelerators}{chapter.2}% 6
 \BOOKMARK [1][-]{section.2.5}{Software Implementation}{chapter.2}% 7
 \BOOKMARK [0][-]{chapter.3}{Methodology}{}% 8
 \BOOKMARK [1][-]{section.3.1}{Data Collection}{chapter.3}% 9
@@ -16,6 +16,10 @@
 \BOOKMARK [2][-]{subsection.3.2.6}{Number of Bunches}{section.3.2}% 16
 \BOOKMARK [1][-]{section.3.3}{Feature Selection}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.4}{Merging the Dataset}{chapter.3}% 18
-\BOOKMARK [0][-]{chapter.4}{Results}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Beam Displacement Over Time}{chapter.4}% 20
-\BOOKMARK [0][-]{section*.72}{References}{}% 21
+\BOOKMARK [1][-]{section.3.5}{Anomaly Detection}{chapter.3}% 19
+\BOOKMARK [0][-]{chapter.4}{Results}{}% 20
+\BOOKMARK [1][-]{section.4.1}{Beam Displacement Over Time}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Performance of the Anomaly Detection Algorithms}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.2.1}{3D LOF}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.2}{3D DBSCAN}{section.4.2}% 24
+\BOOKMARK [0][-]{section*.83}{References}{}% 25

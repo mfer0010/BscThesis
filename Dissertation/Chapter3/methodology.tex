@@ -1,7 +1,7 @@
 \chapter{Methodology}
 
 \section{Data Collection}
-\paragraph{ }The data used in this study was collected from \ac{TIMBER} with the help of Dr. Gianluca Valentino who has access to the \acs{CERN} Intranet. Data was collected from the instrumentation discussed in Section \ref{sec::beam_instrumentation} and covers 1624 Injections over a time period of 3 months (from 17\textsuperscript{th} August to 20\textsuperscript{th} October 2018). During this time, approximately 65 experiments were performed.
+\paragraph{ }The data used in this study was collected from \ac{TIMBER} with the help of Dr. Gianluca Valentino who has access to the \acs{CERN} Intranet. Data was collected from the instrumentation discussed in Section \ref{sec::beam_instrumentation} and covers 1624 Injections over a time period of 3 months (from 17\textsuperscript{th} August to 20\textsuperscript{th} October 2018). During this time, approximately 65 \acs{LHC} fills were performed.
 
 \paragraph{ }The file sizes for the data gathered from each instrument ranged from 4 KB to 2 MB, these were initially individually analysed (refer to Section \ref{sec::Data_Cleaning_and_Analysis}) and then merged to create the dataset used to run the anomaly detection algorithms on (refer to Section \ref{sec::Merging_the_Dataset}). The total size of the merged datasets were 231 KB and 324 KB for Beam 1 and Beam 2 respectively. Loading this data in memory was not an issue since the file size is rather small, thus the problem of dealing with Big Data was not encountered in this study.
 
@@ -38,7 +38,7 @@
 \paragraph{ }Once the relevant readings were kept, the sum column was dropped and this data set was saved to be used for anomaly detection. Furthermore, after scaling these points using MinMax scaling, it was noted from Figure \ref{fig::TDI_BLM_3D} that the readings from the 3 monitors are highly correlated. This was confirmed by computing the correlation matrix which gave a Pearson Correlation value $> 0.98$ for all pairwise comparisons.
 
 \subsection{Abort Gap}
-\paragraph{ }Similar to the \acs{TDI} \acs{BLM} readings, the Abort Gap readings also come in groups of 10 readings around the moment of injection. In this case however, the change in Abort Gap population is of interest for this study, thus the difference between every 10\textsuperscript{th} reading was kept and saved to be used for anomaly detection.
+\paragraph{ }Similar to the \acs{TDI} \acs{BLM} readings, the Abort Gap readings also come in 10 second windows around the moment of injection. In this case however, the change in Abort Gap population is of interest for this study, thus the difference between every 10\textsuperscript{th} reading was kept and saved to be used for anomaly detection.
 
 \begin{figure}[!t]
 	\begin{minipage}[b]{0.475\linewidth}
@@ -59,7 +59,7 @@
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Time_Series_of_Abort_Gap_Population}
-	\caption[Abort Gap Time Series]{Time Series of Abort Gap  Population for the First 8 Injections}
+	\caption[Abort Gap Time Series]{Time Series of Abort Gap  Population for the First 2 Injections}
 	\label{fig::Abort_Gap_Time_Series}
 \end{figure}  
 
@@ -99,19 +99,21 @@
 \paragraph{ }Each \acs{TL} has 61 \acs{BLM}s each recording the amount of losses separately. The issue with these readings however is that their readings are not consistently stored after the experiments have been performed. In fact, during the time of the study, 13 of these monitors didn't have any logged data at all. The data which was logged was either 0 or close to 0. Thus, it was decided to drop this feature from the study.   
 
 \subsection{\acs{TL} \acs{BPM}s}
-\paragraph{ }There are 18 \acs{BPM}s in each \acs{TL}, each one giving a separate reading of the beam's deviation from its expected path at a different position in the \acs{TL}. From data taken from 1624 injections, data corresponding to 1420 injections was left for Beam 1 after removing all missing values and 1455 injections for Beam 2. Figure \ref{fig::BPM_hist} shows the histogram of the readings recorded by the first monitor in TI1.
+\paragraph{ }There are 18 \acs{BPM}s in each \acs{TL}, each one giving a separate reading of the beam's deviation from its expected path at a different position in the \acs{TL}. From data taken from 1624 injections, data corresponding to 1420 injections was left for Beam 1 after removing all missing values and 1455 injections for Beam 2. Figure \ref{fig::BPM_hist} shows the histogram of the readings recorded by the first monitor in TI2.
 
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Histogram_of_BPM}
-	\caption[BPM Histogram]{Histogram of the readings recorded by the first monitor in TI1}
+	\caption[BPM Histogram]{Histogram of the readings recorded by the first monitor in TI2}
 	\label{fig::BPM_hist}
 \end{figure} 
 
-\paragraph{ }In order to measure the beam drift over time, the first injection was assumed to be the expected path and the \acs{MSE} of each injection from the first injection was taken. This was worked out by taking the average of the squared differences in the readings of each monitor for each injection. This led to an interesting result which is presented in Chapter \ref{chp4}.
+\paragraph{ }In order to measure the beam drift over time, the first injection was assumed to be the expected path and the \acs{MSE} of each injection with respect to the first injection was taken. The first injection was used as the ideal expected path of the beam and any drift from this path would result in possible anomalous injections. This was worked out by taking the average of the squared differences in the readings of each monitor for each injection. This led to an interesting result which is presented in Chapter \ref{chp4}.
 
 \subsection{Number of Bunches}
 \paragraph{ }The number of bunches injected into the \acs{LHC} was another useful feature that needed to be extracted for normalisation. The beam losses, change in intensities and change in abort gap population are all relative to the number of bunches injected into the \acs{LHC} as for example, a large loss may only appear to be large because more bunches were injected into the LHC for that injection than previous injections. In this case, that large loss should not be considered an anomaly. 
+
+\paragraph{ }After the first single bunch is injected, the number of bunches injected in one go are typically multiples of 12, e.g. 12, 96, 144 which derives from how they are set up in the injector accelerators.
 
 \begin{figure}[t]
 	\centering
@@ -123,10 +125,11 @@
 \paragraph{ }The number of bunches circulating the \acs{LHC} was hence extracted around the time of each injection and the change in number of bunches was then worked out. Figure \ref{fig::Number_of_Bunches} shows the nature of this data and should give the reader an idea of how many bunches are injected at one time.
 
 \section{Feature Selection}
+\label{sec::FeatureSelection}
 
-\paragraph{ }The anomaly detection algorithms will first be run on a three dimensional subset of the chosen features so as to be able to properly visualise the anomalies and understand the main features that are causing them. From past experience working with \acs{LHC} data, it was decided to use one of the \acs{TDI} \acs{BLM}s, the change in \acs{LHC} intensity minus the \acs{SPS} intensity (i.e. the amount of beam intensity lost in the transfer line) and the \acs{MSE} of the \acs{BPM} readings as the three dimensional features. Note that all readings were appropriately normalised by the number of bunches.
+\paragraph{ }The anomaly detection algorithms were first run on a three dimensional subset of the chosen features so as to be able to properly visualise the anomalies and understand the main features that are causing them. Due to thehigh correlation between the 3 TDI BLM readings, it was decided to use one of the \acs{TDI} \acs{BLM}s, the change in \acs{LHC} intensity minus the \acs{SPS} intensity (i.e. the amount of beam intensity lost in the transfer line) and the \acs{MSE} of the \acs{BPM} readings as the three dimensional features. Note that all readings were appropriately normalised by the number of bunches.
 
-\paragraph{ }When performing the study on the full set of data, it was decided that due to the high correlation between the 3 \acs{TDI} \acs{BLM} readings, only one of these would be needed as a feature. Furthermore, as mentioned in Section \ref{subsec::TLBLM}, the readings from the \acs{TL} \acs{BLM}s will not be used. Thus, the total number of dimensions used in the full model was 21 dimensions and are listed below:
+\paragraph{ }When performing the study on the full set of data, once again only one of the 3 \acs{TDI} \acs{BLM} readings would be needed as a feature. Furthermore, as mentioned in Section \ref{subsec::TLBLM}, the readings from the \acs{TL} \acs{BLM}s will not be used. Thus, the total number of dimensions used in the full model was 21 dimensions and are listed below:
 
 \begin{enumerate}
 	\begin{minipage}[t]{0.475\linewidth}
@@ -163,3 +166,24 @@
 \paragraph{ }Since there's no \textit{`injection number'} or a similar index for the data points, correctly merging the data proved to be quite a challenge. The only available information to be able to tell what injection a particular data point corresponded to was the time stamp. However, the readings are taken at different points in the \acs{LHC} machine cycle thus care had to be taken when matching these time intervals to ensure correctly matching data.  
 
 \paragraph{ }After cleaning and merging the datasets, from an original 1624 injections collected, 859 injections were kept for Beam 1 and 1212 injections were kept for Beam 2. Although this might seem like a large loss of data, it was vital to ensure that the data being used was accurate.
+
+\section{Anomaly Detection}
+\label{sec::AnomalyDetection}
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Scaling}
+	\caption[3D Features]{3 Features chosen as parameters for \acs{LOF} after Normalisation and Scaling}
+	\label{fig::Scaling}
+\end{figure}
+
+\paragraph{ }After all the data cleaning and preparation, the resultant consistent data was ready to be used for anomaly detection. Each feature was first scaled using standard scaling, a plot of the features chosen as parameters for the 3D anomaly detection after scaling and normalisation by the change in number of bunches can be seen in Figure \ref{fig::Scaling}. From this plot alone, its already clear to start noticing some of the points which could be anomalous injections. \acs{LOF} and \acs{DBSCAN} were then run for both Beam 1 and Beam 2 given this scaled and normalised data, the results are presented in Chapter \ref{chp4}.
+
+\paragraph{ }\acs{LOF} was then used on the full dataset (whose features are listed in Section \ref{sec::FeatureSelection}) and those results are also presented in Chapter \ref{chp4}. Finally, \acs{PCA} was performed on the full-feature dataset and it was chosen to keep the components that explain at least 80\% of the data's variation. Thus, 5 components were left for both Beam 1 and Beam 2. \acs{LOF} was once again performed on this lower dimension dataset and the results are presented in Chapter \ref{chp4}.
+
+%% Paragraph on choosing the LOF and DBSCAN Parameters 
+\paragraph{ }When fitting the algorithms, care was taken to ensure the correct parameters were used in the models. Since this is an unsupervised approach, fitting the correct parameters is crucial to the overall performance of anomaly detection algorithms. However, since we do not have any training sets or guidelines on what points are actual anomalies, the parameters were tweaked by visual inspection of the resultant 3D plots derived after running the algorithm. 
+
+\paragraph{ }For \acs{LOF}, the number of neighbours parameter was set to 50. According to the guidelines in \cite{Sklearn2}, this parameter should be greater than the minimum number of points a cluster can contain and less than the maximum number of close by objects that could potentially be outliers. For \acs{DBSCAN}, the minimum samples parameter was set to be 10. This parameter indicates the minimum number of samples in a neighbourhood for a point to be considered as a core point and hence not an outlier.
+
+\paragraph{ }In order to compare the performance of the different algorithms, the anomalous points detected were then manually checked on \acs{TIMBER} by Prof. Valentino and labelled 1 if the injection was actually anomalous and 0 otherwise. When performing this analysis, Prof. Valentino discovered that from the 14th to the 16th of September, the \acs{LHC} was running some tests, thus all the injections that were found to be anomalous on these dates by the algorithms were not actually anomalous injections. These points were therefore removed from the study to ensure accuracy. 
