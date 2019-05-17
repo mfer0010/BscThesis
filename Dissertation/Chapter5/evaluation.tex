@@ -1,0 +1,135 @@
+\chapter{Evaluation}
+\label{chp5}
+
+\section{Performance Metrics}
+
+\paragraph{ }Comparing the performance of unsupervised anomaly detection algorithms is not a straight forward task and can be trickier than the supervised classification case \cite{Goldstein2016}. There are many metrics that can be used as performance measures, the most common ones being efficiency measures such as \ac{TPR}, \ac{TNR}, \ac{FPR} and \ac{FNR}. \acs{FNR} is also known as `Sensitivity', this measures the chances of a true anomaly to be detected by the algorithm and is calculated as shown in Equation \ref{eq::sensitivity} \cite{Danjuma2015}. This measure is also known as a Type II error in statistics.
+
+\begin{equation}\label{eq::sensitivity}
+\centering
+Sensitivity=\frac{TP}{TP+FN}100\%
+\end{equation}
+
+\paragraph{ }\acs{FPR} is also known as `Specificity', this measures the probability of classifying an anomaly when the injection is actually an anomaly. This measure is defined in Equation \ref{eq::specificity} \cite{Danjuma2015}.
+
+\begin{equation}\label{eq::specificity}
+\centering
+Specificity=\frac{TN}{TN+FP}100\%
+\end{equation}
+
+\paragraph{ }The accuracy of the algorithm is defined in Equation \ref{eq::accuracy} and gives an overall evaluation of the algorithm's performance \cite{Danjuma2015}.
+
+\begin{equation}\label{eq::accuracy}
+\centering
+Accuracy=\frac{TP+TN}{TP+TN+FP+FN}100\%
+\end{equation}
+
+\paragraph{ }Other metrics that are useful in evaluating the performance of the algorithms include the Precision, which is defined in Equation \ref{eq::precision} and the F-measure, which is the harmonic mean of the Sensitivity and Precision and is defined in Equation \ref{eq::fmeasure} \cite{Danjuma2015}.
+
+\begin{equation}\label{eq::precision}
+\centering
+Precision=\frac{TP}{TP+FP}
+\end{equation}
+
+\begin{equation}\label{eq::fmeasure}
+\centering
+F-measure=\frac{2*Precision*Sensitivity}{Precision+Sensitivity}
+\end{equation}
+
+\section{Performance of Algorithms}
+
+\paragraph{ }The overall results for Beam 1 of all the algorithms are summarised in Table \ref{tab::Beam1_results}. Table \ref{tab::Beam1_efficiency} shows the efficiency metrics for Beam 1 and Table \ref{tab::Beam1_performance} shows the performance metrics for Beam 1.
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|l|l|l|l|l|l|}
+		\hline
+		\textbf{Method}     & \textbf{Total Anomalies} & \textbf{True Positives} & \textbf{True Negatives} & \textbf{False Positives} & \textbf{False Negatives} \\ \hline
+		\textbf{3D LoF}     & 60                       & 39                      & 745                     & 21                       & 51                       \\ \hline
+		\textbf{3D DBSCAN}  & 40                       & 23                      & 749                     & 17                       & 67                       \\ \hline
+		\textbf{Full Model} & 64                       & 46                      & 748                     & 18                       & 44                       \\ \hline
+		\textbf{PCA Model}  & 63                       & 43                      & 746                     & 20                       & 47                       \\ \hline
+	\end{tabular}
+	}
+\caption[Beam 1 Results]{Summary of Results for Beam 1}
+\label{tab::Beam1_results}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Method}     & \textbf{Accuracy} & \textbf{Sensitivity} & \textbf{Specificity} \\ \hline
+		\textbf{3D LoF}     & 91.59\%           & 43.33\%              & 97.26\%              \\ \hline
+		\textbf{3D DBSCAN}  & 90.19\%           & 25.56\%              & 97.78\%              \\ \hline
+		\textbf{Full Model} & 92.76\%           & 51.11\%              & 97.65\%              \\ \hline
+		\textbf{PCA Model}  & 92.17\%           & 47.78\%              & 97.39\%              \\ \hline
+	\end{tabular}
+\caption[Beam 1 Efficiency Metrics]{Efficiency of Algorithms for Beam 1}
+\label{tab::Beam1_efficiency}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Method}     & \textbf{Precision} & \textbf{F-measure} \\ \hline
+		\textbf{3D LoF}     & 0.65               & 0.52               \\ \hline
+		\textbf{3D DBSCAN}  & 0.575              & 0.3538461538       \\ \hline
+		\textbf{Full Model} & 0.71875            & 0.5974025974       \\ \hline
+		\textbf{PCA Model}  & 0.6825396825       & 0.5620915033       \\ \hline
+	\end{tabular}
+\caption[Beam 1 Performance Metrics]{Performance of Algorithms for Beam 1}
+\label{tab::Beam1_performance}
+\end{table}
+
+\paragraph{ }Similarly for Beam 2, the overall results are summarised in Table \ref{tab::Beam2_results}. Table \ref{tab::Beam2_efficiency} shows the efficiency metrics for Beam 2 and Table \ref{tab::Beam2_performance} shows the performance metrics for Beam 2.
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|l|l|l|l|l|l|}
+		\hline
+		\textbf{Method}     & \textbf{Total Anomalies} & \textbf{True Positives} & \textbf{True Negatives} & \textbf{False Positives} & \textbf{False Negatives} \\ \hline
+		\textbf{3D LoF}     & 98                       & 45                      & 1024                    & 53                       & 89                       \\ \hline
+		\textbf{3D DBSCAN}  & 60                       & 28                      & 1045                    & 32                       & 106                      \\ \hline
+		\textbf{Full Model} & 96                       & 61                      & 1042                    & 35                       & 73                       \\ \hline
+		\textbf{PCA Model}  & 115                      & 65                      & 1027                    & 50                       & 69                       \\ \hline
+	\end{tabular}}
+\caption[Beam 2 Results]{Summary of Results for Beam 2}
+\label{tab::Beam2_results}
+\end{table}
+
+\begin{table}[H]
+	\centering 
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Method}     & \textbf{Accuracy} & \textbf{Sensitivity} & \textbf{Specificity} \\ \hline
+		\textbf{3D LoF}     & 88.27\%           & 33.58\%              & 95.08\%              \\ \hline
+		\textbf{3D DBSCAN}  & 88.60\%           & 20.90\%              & 97.03\%              \\ \hline
+		\textbf{Full Model} & 91.08\%           & 45.52\%              & 96.75\%              \\ \hline
+		\textbf{PCA Model}  & 90.17\%           & 48.51\%              & 95.36\%              \\ \hline
+	\end{tabular}
+\caption[Beam 2 Efficiency Metrics]{Efficiency of Algorithms for Beam 2}
+\label{tab::Beam2_efficiency}
+\end{table}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Method}     & \textbf{Precision} & \textbf{F-measure} \\ \hline
+		\textbf{3D LoF}     & 0.4591836735       & 0.3879310345       \\ \hline
+		\textbf{3D DBSCAN}  & 0.4666666667       & 0.2886597938       \\ \hline
+		\textbf{Full Model} & 0.6354166667       & 0.5304347826       \\ \hline
+		\textbf{PCA Model}  & 0.5652173913       & 0.5220883534       \\ \hline
+	\end{tabular}
+\caption[Beam 2 Performance Metrics]{Performance of Algorithms for Beam 2}
+\label{tab::Beam2_performance}
+\end{table}
+
+
+\paragraph{ }In both cases, the Full Model has outperformed all the other models, achieving the highest accuracy, precision and F-measure. An accuracy of 92.76\% and 91.08\% is quite high and is one of the positive outcomes of this study.   
+
+\paragraph{ }The number of anomalies detected in beam 2 was higher than that of Beam 1, however with this increase in anomalies there seems to be a decrease in precision. It is also worth noting that the sensitivity is rather low, having a value of 51.11\% for Beam 1 and 45.52\% for Beam 2. The fact that the probability of a true anomaly being detected by the algorithm is so low means that further work still could be done to improve the overall performance. The F-measure also highlights this fact as these values are less than expected.

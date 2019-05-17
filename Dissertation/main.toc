@@ -8,78 +8,104 @@
 \contentsline {paragraph}{ }{2}{section*.12}
 \contentsline {paragraph}{ }{2}{section*.14}
 \contentsline {paragraph}{ }{3}{section*.16}
+\contentsline {paragraph}{ }{3}{section*.17}
 \contentsline {chapter}{\chapternumberline {2}Background and Literature Review}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Beam Instrumentation}{4}{section.2.1}
-\contentsline {paragraph}{ }{4}{section*.17}
 \contentsline {paragraph}{ }{4}{section*.18}
-\contentsline {paragraph}{ }{4}{section*.20}
-\contentsline {paragraph}{ }{5}{section*.24}
-\contentsline {paragraph}{ }{5}{section*.26}
-\contentsline {paragraph}{ }{5}{section*.30}
+\contentsline {paragraph}{ }{4}{section*.19}
+\contentsline {paragraph}{ }{4}{section*.21}
+\contentsline {paragraph}{ }{5}{section*.25}
+\contentsline {paragraph}{ }{5}{section*.27}
+\contentsline {paragraph}{ }{5}{section*.31}
 \contentsline {section}{\numberline {2.2}Feature Scaling and Reduction Techniques}{5}{section.2.2}
-\contentsline {paragraph}{ }{5}{section*.32}
-\contentsline {paragraph}{ }{6}{section*.34}
+\contentsline {paragraph}{ }{5}{section*.33}
 \contentsline {paragraph}{ }{6}{section*.35}
 \contentsline {paragraph}{ }{6}{section*.36}
-\contentsline {section}{\numberline {2.3}Unsupervised Anomaly Detection Techniques}{6}{section.2.3}
 \contentsline {paragraph}{ }{6}{section*.37}
-\contentsline {paragraph}{ }{7}{section*.38}
-\contentsline {paragraph}{ }{7}{section*.41}
+\contentsline {section}{\numberline {2.3}Unsupervised Anomaly Detection Techniques}{6}{section.2.3}
+\contentsline {paragraph}{ }{6}{section*.38}
+\contentsline {paragraph}{ }{7}{section*.39}
 \contentsline {paragraph}{ }{7}{section*.42}
-\contentsline {section}{\numberline {2.4}Anomaly Detection in Particle Accelerators}{7}{section.2.4}
 \contentsline {paragraph}{ }{7}{section*.43}
-\contentsline {paragraph}{ }{8}{section*.44}
-\contentsline {paragraph}{ }{8}{section*.46}
+\contentsline {section}{\numberline {2.4}Anomaly Detection in Particle Accelerators}{7}{section.2.4}
+\contentsline {paragraph}{ }{7}{section*.44}
+\contentsline {paragraph}{ }{8}{section*.45}
 \contentsline {paragraph}{ }{8}{section*.47}
-\contentsline {section}{\numberline {2.5}Software Implementation}{8}{section.2.5}
 \contentsline {paragraph}{ }{8}{section*.48}
-\contentsline {chapter}{\chapternumberline {3}Methodology}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data Collection}{10}{section.3.1}
-\contentsline {paragraph}{ }{10}{section*.49}
-\contentsline {paragraph}{ }{10}{section*.51}
-\contentsline {section}{\numberline {3.2}Data Cleaning and Analysis}{10}{section.3.2}
-\contentsline {paragraph}{ }{10}{section*.52}
-\contentsline {subsection}{\numberline {3.2.1}\acs {TDI} \acs {BLM}s}{11}{subsection.3.2.1}
-\contentsline {paragraph}{ }{11}{section*.53}
-\contentsline {paragraph}{ }{12}{section*.54}
-\contentsline {subsection}{\numberline {3.2.2}Abort Gap}{12}{subsection.3.2.2}
-\contentsline {paragraph}{ }{12}{section*.55}
-\contentsline {paragraph}{ }{12}{section*.56}
-\contentsline {subsection}{\numberline {3.2.3}\acs {SPS} and \acs {LHC} Intensities}{12}{subsection.3.2.3}
-\contentsline {paragraph}{ }{12}{section*.57}
-\contentsline {paragraph}{ }{13}{section*.58}
-\contentsline {subsection}{\numberline {3.2.4}\acs {TL} \acs {BLM}s}{13}{subsection.3.2.4}
-\contentsline {paragraph}{ }{13}{section*.59}
-\contentsline {subsection}{\numberline {3.2.5}\acs {TL} \acs {BPM}s}{13}{subsection.3.2.5}
-\contentsline {paragraph}{ }{13}{section*.60}
-\contentsline {paragraph}{ }{13}{section*.61}
-\contentsline {subsection}{\numberline {3.2.6}Number of Bunches}{14}{subsection.3.2.6}
-\contentsline {paragraph}{ }{14}{section*.62}
-\contentsline {paragraph}{ }{15}{section*.63}
-\contentsline {paragraph}{ }{15}{section*.64}
-\contentsline {section}{\numberline {3.3}Feature Selection}{15}{section.3.3}
-\contentsline {paragraph}{ }{15}{section*.65}
-\contentsline {paragraph}{ }{15}{section*.66}
-\contentsline {section}{\numberline {3.4}Merging the Dataset}{16}{section.3.4}
-\contentsline {paragraph}{ }{16}{section*.67}
-\contentsline {paragraph}{ }{17}{section*.68}
-\contentsline {section}{\numberline {3.5}Anomaly Detection}{17}{section.3.5}
-\contentsline {paragraph}{ }{17}{section*.69}
-\contentsline {paragraph}{ }{17}{section*.70}
-\contentsline {paragraph}{ }{18}{section*.71}
-\contentsline {paragraph}{ }{18}{section*.72}
-\contentsline {paragraph}{ }{18}{section*.73}
-\contentsline {chapter}{\chapternumberline {4}Results}{19}{chapter.4}
-\contentsline {paragraph}{ }{19}{section*.74}
-\contentsline {section}{\numberline {4.1}Beam Displacement Over Time}{19}{section.4.1}
-\contentsline {paragraph}{ }{19}{section*.75}
-\contentsline {paragraph}{ }{20}{section*.76}
-\contentsline {paragraph}{ }{20}{section*.77}
-\contentsline {section}{\numberline {4.2}Performance of the Anomaly Detection Algorithms}{20}{section.4.2}
-\contentsline {paragraph}{ }{20}{section*.78}
+\contentsline {section}{\numberline {2.5}Software Implementation}{8}{section.2.5}
+\contentsline {paragraph}{ }{8}{section*.49}
+\contentsline {chapter}{\chapternumberline {3}Methodology}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data Collection}{9}{section.3.1}
+\contentsline {paragraph}{ }{9}{section*.50}
+\contentsline {paragraph}{ }{9}{section*.52}
+\contentsline {section}{\numberline {3.2}Data Cleaning and Analysis}{9}{section.3.2}
+\contentsline {paragraph}{ }{9}{section*.53}
+\contentsline {subsection}{\numberline {3.2.1}\acs {TDI} \acs {BLM}s}{10}{subsection.3.2.1}
+\contentsline {paragraph}{ }{10}{section*.54}
+\contentsline {paragraph}{ }{11}{section*.55}
+\contentsline {subsection}{\numberline {3.2.2}Abort Gap}{11}{subsection.3.2.2}
+\contentsline {paragraph}{ }{11}{section*.56}
+\contentsline {paragraph}{ }{11}{section*.57}
+\contentsline {subsection}{\numberline {3.2.3}\acs {SPS} and \acs {LHC} Intensities}{11}{subsection.3.2.3}
+\contentsline {paragraph}{ }{11}{section*.58}
+\contentsline {paragraph}{ }{12}{section*.59}
+\contentsline {subsection}{\numberline {3.2.4}\acs {TL} \acs {BLM}s}{12}{subsection.3.2.4}
+\contentsline {paragraph}{ }{12}{section*.60}
+\contentsline {subsection}{\numberline {3.2.5}\acs {TL} \acs {BPM}s}{12}{subsection.3.2.5}
+\contentsline {paragraph}{ }{12}{section*.61}
+\contentsline {paragraph}{ }{12}{section*.62}
+\contentsline {subsection}{\numberline {3.2.6}Number of Bunches}{13}{subsection.3.2.6}
+\contentsline {paragraph}{ }{13}{section*.63}
+\contentsline {paragraph}{ }{14}{section*.64}
+\contentsline {paragraph}{ }{14}{section*.65}
+\contentsline {section}{\numberline {3.3}Feature Selection}{14}{section.3.3}
+\contentsline {paragraph}{ }{14}{section*.66}
+\contentsline {paragraph}{ }{14}{section*.67}
+\contentsline {section}{\numberline {3.4}Merging the Dataset}{15}{section.3.4}
+\contentsline {paragraph}{ }{15}{section*.68}
+\contentsline {paragraph}{ }{16}{section*.69}
+\contentsline {section}{\numberline {3.5}Anomaly Detection}{16}{section.3.5}
+\contentsline {paragraph}{ }{16}{section*.70}
+\contentsline {paragraph}{ }{16}{section*.71}
+\contentsline {paragraph}{ }{17}{section*.72}
+\contentsline {paragraph}{ }{17}{section*.73}
+\contentsline {paragraph}{ }{17}{section*.74}
+\contentsline {chapter}{\chapternumberline {4}Results}{18}{chapter.4}
+\contentsline {paragraph}{ }{18}{section*.75}
+\contentsline {section}{\numberline {4.1}Beam Displacement Over Time}{18}{section.4.1}
+\contentsline {paragraph}{ }{18}{section*.76}
+\contentsline {paragraph}{ }{19}{section*.77}
+\contentsline {paragraph}{ }{19}{section*.78}
+\contentsline {section}{\numberline {4.2}Anomaly Detection}{19}{section.4.2}
+\contentsline {paragraph}{ }{19}{section*.79}
 \contentsline {subsection}{\numberline {4.2.1}3D \acs {LOF}}{20}{subsection.4.2.1}
-\contentsline {paragraph}{ }{20}{section*.79}
-\contentsline {paragraph}{ }{21}{section*.80}
-\contentsline {paragraph}{ }{21}{section*.81}
-\contentsline {subsection}{\numberline {4.2.2}3D \acs {DBSCAN}}{23}{subsection.4.2.2}
-\contentsline {chapter}{References}{24}{section*.83}
+\contentsline {paragraph}{ }{20}{section*.80}
+\contentsline {paragraph}{ }{20}{section*.81}
+\contentsline {paragraph}{ }{20}{section*.82}
+\contentsline {subsection}{\numberline {4.2.2}3D \acs {DBSCAN}}{22}{subsection.4.2.2}
+\contentsline {paragraph}{ }{22}{section*.83}
+\contentsline {paragraph}{ }{22}{section*.84}
+\contentsline {subsection}{\numberline {4.2.3}Full Model}{24}{subsection.4.2.3}
+\contentsline {paragraph}{ }{24}{section*.85}
+\contentsline {paragraph}{ }{24}{section*.86}
+\contentsline {subsection}{\numberline {4.2.4}PCA Model}{26}{subsection.4.2.4}
+\contentsline {paragraph}{ }{26}{section*.87}
+\contentsline {section}{\numberline {4.3}Nature of Anomalous Injections}{28}{section.4.3}
+\contentsline {paragraph}{ }{28}{section*.88}
+\contentsline {chapter}{\chapternumberline {5}Evaluation}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Performance Metrics}{29}{section.5.1}
+\contentsline {paragraph}{ }{29}{section*.89}
+\contentsline {paragraph}{ }{29}{section*.94}
+\contentsline {paragraph}{ }{29}{section*.95}
+\contentsline {paragraph}{ }{30}{section*.96}
+\contentsline {section}{\numberline {5.2}Performance of Algorithms}{30}{section.5.2}
+\contentsline {paragraph}{ }{30}{section*.97}
+\contentsline {paragraph}{ }{31}{section*.98}
+\contentsline {paragraph}{ }{31}{section*.99}
+\contentsline {paragraph}{ }{31}{section*.100}
+\contentsline {chapter}{\chapternumberline {6}Conclusions and Further Work}{32}{chapter.6}
+\contentsline {paragraph}{ }{32}{section*.101}
+\contentsline {paragraph}{ }{32}{section*.102}
+\contentsline {paragraph}{ }{32}{section*.103}
+\contentsline {paragraph}{ }{32}{section*.104}
+\contentsline {chapter}{References}{34}{section*.106}

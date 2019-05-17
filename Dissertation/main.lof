@@ -4,24 +4,36 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Anomalous Injections}}{3}{figure.1.2}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces BLM Histogram}}{11}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces BLM Time Series}}{11}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces BLM Correlation Plot}}{11}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Abort Gap Histogram}}{12}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Change in Abort Gap Histogram}}{12}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Abort Gap Time Series}}{13}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces LHC Intensity Histogram}}{14}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces SPS Intensity Histogram}}{14}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces SPS and LHC Intensities}}{14}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces BPM Histogram}}{15}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Number of Bunches}}{16}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D Features}}{17}{figure.3.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces BLM Histogram}}{10}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces BLM Time Series}}{10}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces BLM Correlation Plot}}{10}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Abort Gap Histogram}}{11}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Change in Abort Gap Histogram}}{11}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Abort Gap Time Series}}{12}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces LHC Intensity Histogram}}{13}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces SPS Intensity Histogram}}{13}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces SPS and LHC Intensities}}{13}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces BPM Histogram}}{14}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Number of Bunches}}{15}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D Features}}{16}{figure.3.12}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces BPM MSE Trend B1}}{19}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces BPM MSE Trend B2}}{19}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces BPM MSE Differencing B1}}{20}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces BPM MSE Differencing B2}}{20}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 3D LoF Results Beam 1}}{21}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 3D LoF Results 2}}{22}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 3D LoF Results 2}}{22}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 3D LoF Results Beam 2}}{23}{figure.4.8}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BPM MSE Trend B1}}{18}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces BPM MSE Trend B2}}{18}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces BPM MSE Differencing B1}}{19}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces BPM MSE Differencing B2}}{19}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 3D LoF Results Beam 1}}{20}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 3D LoF Results Beam 2}}{21}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 3D LoF Results 2}}{21}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 3D LoF Results 2}}{22}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 3D DBSCAN Results Beam 1}}{23}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 3D DBSCAN Results Beam 2}}{23}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Full Dataset Results Beam 1}}{24}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Full Dataset Results Beam 2}}{25}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Full Model BLM/BPM Plot}}{25}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Full Model Intensity/BPM Plot}}{26}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces PCA Dataset Results Beam 1}}{27}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces PCA Dataset Results Beam 2}}{27}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces True Anomalous Injections (Beam 1)}}{28}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces True Anomalous Injections (Beam 2)}}{28}{figure.4.18}
+\addvspace {10pt}
+\addvspace {10pt}

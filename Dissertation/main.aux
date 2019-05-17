@@ -41,6 +41,8 @@
 \newacro{BQM}[\AC@hyperlink{BQM}{BQM}]{Beam Quality Monitor}
 \newacro{CERN}[\AC@hyperlink{CERN}{CERN}]{European Organization for Nuclear Research}
 \newacro{DBSCAN}[\AC@hyperlink{DBSCAN}{DBSCAN}]{Density Based Spatial Clustering of Applications with Noise}
+\newacro{FNR}[\AC@hyperlink{FNR}{FNR}]{False Negative Rate}
+\newacro{FPR}[\AC@hyperlink{FPR}{FPR}]{False Positive Rate}
 \newacro{GMM}[\AC@hyperlink{GMM}{GMM}]{Gaussian Mixture Model}
 \newacro{Gy/s}[\AC@hyperlink{Gy/s}{Gy/s}]{Grays per Second}
 \newacro{IQC}[\AC@hyperlink{IQC}{IQC}]{Injection Quality Check}
@@ -60,6 +62,8 @@
 \newacro{TeV}[\AC@hyperlink{TeV}{TeV}]{teraelectronvolts}
 \newacro{TIMBER}[\AC@hyperlink{TIMBER}{TIMBER}]{the user interface to the LS}
 \newacro{TL}[\AC@hyperlink{TL}{TL}]{Transfer Line}
+\newacro{TNR}[\AC@hyperlink{TNR}{TNR}]{True Negative Rate}
+\newacro{TPR}[\AC@hyperlink{TPR}{TPR}]{True Positive Rate}
 \citation{Evans2008}
 \citation{Valentino2017}
 \citation{Drosdal2011}
@@ -128,6 +132,7 @@
 \@writefile{toc}{\contentsline {paragraph}{ }{3}{section*.16}}
 \acronymused{IQC}
 \acronymused{LHC}
+\@writefile{toc}{\contentsline {paragraph}{ }{3}{section*.17}}
 \citation{Holzer2006}
 \citation{Kain2010}
 \citation{Drosdal2011}
@@ -141,29 +146,29 @@
 \@writefile{toc}{\contentsline {chapter}{\chapternumberline {2}Background and Literature Review}{4}{chapter.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Beam Instrumentation}{4}{section.2.1}}
 \newlabel{sec::beam_instrumentation}{{\M@TitleReference {2.1}{Beam Instrumentation}}{4}{Beam Instrumentation}{section.2.1}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{4}{section*.17}}
+\@writefile{toc}{\contentsline {paragraph}{ }{4}{section*.18}}
 \acronymused{SPS}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {paragraph}{ }{4}{section*.18}}
+\@writefile{toc}{\contentsline {paragraph}{ }{4}{section*.19}}
 \AC@undonewlabel{acro:BLM}
-\newlabel{acro:BLM}{{\M@TitleReference {2.1}{ }}{4}{}{section*.19}{}}
+\newlabel{acro:BLM}{{\M@TitleReference {2.1}{ }}{4}{}{section*.20}{}}
 \acronymused{BLM}
 \acronymused{LHC}
 \acronymused{BLM}
 \acronymused{BLM}
 \acronymused{BLM}
-\@writefile{toc}{\contentsline {paragraph}{ }{4}{section*.20}}
+\@writefile{toc}{\contentsline {paragraph}{ }{4}{section*.21}}
 \acronymused{LHC}
 \AC@undonewlabel{acro:TDI}
-\newlabel{acro:TDI}{{\M@TitleReference {2.1}{ }}{4}{}{section*.21}{}}
+\newlabel{acro:TDI}{{\M@TitleReference {2.1}{ }}{4}{}{section*.22}{}}
 \acronymused{TDI}
 \acronymused{BLM}
 \AC@undonewlabel{acro:TL}
-\newlabel{acro:TL}{{\M@TitleReference {2.1}{ }}{4}{}{section*.22}{}}
+\newlabel{acro:TL}{{\M@TitleReference {2.1}{ }}{4}{}{section*.23}{}}
 \acronymused{TL}
 \acronymused{BLM}
 \AC@undonewlabel{acro:Gy/s}
-\newlabel{acro:Gy/s}{{\M@TitleReference {2.1}{ }}{4}{}{section*.23}{}}
+\newlabel{acro:Gy/s}{{\M@TitleReference {2.1}{ }}{4}{}{section*.24}{}}
 \acronymused{Gy/s}
 \citation{Meddahi2010}
 \citation{Meddahi2010}
@@ -173,9 +178,9 @@
 \citation{Scikitlearn}
 \citation{Shlens2014}
 \citation{Scikitlearn}
-\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.24}}
+\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.25}}
 \AC@undonewlabel{acro:BPM}
-\newlabel{acro:BPM}{{\M@TitleReference {2.1}{ }}{5}{}{section*.25}{}}
+\newlabel{acro:BPM}{{\M@TitleReference {2.1}{ }}{5}{}{section*.26}{}}
 \acronymused{BPM}
 \acronymused{BPM}
 \acronymused{TDI}
@@ -183,22 +188,22 @@
 \acronymused{BPM}
 \acronymused{BPM}
 \acronymused{LS}
-\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.26}}
+\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.27}}
 \acronymused{LHC}
 \acronymused{LHC}
 \AC@undonewlabel{acro:MKD}
-\newlabel{acro:MKD}{{\M@TitleReference {2.1}{ }}{5}{}{section*.27}{}}
+\newlabel{acro:MKD}{{\M@TitleReference {2.1}{ }}{5}{}{section*.28}{}}
 \acronymused{MKD}
 \acronymused{LHC}
 \AC@undonewlabel{acro:RF}
-\newlabel{acro:RF}{{\M@TitleReference {2.1}{ }}{5}{}{section*.28}{}}
+\newlabel{acro:RF}{{\M@TitleReference {2.1}{ }}{5}{}{section*.29}{}}
 \acronymused{RF}
 \AC@undonewlabel{acro:AGM}
-\newlabel{acro:AGM}{{\M@TitleReference {2.1}{ }}{5}{}{section*.29}{}}
+\newlabel{acro:AGM}{{\M@TitleReference {2.1}{ }}{5}{}{section*.30}{}}
 \acronymused{AGM}
-\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.30}}
+\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.31}}
 \AC@undonewlabel{acro:BCT}
-\newlabel{acro:BCT}{{\M@TitleReference {2.1}{ }}{5}{}{section*.31}{}}
+\newlabel{acro:BCT}{{\M@TitleReference {2.1}{ }}{5}{}{section*.32}{}}
 \acronymused{BCT}
 \acronymused{LHC}
 \acronymused{BCT}
@@ -207,9 +212,9 @@
 \acronymused{SPS}
 \acronymused{SPS}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Feature Scaling and Reduction Techniques}{5}{section.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.32}}
+\@writefile{toc}{\contentsline {paragraph}{ }{5}{section*.33}}
 \AC@undonewlabel{acro:PCA}
-\newlabel{acro:PCA}{{\M@TitleReference {2.2}{ }}{5}{}{section*.33}{}}
+\newlabel{acro:PCA}{{\M@TitleReference {2.2}{ }}{5}{}{section*.34}{}}
 \acronymused{PCA}
 \acronymused{PCA}
 \citation{Scikitlearn}
@@ -218,37 +223,37 @@
 \citation{Shlens2014}
 \citation{Shlens2014}
 \citation{Hyvarinen2015}
-\@writefile{toc}{\contentsline {paragraph}{ }{6}{section*.34}}
-\newlabel{eq::MinMax}{{\M@TitleReference {2.1}{ }}{6}{}{equation.2.2.1}{}}
 \@writefile{toc}{\contentsline {paragraph}{ }{6}{section*.35}}
-\acronymused{PCA}
+\newlabel{eq::MinMax}{{\M@TitleReference {2.1}{ }}{6}{}{equation.2.2.1}{}}
 \@writefile{toc}{\contentsline {paragraph}{ }{6}{section*.36}}
+\acronymused{PCA}
+\@writefile{toc}{\contentsline {paragraph}{ }{6}{section*.37}}
 \acronymused{PCA}
 \acronymused{PCA}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Unsupervised Anomaly Detection Techniques}{6}{section.2.3}}
-\@writefile{toc}{\contentsline {paragraph}{ }{6}{section*.37}}
+\@writefile{toc}{\contentsline {paragraph}{ }{6}{section*.38}}
 \citation{Ester1996}
 \citation{Sklearn2}
 \citation{Breunig2000}
 \citation{Edelen2018}
 \AC@undonewlabel{acro:DBSCAN}
-\newlabel{acro:DBSCAN}{{\M@TitleReference {2.3}{ }}{7}{}{section*.39}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{7}{section*.38}}
+\newlabel{acro:DBSCAN}{{\M@TitleReference {2.3}{ }}{7}{}{section*.40}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{7}{section*.39}}
 \acronymused{DBSCAN}
 \AC@undonewlabel{acro:LOF}
-\newlabel{acro:LOF}{{\M@TitleReference {2.3}{ }}{7}{}{section*.40}{}}
-\acronymused{LOF}
-\@writefile{toc}{\contentsline {paragraph}{ }{7}{section*.41}}
-\acronymused{DBSCAN}
-\acronymused{DBSCAN}
+\newlabel{acro:LOF}{{\M@TitleReference {2.3}{ }}{7}{}{section*.41}{}}
 \acronymused{LOF}
 \@writefile{toc}{\contentsline {paragraph}{ }{7}{section*.42}}
+\acronymused{DBSCAN}
+\acronymused{DBSCAN}
+\acronymused{LOF}
+\@writefile{toc}{\contentsline {paragraph}{ }{7}{section*.43}}
 \acronymused{LOF}
 \acronymused{DBSCAN}
 \acronymused{LOF}
 \acronymused{LOF}
 \@writefile{toc}{\contentsline {section}{\numberline {2.4}Anomaly Detection in Particle Accelerators}{7}{section.2.4}}
-\@writefile{toc}{\contentsline {paragraph}{ }{7}{section*.43}}
+\@writefile{toc}{\contentsline {paragraph}{ }{7}{section*.44}}
 \citation{Halilovic2018}
 \citation{Wielgosz2017}
 \citation{Valentino2017}
@@ -256,64 +261,63 @@
 \citation{Shogun}
 \citation{Pedregosa2011}
 \citation{Pedregosa2011}
-\citation{Pedregosa2011}
-\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.44}}
+\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.45}}
 \AC@undonewlabel{acro:GMM}
-\newlabel{acro:GMM}{{\M@TitleReference {2.4}{ }}{8}{}{section*.45}{}}
+\newlabel{acro:GMM}{{\M@TitleReference {2.4}{ }}{8}{}{section*.46}{}}
 \acronymused{GMM}
 \acronymused{LHC}
 \acronymused{LOF}
-\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.46}}
+\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.47}}
 \acronymused{LHC}
 \acronymused{CERN}
-\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.47}}
+\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.48}}
 \acronymused{PCA}
 \acronymused{LOF}
 \acronymused{BPM}
 \acronymused{BLM}
 \acronymused{LHC}
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}Software Implementation}{8}{section.2.5}}
-\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.48}}
+\@writefile{toc}{\contentsline {paragraph}{ }{8}{section*.49}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {3}Methodology}{10}{chapter.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data Collection}{10}{section.3.1}}
-\@writefile{toc}{\contentsline {paragraph}{ }{10}{section*.49}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {3}Methodology}{9}{chapter.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data Collection}{9}{section.3.1}}
+\@writefile{toc}{\contentsline {paragraph}{ }{9}{section*.50}}
 \AC@undonewlabel{acro:TIMBER}
-\newlabel{acro:TIMBER}{{\M@TitleReference {3.1}{ }}{10}{}{section*.50}{}}
+\newlabel{acro:TIMBER}{{\M@TitleReference {3.1}{ }}{9}{}{section*.51}{}}
 \acronymused{TIMBER}
 \acronymused{CERN}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {paragraph}{ }{10}{section*.51}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data Cleaning and Analysis}{10}{section.3.2}}
-\newlabel{sec::Data_Cleaning_and_Analysis}{{\M@TitleReference {3.2}{Data Cleaning and Analysis}}{10}{Data Cleaning and Analysis}{section.3.2}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{10}{section*.52}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces BLM Histogram}}{11}{figure.3.1}}
-\newlabel{fig::TDI_BLM_hist}{{\M@TitleReference {3.1}{BLM Histogram}}{11}{BLM Histogram}{figure.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces BLM Time Series}}{11}{figure.3.2}}
-\newlabel{fig::Raw_TDI_BLM}{{\M@TitleReference {3.2}{BLM Time Series}}{11}{BLM Time Series}{figure.3.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{9}{section*.52}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data Cleaning and Analysis}{9}{section.3.2}}
+\newlabel{sec::Data_Cleaning_and_Analysis}{{\M@TitleReference {3.2}{Data Cleaning and Analysis}}{9}{Data Cleaning and Analysis}{section.3.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{9}{section*.53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces BLM Histogram}}{10}{figure.3.1}}
+\newlabel{fig::TDI_BLM_hist}{{\M@TitleReference {3.1}{BLM Histogram}}{10}{BLM Histogram}{figure.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces BLM Time Series}}{10}{figure.3.2}}
+\newlabel{fig::Raw_TDI_BLM}{{\M@TitleReference {3.2}{BLM Time Series}}{10}{BLM Time Series}{figure.3.2}{}}
 \acronymused{TDI}
 \acronymused{BLM}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}\acs {TDI} \acs {BLM}s}{11}{subsection.3.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{ }{11}{section*.53}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}\acs {TDI} \acs {BLM}s}{10}{subsection.3.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{ }{10}{section*.54}}
 \acronymused{BLM}
 \acronymused{TDI}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces BLM Correlation Plot}}{11}{figure.3.3}}
-\newlabel{fig::TDI_BLM_3D}{{\M@TitleReference {3.3}{BLM Correlation Plot}}{11}{BLM Correlation Plot}{figure.3.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Abort Gap Histogram}}{12}{figure.3.4}}
-\newlabel{fig::Abort_Gap_hist}{{\M@TitleReference {3.4}{Abort Gap Histogram}}{12}{Abort Gap Histogram}{figure.3.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Change in Abort Gap Histogram}}{12}{figure.3.5}}
-\newlabel{fig::Change_in_Abort_Gap_hist}{{\M@TitleReference {3.5}{Change in Abort Gap Histogram}}{12}{Change in Abort Gap Histogram}{figure.3.5}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.54}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Abort Gap}{12}{subsection.3.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces BLM Correlation Plot}}{10}{figure.3.3}}
+\newlabel{fig::TDI_BLM_3D}{{\M@TitleReference {3.3}{BLM Correlation Plot}}{10}{BLM Correlation Plot}{figure.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Abort Gap Histogram}}{11}{figure.3.4}}
+\newlabel{fig::Abort_Gap_hist}{{\M@TitleReference {3.4}{Abort Gap Histogram}}{11}{Abort Gap Histogram}{figure.3.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Change in Abort Gap Histogram}}{11}{figure.3.5}}
+\newlabel{fig::Change_in_Abort_Gap_hist}{{\M@TitleReference {3.5}{Change in Abort Gap Histogram}}{11}{Change in Abort Gap Histogram}{figure.3.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{11}{section*.55}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Abort Gap}{11}{subsection.3.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{ }{11}{section*.56}}
 \acronymused{TDI}
 \acronymused{BLM}
-\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.56}}
+\@writefile{toc}{\contentsline {paragraph}{ }{11}{section*.57}}
 \acronymused{SPS}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}\acs {SPS} and \acs {LHC} Intensities}{12}{subsection.3.2.3}}
-\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.57}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}\acs {SPS} and \acs {LHC} Intensities}{11}{subsection.3.2.3}}
+\@writefile{toc}{\contentsline {paragraph}{ }{11}{section*.58}}
 \acronymused{LHC}
 \acronymused{SPS}
 \acronymused{LHC}
@@ -325,58 +329,58 @@
 \acronymused{BLM}
 \acronymused{LHC}
 \acronymused{SPS}
-\@writefile{toc}{\contentsline {paragraph}{ }{13}{section*.58}}
+\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.59}}
 \acronymused{LHC}
 \acronymused{SPS}
 \acronymused{LHC}
 \acronymused{SPS}
 \acronymused{TL}
 \acronymused{BLM}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}\acs {TL} \acs {BLM}s}{13}{subsection.3.2.4}}
-\newlabel{subsec::TLBLM}{{\M@TitleReference {3.2.4}{\acs {TL} \acs {BLM}s}}{13}{\acs {TL} \acs {BLM}s}{subsection.3.2.4}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{13}{section*.59}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}\acs {TL} \acs {BLM}s}{12}{subsection.3.2.4}}
+\newlabel{subsec::TLBLM}{{\M@TitleReference {3.2.4}{\acs {TL} \acs {BLM}s}}{12}{\acs {TL} \acs {BLM}s}{subsection.3.2.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.60}}
 \acronymused{TL}
 \acronymused{BLM}
 \acronymused{TL}
 \acronymused{BPM}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}\acs {TL} \acs {BPM}s}{13}{subsection.3.2.5}}
-\@writefile{toc}{\contentsline {paragraph}{ }{13}{section*.60}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}\acs {TL} \acs {BPM}s}{12}{subsection.3.2.5}}
+\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.61}}
 \acronymused{BPM}
 \acronymused{TL}
 \acronymused{TL}
-\@writefile{toc}{\contentsline {paragraph}{ }{13}{section*.61}}
+\@writefile{toc}{\contentsline {paragraph}{ }{12}{section*.62}}
 \acronymused{MSE}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Abort Gap Time Series}}{13}{figure.3.6}}
-\newlabel{fig::Abort_Gap_Time_Series}{{\M@TitleReference {3.6}{Abort Gap Time Series}}{13}{Abort Gap Time Series}{figure.3.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces LHC Intensity Histogram}}{14}{figure.3.7}}
-\newlabel{fig::LHC_Intensity_hist}{{\M@TitleReference {3.7}{LHC Intensity Histogram}}{14}{LHC Intensity Histogram}{figure.3.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces SPS Intensity Histogram}}{14}{figure.3.8}}
-\newlabel{fig::SPS_Intensity_hist}{{\M@TitleReference {3.8}{SPS Intensity Histogram}}{14}{SPS Intensity Histogram}{figure.3.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces SPS and LHC Intensities}}{14}{figure.3.9}}
-\newlabel{fig::SPS_and_LHC}{{\M@TitleReference {3.9}{SPS and LHC Intensities}}{14}{SPS and LHC Intensities}{figure.3.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Number of Bunches}{14}{subsection.3.2.6}}
-\@writefile{toc}{\contentsline {paragraph}{ }{14}{section*.62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Abort Gap Time Series}}{12}{figure.3.6}}
+\newlabel{fig::Abort_Gap_Time_Series}{{\M@TitleReference {3.6}{Abort Gap Time Series}}{12}{Abort Gap Time Series}{figure.3.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces LHC Intensity Histogram}}{13}{figure.3.7}}
+\newlabel{fig::LHC_Intensity_hist}{{\M@TitleReference {3.7}{LHC Intensity Histogram}}{13}{LHC Intensity Histogram}{figure.3.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces SPS Intensity Histogram}}{13}{figure.3.8}}
+\newlabel{fig::SPS_Intensity_hist}{{\M@TitleReference {3.8}{SPS Intensity Histogram}}{13}{SPS Intensity Histogram}{figure.3.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces SPS and LHC Intensities}}{13}{figure.3.9}}
+\newlabel{fig::SPS_and_LHC}{{\M@TitleReference {3.9}{SPS and LHC Intensities}}{13}{SPS and LHC Intensities}{figure.3.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Number of Bunches}{13}{subsection.3.2.6}}
+\@writefile{toc}{\contentsline {paragraph}{ }{13}{section*.63}}
 \acronymused{LHC}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {paragraph}{ }{15}{section*.63}}
-\@writefile{toc}{\contentsline {paragraph}{ }{15}{section*.64}}
+\@writefile{toc}{\contentsline {paragraph}{ }{14}{section*.64}}
+\@writefile{toc}{\contentsline {paragraph}{ }{14}{section*.65}}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Feature Selection}{15}{section.3.3}}
-\newlabel{sec::FeatureSelection}{{\M@TitleReference {3.3}{Feature Selection}}{15}{Feature Selection}{section.3.3}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{15}{section*.65}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Feature Selection}{14}{section.3.3}}
+\newlabel{sec::FeatureSelection}{{\M@TitleReference {3.3}{Feature Selection}}{14}{Feature Selection}{section.3.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{14}{section*.66}}
 \acronymused{TDI}
 \acronymused{BLM}
 \acronymused{LHC}
 \acronymused{SPS}
 \acronymused{MSE}
 \acronymused{BPM}
-\@writefile{toc}{\contentsline {paragraph}{ }{15}{section*.66}}
+\@writefile{toc}{\contentsline {paragraph}{ }{14}{section*.67}}
 \acronymused{TDI}
 \acronymused{BLM}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces BPM Histogram}}{15}{figure.3.10}}
-\newlabel{fig::BPM_hist}{{\M@TitleReference {3.10}{BPM Histogram}}{15}{BPM Histogram}{figure.3.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Number of Bunches}}{16}{figure.3.11}}
-\newlabel{fig::Number_of_Bunches}{{\M@TitleReference {3.11}{Number of Bunches}}{16}{Number of Bunches}{figure.3.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces BPM Histogram}}{14}{figure.3.10}}
+\newlabel{fig::BPM_hist}{{\M@TitleReference {3.10}{BPM Histogram}}{14}{BPM Histogram}{figure.3.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Number of Bunches}}{15}{figure.3.11}}
+\newlabel{fig::Number_of_Bunches}{{\M@TitleReference {3.11}{Number of Bunches}}{15}{Number of Bunches}{figure.3.11}{}}
 \acronymused{TL}
 \acronymused{BLM}
 \acronymused{LHC}
@@ -401,74 +405,181 @@
 \acronymused{BPM}
 \acronymused{BPM}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Merging the Dataset}{16}{section.3.4}}
-\newlabel{sec::Merging_the_Dataset}{{\M@TitleReference {3.4}{Merging the Dataset}}{16}{Merging the Dataset}{section.3.4}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{16}{section*.67}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D Features}}{17}{figure.3.12}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Merging the Dataset}{15}{section.3.4}}
+\newlabel{sec::Merging_the_Dataset}{{\M@TitleReference {3.4}{Merging the Dataset}}{15}{Merging the Dataset}{section.3.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{15}{section*.68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces 3D Features}}{16}{figure.3.12}}
 \acronymused{LOF}
-\newlabel{fig::Scaling}{{\M@TitleReference {3.12}{3D Features}}{17}{3D Features}{figure.3.12}{}}
+\newlabel{fig::Scaling}{{\M@TitleReference {3.12}{3D Features}}{16}{3D Features}{figure.3.12}{}}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {paragraph}{ }{17}{section*.68}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Anomaly Detection}{17}{section.3.5}}
-\newlabel{sec::AnomalyDetection}{{\M@TitleReference {3.5}{Anomaly Detection}}{17}{Anomaly Detection}{section.3.5}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{17}{section*.69}}
+\@writefile{toc}{\contentsline {paragraph}{ }{16}{section*.69}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Anomaly Detection}{16}{section.3.5}}
+\newlabel{sec::AnomalyDetection}{{\M@TitleReference {3.5}{Anomaly Detection}}{16}{Anomaly Detection}{section.3.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{16}{section*.70}}
 \acronymused{LOF}
 \acronymused{DBSCAN}
-\@writefile{toc}{\contentsline {paragraph}{ }{17}{section*.70}}
+\@writefile{toc}{\contentsline {paragraph}{ }{16}{section*.71}}
 \acronymused{LOF}
 \acronymused{PCA}
 \citation{Sklearn2}
 \acronymused{LOF}
-\@writefile{toc}{\contentsline {paragraph}{ }{18}{section*.71}}
-\@writefile{toc}{\contentsline {paragraph}{ }{18}{section*.72}}
+\@writefile{toc}{\contentsline {paragraph}{ }{17}{section*.72}}
+\@writefile{toc}{\contentsline {paragraph}{ }{17}{section*.73}}
 \acronymused{LOF}
 \acronymused{DBSCAN}
-\@writefile{toc}{\contentsline {paragraph}{ }{18}{section*.73}}
+\@writefile{toc}{\contentsline {paragraph}{ }{17}{section*.74}}
 \acronymused{TIMBER}
 \acronymused{LHC}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Results}{19}{chapter.4}}
-\newlabel{chp4}{{\M@TitleReference {4}{Results}}{19}{Results}{chapter.4}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{19}{section*.74}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Beam Displacement Over Time}{19}{section.4.1}}
-\@writefile{toc}{\contentsline {paragraph}{ }{19}{section*.75}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Results}{18}{chapter.4}}
+\newlabel{chp4}{{\M@TitleReference {4}{Results}}{18}{Results}{chapter.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{18}{section*.75}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Beam Displacement Over Time}{18}{section.4.1}}
+\@writefile{toc}{\contentsline {paragraph}{ }{18}{section*.76}}
 \acronymused{BPM}
 \acronymused{MSE}
 \acronymused{LHC}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces BPM MSE Trend B1}}{19}{figure.4.1}}
-\newlabel{fig::BPM_MSE_Trend_B1}{{\M@TitleReference {4.1}{BPM MSE Trend B1}}{19}{BPM MSE Trend B1}{figure.4.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces BPM MSE Trend B2}}{19}{figure.4.2}}
-\newlabel{fig::BPM_MSE_Trend_B2}{{\M@TitleReference {4.2}{BPM MSE Trend B2}}{19}{BPM MSE Trend B2}{figure.4.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces BPM MSE Differencing B1}}{20}{figure.4.3}}
-\newlabel{fig::BPM_MSE_Diff_B1}{{\M@TitleReference {4.3}{BPM MSE Differencing B1}}{20}{BPM MSE Differencing B1}{figure.4.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces BPM MSE Differencing B2}}{20}{figure.4.4}}
-\newlabel{fig::BPM_MSE_Diff_B2}{{\M@TitleReference {4.4}{BPM MSE Differencing B2}}{20}{BPM MSE Differencing B2}{figure.4.4}{}}
-\@writefile{toc}{\contentsline {paragraph}{ }{20}{section*.76}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces BPM MSE Trend B1}}{18}{figure.4.1}}
+\newlabel{fig::BPM_MSE_Trend_B1}{{\M@TitleReference {4.1}{BPM MSE Trend B1}}{18}{BPM MSE Trend B1}{figure.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces BPM MSE Trend B2}}{18}{figure.4.2}}
+\newlabel{fig::BPM_MSE_Trend_B2}{{\M@TitleReference {4.2}{BPM MSE Trend B2}}{18}{BPM MSE Trend B2}{figure.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces BPM MSE Differencing B1}}{19}{figure.4.3}}
+\newlabel{fig::BPM_MSE_Diff_B1}{{\M@TitleReference {4.3}{BPM MSE Differencing B1}}{19}{BPM MSE Differencing B1}{figure.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces BPM MSE Differencing B2}}{19}{figure.4.4}}
+\newlabel{fig::BPM_MSE_Diff_B2}{{\M@TitleReference {4.4}{BPM MSE Differencing B2}}{19}{BPM MSE Differencing B2}{figure.4.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{19}{section*.77}}
 \acronymused{LHC}
 \acronymused{LHC}
-\@writefile{toc}{\contentsline {paragraph}{ }{20}{section*.77}}
+\@writefile{toc}{\contentsline {paragraph}{ }{19}{section*.78}}
 \acronymused{MSE}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Performance of the Anomaly Detection Algorithms}{20}{section.4.2}}
-\@writefile{toc}{\contentsline {paragraph}{ }{20}{section*.78}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Anomaly Detection}{19}{section.4.2}}
+\@writefile{toc}{\contentsline {paragraph}{ }{19}{section*.79}}
 \acronymused{LOF}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}3D \acs {LOF}}{20}{subsection.4.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{ }{20}{section*.79}}
+\@writefile{toc}{\contentsline {paragraph}{ }{20}{section*.80}}
 \acronymused{LOF}
-\@writefile{toc}{\contentsline {paragraph}{ }{21}{section*.80}}
+\@writefile{toc}{\contentsline {paragraph}{ }{20}{section*.81}}
 \acronymused{LOF}
-\@writefile{toc}{\contentsline {paragraph}{ }{21}{section*.81}}
+\@writefile{toc}{\contentsline {paragraph}{ }{20}{section*.82}}
 \acronymused{LOF}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 3D LoF Results Beam 1}}{21}{figure.4.5}}
-\newlabel{fig::3D_results1}{{\M@TitleReference {4.5}{3D LoF Results Beam 1}}{21}{3D LoF Results Beam 1}{figure.4.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 3D LoF Results 2}}{22}{figure.4.6}}
-\newlabel{fig::3D_results2}{{\M@TitleReference {4.6}{3D LoF Results 2}}{22}{3D LoF Results 2}{figure.4.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 3D LoF Results 2}}{22}{figure.4.7}}
-\newlabel{fig::3D_results3}{{\M@TitleReference {4.7}{3D LoF Results 2}}{22}{3D LoF Results 2}{figure.4.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 3D LoF Results Beam 2}}{23}{figure.4.8}}
-\newlabel{fig::3D_results1_B2}{{\M@TitleReference {4.8}{3D LoF Results Beam 2}}{23}{3D LoF Results Beam 2}{figure.4.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces 3D LoF Results Beam 1}}{20}{figure.4.5}}
+\newlabel{fig::3D_results1}{{\M@TitleReference {4.5}{3D LoF Results Beam 1}}{20}{3D LoF Results Beam 1}{figure.4.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces 3D LoF Results Beam 2}}{21}{figure.4.6}}
+\newlabel{fig::3D_results1_B2}{{\M@TitleReference {4.6}{3D LoF Results Beam 2}}{21}{3D LoF Results Beam 2}{figure.4.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 3D LoF Results 2}}{21}{figure.4.7}}
+\newlabel{fig::3D_results2}{{\M@TitleReference {4.7}{3D LoF Results 2}}{21}{3D LoF Results 2}{figure.4.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces 3D LoF Results 2}}{22}{figure.4.8}}
+\newlabel{fig::3D_results3}{{\M@TitleReference {4.8}{3D LoF Results 2}}{22}{3D LoF Results 2}{figure.4.8}{}}
 \acronymused{DBSCAN}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}3D \acs {DBSCAN}}{23}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}3D \acs {DBSCAN}}{22}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{ }{22}{section*.83}}
+\acronymused{DBSCAN}
+\acronymused{LOF}
+\@writefile{toc}{\contentsline {paragraph}{ }{22}{section*.84}}
+\acronymused{LOF}
+\acronymused{PCA}
+\acronymused{LOF}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces 3D DBSCAN Results Beam 1}}{23}{figure.4.9}}
+\newlabel{fig::3DBSCAN_results1}{{\M@TitleReference {4.9}{3D DBSCAN Results Beam 1}}{23}{3D DBSCAN Results Beam 1}{figure.4.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces 3D DBSCAN Results Beam 2}}{23}{figure.4.10}}
+\newlabel{fig::3DBSCAN_results2}{{\M@TitleReference {4.10}{3D DBSCAN Results Beam 2}}{23}{3D DBSCAN Results Beam 2}{figure.4.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Full Model}{24}{subsection.4.2.3}}
+\@writefile{toc}{\contentsline {paragraph}{ }{24}{section*.85}}
+\acronymused{LOF}
+\@writefile{toc}{\contentsline {paragraph}{ }{24}{section*.86}}
+\acronymused{PCA}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Full Dataset Results Beam 1}}{24}{figure.4.11}}
+\newlabel{fig::Full_results1}{{\M@TitleReference {4.11}{Full Dataset Results Beam 1}}{24}{Full Dataset Results Beam 1}{figure.4.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Full Dataset Results Beam 2}}{25}{figure.4.12}}
+\newlabel{fig::Full_results2}{{\M@TitleReference {4.12}{Full Dataset Results Beam 2}}{25}{Full Dataset Results Beam 2}{figure.4.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Full Model BLM/BPM Plot}}{25}{figure.4.13}}
+\newlabel{fig::Full_2D1}{{\M@TitleReference {4.13}{Full Model BLM/BPM Plot}}{25}{Full Model BLM/BPM Plot}{figure.4.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Full Model Intensity/BPM Plot}}{26}{figure.4.14}}
+\newlabel{fig::Full_2D2}{{\M@TitleReference {4.14}{Full Model Intensity/BPM Plot}}{26}{Full Model Intensity/BPM Plot}{figure.4.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}PCA Model}{26}{subsection.4.2.4}}
+\@writefile{toc}{\contentsline {paragraph}{ }{26}{section*.87}}
+\acronymused{PCA}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces PCA Dataset Results Beam 1}}{27}{figure.4.15}}
+\newlabel{fig::PCA_results1}{{\M@TitleReference {4.15}{PCA Dataset Results Beam 1}}{27}{PCA Dataset Results Beam 1}{figure.4.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces PCA Dataset Results Beam 2}}{27}{figure.4.16}}
+\newlabel{fig::PCA_results2}{{\M@TitleReference {4.16}{PCA Dataset Results Beam 2}}{27}{PCA Dataset Results Beam 2}{figure.4.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Nature of Anomalous Injections}{28}{section.4.3}}
+\@writefile{toc}{\contentsline {paragraph}{ }{28}{section*.88}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces True Anomalous Injections (Beam 1)}}{28}{figure.4.17}}
+\newlabel{fig::TrueAnomalies}{{\M@TitleReference {4.17}{True Anomalous Injections (Beam 1)}}{28}{True Anomalous Injections (Beam 1)}{figure.4.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces True Anomalous Injections (Beam 2)}}{28}{figure.4.18}}
+\newlabel{fig::TrueAnomalies2}{{\M@TitleReference {4.18}{True Anomalous Injections (Beam 2)}}{28}{True Anomalous Injections (Beam 2)}{figure.4.18}{}}
+\citation{Goldstein2016}
+\citation{Danjuma2015}
+\citation{Danjuma2015}
+\citation{Danjuma2015}
+\citation{Danjuma2015}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {5}Evaluation}{29}{chapter.5}}
+\newlabel{chp5}{{\M@TitleReference {5}{Evaluation}}{29}{Evaluation}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Performance Metrics}{29}{section.5.1}}
+\@writefile{toc}{\contentsline {paragraph}{ }{29}{section*.89}}
+\AC@undonewlabel{acro:TPR}
+\newlabel{acro:TPR}{{\M@TitleReference {5.1}{ }}{29}{}{section*.90}{}}
+\acronymused{TPR}
+\AC@undonewlabel{acro:TNR}
+\newlabel{acro:TNR}{{\M@TitleReference {5.1}{ }}{29}{}{section*.91}{}}
+\acronymused{TNR}
+\AC@undonewlabel{acro:FPR}
+\newlabel{acro:FPR}{{\M@TitleReference {5.1}{ }}{29}{}{section*.92}{}}
+\acronymused{FPR}
+\AC@undonewlabel{acro:FNR}
+\newlabel{acro:FNR}{{\M@TitleReference {5.1}{ }}{29}{}{section*.93}{}}
+\acronymused{FNR}
+\acronymused{FNR}
+\newlabel{eq::sensitivity}{{\M@TitleReference {5.1}{ }}{29}{}{equation.5.1.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{29}{section*.94}}
+\acronymused{FPR}
+\newlabel{eq::specificity}{{\M@TitleReference {5.2}{ }}{29}{}{equation.5.1.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{29}{section*.95}}
+\newlabel{eq::accuracy}{{\M@TitleReference {5.3}{ }}{29}{}{equation.5.1.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{30}{section*.96}}
+\newlabel{eq::precision}{{\M@TitleReference {5.4}{ }}{30}{}{equation.5.1.4}{}}
+\newlabel{eq::fmeasure}{{\M@TitleReference {5.5}{ }}{30}{}{equation.5.1.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Performance of Algorithms}{30}{section.5.2}}
+\@writefile{toc}{\contentsline {paragraph}{ }{30}{section*.97}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Beam 1 Results}}{30}{table.5.1}}
+\newlabel{tab::Beam1_results}{{\M@TitleReference {5.1}{Beam 1 Results}}{30}{Beam 1 Results}{table.5.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Beam 1 Efficiency Metrics}}{30}{table.5.2}}
+\newlabel{tab::Beam1_efficiency}{{\M@TitleReference {5.2}{Beam 1 Efficiency Metrics}}{30}{Beam 1 Efficiency Metrics}{table.5.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Beam 1 Performance Metrics}}{30}{table.5.3}}
+\newlabel{tab::Beam1_performance}{{\M@TitleReference {5.3}{Beam 1 Performance Metrics}}{30}{Beam 1 Performance Metrics}{table.5.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{31}{section*.98}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces Beam 2 Results}}{31}{table.5.4}}
+\newlabel{tab::Beam2_results}{{\M@TitleReference {5.4}{Beam 2 Results}}{31}{Beam 2 Results}{table.5.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces Beam 2 Efficiency Metrics}}{31}{table.5.5}}
+\newlabel{tab::Beam2_efficiency}{{\M@TitleReference {5.5}{Beam 2 Efficiency Metrics}}{31}{Beam 2 Efficiency Metrics}{table.5.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.6}{\ignorespaces Beam 2 Performance Metrics}}{31}{table.5.6}}
+\newlabel{tab::Beam2_performance}{{\M@TitleReference {5.6}{Beam 2 Performance Metrics}}{31}{Beam 2 Performance Metrics}{table.5.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{31}{section*.99}}
+\@writefile{toc}{\contentsline {paragraph}{ }{31}{section*.100}}
+\citation{Valentino2017}
+\citation{Halilovic2018}
+\@writefile{lof}{\addvspace {10pt}}
+\@writefile{lot}{\addvspace {10pt}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {6}Conclusions and Further Work}{32}{chapter.6}}
+\newlabel{chp6}{{\M@TitleReference {6}{Conclusions and Further Work}}{32}{Conclusions and Further Work}{chapter.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{ }{32}{section*.101}}
+\acronymused{LOF}
+\acronymused{DBSCAN}
+\acronymused{SPS}
+\acronymused{LHC}
+\acronymused{LOF}
+\@writefile{toc}{\contentsline {paragraph}{ }{32}{section*.102}}
+\@writefile{toc}{\contentsline {paragraph}{ }{32}{section*.103}}
+\acronymused{PCA}
+\acronymused{PCA}
+\@writefile{toc}{\contentsline {paragraph}{ }{32}{section*.104}}
+\acronymused{IQC}
+\acronymused{IQC}
+\acronymused{LHC}
 \bibstyle{IEEEtran}
 \bibdata{Chapter2/background_biblio}
 \bibcite{Evans2008}{{1}{}{{}}{{}}}
@@ -487,7 +598,7 @@
 \bibcite{Shlens2014}{{14}{}{{}}{{}}}
 \bibcite{Zimek2012}{{15}{}{{}}{{}}}
 \bibcite{Richardson2009}{{16}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{References}{24}{section*.83}}
+\@writefile{toc}{\contentsline {chapter}{References}{34}{section*.106}}
 \bibcite{Hyvarinen2015}{{17}{}{{}}{{}}}
 \bibcite{Ester1996}{{18}{}{{}}{{}}}
 \bibcite{Sklearn2}{{19}{}{{}}{{}}}
@@ -497,6 +608,8 @@
 \bibcite{PyMVPA}{{23}{}{{}}{{}}}
 \bibcite{Shogun}{{24}{}{{}}{{}}}
 \bibcite{Pedregosa2011}{{25}{}{{}}{{}}}
+\bibcite{Goldstein2016}{{26}{}{{}}{{}}}
+\bibcite{Danjuma2015}{{27}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\memsetcounter{lastsheet}{34}
-\memsetcounter{lastpage}{25}
+\memsetcounter{lastsheet}{46}
+\memsetcounter{lastpage}{35}

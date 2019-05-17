@@ -19,7 +19,14 @@
 \BOOKMARK [1][-]{section.3.5}{Anomaly Detection}{chapter.3}% 19
 \BOOKMARK [0][-]{chapter.4}{Results}{}% 20
 \BOOKMARK [1][-]{section.4.1}{Beam Displacement Over Time}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Performance of the Anomaly Detection Algorithms}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Anomaly Detection}{chapter.4}% 22
 \BOOKMARK [2][-]{subsection.4.2.1}{3D LOF}{section.4.2}% 23
 \BOOKMARK [2][-]{subsection.4.2.2}{3D DBSCAN}{section.4.2}% 24
-\BOOKMARK [0][-]{section*.83}{References}{}% 25
+\BOOKMARK [2][-]{subsection.4.2.3}{Full Model}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.4}{PCA Model}{section.4.2}% 26
+\BOOKMARK [1][-]{section.4.3}{Nature of Anomalous Injections}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Evaluation}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Performance Metrics}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Performance of Algorithms}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Conclusions and Further Work}{}% 31
+\BOOKMARK [0][-]{section*.106}{References}{}% 32

@@ -134,4 +134,14 @@ M.~Wielgosz \emph{et~al.}, ``{T}he {M}odel of an {A}nomaly {D}etector for
 \emph{{S}cikit-learn: {M}achine {L}earning in {P}ython}, ser. Journal of
   Machine Learning Research, vol.~12, 2011.
 
+\bibitem{Goldstein2016}
+M.~Goldstein and S.~Uchida, ``{A} {C}omparative {E}valuation of {U}nsupervised
+  {A}nomaly {D}etection {A}lgorithms for {M}ultivariate {D}ata,'' \emph{PLoS
+  ONE}, pp. 1--31, April 2016.
+
+\bibitem{Danjuma2015}
+K.~J. Danjuma, ``{P}erformance {E}valuation of {M}achine {L}earning
+  {A}lgorithms in {P}ost-operative {L}ife {E}xpectancy in the {L}ung {C}ancer
+  {P}atients,'' Master's thesis, Modibbo Adama University of Technology, 2015.
+
 \end{thebibliography}
