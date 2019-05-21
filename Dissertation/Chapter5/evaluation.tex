@@ -3,7 +3,7 @@
 
 \section{Performance Metrics}
 
-\paragraph{ }Comparing the performance of unsupervised anomaly detection algorithms is not a straight forward task and can be trickier than the supervised classification case \cite{Goldstein2016}. There are many metrics that can be used as performance measures, the most common ones being efficiency measures such as \ac{TPR}, \ac{TNR}, \ac{FPR} and \ac{FNR}. \acs{FNR} is also known as `Sensitivity', this measures the chances of a true anomaly to be detected by the algorithm and is calculated as shown in Equation \ref{eq::sensitivity} \cite{Danjuma2015}. This measure is also known as a Type II error in statistics.
+\paragraph{ }Comparing the performance of unsupervised anomaly detection algorithms is not a straight forward task and can be trickier than the supervised classification case since no ground truth is available \cite{Goldstein2016}. There are many metrics that can be used as performance measures, the most common ones being efficiency measures such as \ac{TPR}, \ac{TNR}, \ac{FPR} and \ac{FNR}. \acs{FNR} is also known as `Sensitivity', this measures the chances of a true anomaly to be detected by the algorithm and is calculated as shown in Equation \ref{eq::sensitivity} \cite{Danjuma2015}. This measure is also known as a Type II error in statistics.
 
 \begin{equation}\label{eq::sensitivity}
 \centering
@@ -96,7 +96,8 @@ F-measure=\frac{2*Precision*Sensitivity}{Precision+Sensitivity}
 		\textbf{3D DBSCAN}  & 60                       & 28                      & 1045                    & 32                       & 106                      \\ \hline
 		\textbf{Full Model} & 96                       & 61                      & 1042                    & 35                       & 73                       \\ \hline
 		\textbf{PCA Model}  & 115                      & 65                      & 1027                    & 50                       & 69                       \\ \hline
-	\end{tabular}}
+	\end{tabular}
+}
 \caption[Beam 2 Results]{Summary of Results for Beam 2}
 \label{tab::Beam2_results}
 \end{table}

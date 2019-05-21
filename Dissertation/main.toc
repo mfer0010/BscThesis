@@ -109,3 +109,7 @@
 \contentsline {paragraph}{ }{32}{section*.103}
 \contentsline {paragraph}{ }{32}{section*.104}
 \contentsline {chapter}{References}{34}{section*.106}
+\contentsline {chapter}{Appendix}{36}{appendix*.107}
+\contentsline {section}{Media Content and Running the Code}{36}{section*.108}
+\contentsline {paragraph}{ }{36}{section*.109}
+\contentsline {section}{Other Plots}{36}{section*.110}

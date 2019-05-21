@@ -13,6 +13,7 @@
 \usepackage{ieeetrantools}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{listings}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%						Data							  %%%%%%%
@@ -57,10 +58,7 @@
 	\input{Chapter4/results}
 	\input{Chapter5/evaluation}
 	\input{Chapter6/conclusion}
-%	\appendix
-%	\input{appA/appendix_a_main}     % these are just test names as I didn't know what you'd want
-%	\input{appB/appendix_b_main}    
-%	\input{appC/appendix_c_main} 
+ 
 	
 	{\backmatter
 		% Bibliography
@@ -71,5 +69,9 @@
 		\printindex
 	}
 	
+	\appendix{
+		\input{Appendix/code}
+		\input{Appendix/plots}    
+	}
 	
 \end{document}

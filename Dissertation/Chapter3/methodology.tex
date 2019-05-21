@@ -31,7 +31,7 @@
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=0.6\textwidth]{BLM_3D_Plot}
-	\caption[BLM Correlation Plot]{Beam Losses from all 3 Monitors in the TDI BLM for Beam 2 after MinMax Scaling}
+	\caption[BLM Correlation Plot]{Beam Losses from all 3 Monitors in the TDI BLM for Beam 2 after MinMax Scaling, each point corresponds to one injection.}
 	\label{fig::TDI_BLM_3D}
 \end{figure}  
 
@@ -59,7 +59,7 @@
 \begin{figure}[b]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Time_Series_of_Abort_Gap_Population}
-	\caption[Abort Gap Time Series]{Time Series of Abort Gap  Population for the First 2 Injections}
+	\caption[Abort Gap Time Series]{Time Series of Abort Gap  Population for the First Injection}
 	\label{fig::Abort_Gap_Time_Series}
 \end{figure}  
 
@@ -127,7 +127,8 @@
 \section{Feature Selection}
 \label{sec::FeatureSelection}
 
-\paragraph{ }The anomaly detection algorithms were first run on a three dimensional subset of the chosen features so as to be able to properly visualise the anomalies and understand the main features that are causing them. Due to thehigh correlation between the 3 TDI BLM readings, it was decided to use one of the \acs{TDI} \acs{BLM}s, the change in \acs{LHC} intensity minus the \acs{SPS} intensity (i.e. the amount of beam intensity lost in the transfer line) and the \acs{MSE} of the \acs{BPM} readings as the three dimensional features. Note that all readings were appropriately normalised by the number of bunches.
+\paragraph{ }The anomaly detection algorithms were first run on a three dimensional subset of the chosen features so as to be able to properly visualise the anomalies and understand the main features that are causing them. Due to the
+high correlation between the 3 TDI BLM readings, it was decided to use one of the \acs{TDI} \acs{BLM}s, the change in \acs{LHC} intensity minus the \acs{SPS} intensity (i.e. the amount of beam intensity lost in the transfer line) and the \acs{MSE} of the \acs{BPM} readings as the three dimensional features. Note that all readings were appropriately normalised by the number of bunches.
 
 \paragraph{ }When performing the study on the full set of data, once again only one of the 3 \acs{TDI} \acs{BLM} readings would be needed as a feature. Furthermore, as mentioned in Section \ref{subsec::TLBLM}, the readings from the \acs{TL} \acs{BLM}s will not be used. Thus, the total number of dimensions used in the full model was 21 dimensions and are listed below:
 
