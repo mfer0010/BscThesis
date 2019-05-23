@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  21 MAY 2019 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.8)  23 MAY 2019 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1010,6 +1010,34 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count173
+\calc@Bcount=\count174
+\calc@Adimen=\dimen174
+\calc@Bdimen=\dimen175
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count175
+\calc@Cskip=\skip194
+)
+\AM@pagewidth=\dimen176
+\AM@pageheight=\dimen177
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box33
+\AM@toc@title=\toks31
+\c@AM@survey=\count176
+\AM@templatesizebox=\box34
+)
 \main@idxfile=\write5
 \openout5 = `main.idx'.
 
@@ -1018,40 +1046,40 @@ Writing index file main.idx
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 38.
+line 39.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 38.
-\big@size=\dimen174
+ line 39.
+\big@size=\dimen178
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count173
-\scratchdimen=\dimen175
-\scratchbox=\box33
-\nofMPsegments=\count174
-\nofMParguments=\count175
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count176
-\MPscratchDim=\dimen176
-\MPnumerator=\count177
-\makeMPintoPDFobject=\count178
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count177
+\scratchdimen=\dimen179
+\scratchbox=\box35
+\nofMPsegments=\count178
+\nofMParguments=\count179
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count180
+\MPscratchDim=\dimen180
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
+\everyMPtoPDFconversion=\toks33
 )
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box36
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1066,7 +1094,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1074,92 +1102,101 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count179
+\c@section@level=\count183
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 38.
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
-\c@lstlisting=\count180
-Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
-put line 38.
-Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 38.
-Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 38.
-Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 38.
-Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 38.
+\c@lstlisting=\count184
 
-<./images/umlogo_red.png, id=144, 597.432pt x 597.432pt>
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
+put line 39.
+Package nag Info: Command \captionabove not defined, skipping amendment on inpu
+t line 39.
+Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
+t line 39.
+Package nag Info: Command \hc@caption not defined, skipping amendment on input 
+line 39.
+Package nag Info: Command \topcaption not defined, skipping amendment on input 
+line 39.
+
+<./images/umlogo_red.png, id=148, 597.432pt x 597.432pt>
 File: ./images/umlogo_red.png Graphic file (type png)
 
 <use ./images/umlogo_red.png>
-Package pdftex.def Info: ./images/umlogo_red.png used on input line 42.
+Package pdftex.def Info: ./images/umlogo_red.png used on input line 43.
 (pdftex.def)             Requested size: 91.04881pt x 91.04214pt.
 
-Overfull \hbox (6.8501pt too wide) in paragraph at lines 42--42
+Overfull \hbox (6.8501pt too wide) in paragraph at lines 43--43
  [][]
  []
 
-LaTeX Font Info:    Try loading font information for T1+pag on input line 42.
+LaTeX Font Info:    Try loading font information for T1+pag on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 )
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 42.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <12> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 43.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 42.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/pag/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/pag/b/sc' tried instead on input line 42.
+(Font)              Font shape `T1/pag/b/sc' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/pag/b/sc' in size <17.28> not available
-(Font)              Font shape `T1/pag/db/sc' tried instead on input line 42.
+(Font)              Font shape `T1/pag/db/sc' tried instead on input line 43.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 42.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <10> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 42.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 43.
 
-Overfull \hbox (5.76138pt too wide) in paragraph at lines 42--42
+Overfull \hbox (5.76138pt too wide) in paragraph at lines 43--43
 [][] |  [][][] |  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
 
  []
 
-<./images/umlogo_gray.png, id=146, 597.432pt x 597.432pt>
+<./images/umlogo_gray.png, id=150, 597.432pt x 597.432pt>
 File: ./images/umlogo_gray.png Graphic file (type png)
 
 <use ./images/umlogo_gray.png>
-Package pdftex.def Info: ./images/umlogo_gray.png used on input line 42.
+Package pdftex.def Info: ./images/umlogo_gray.png used on input line 43.
 (pdftex.def)             Requested size: 418.25368pt x 418.26337pt.
  [1
 
@@ -1250,7 +1287,7 @@ although it is yet undefined on input line 12.
 
 
 ]
-<./images/CERNComplex.jpg, id=451, 618.31pt x 605.26125pt>
+<./images/CERNComplex.jpg, id=456, 618.31pt x 605.26125pt>
 File: ./images/CERNComplex.jpg Graphic file (type jpg)
 
 <use ./images/CERNComplex.jpg>
@@ -1267,7 +1304,7 @@ although it is yet undefined on input line 24.
                                                   \fi \fi 
 l.25 
       <./images/CERNComplex.jpg>]
-<./images/AnomalousInjections.png, id=474, 576.1525pt x 344.28625pt>
+<./images/AnomalousInjections.png, id=479, 576.1525pt x 344.28625pt>
 File: ./images/AnomalousInjections.png Graphic file (type png)
 
 <use ./images/AnomalousInjections.png>
@@ -1324,7 +1361,7 @@ although it is yet undefined on input line 4.
  [9
 
 ]
-<./images/Histogram_of_Sum_of_Beam_Losses.png, id=664, 433.62pt x 289.08pt>
+<./images/Histogram_of_Sum_of_Beam_Losses.png, id=669, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_Sum_of_Beam_Losses.png Graphic file (type png)
 
 <use ./images/Histogram_of_Sum_of_Beam_Losses.png>
@@ -1332,14 +1369,14 @@ Package pdftex.def Info: ./images/Histogram_of_Sum_of_Beam_Losses.png used on i
 nput line 18.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Raw_Beam_Loss.png, id=665, 433.62pt x 289.08pt>
+<./images/Raw_Beam_Loss.png, id=670, 433.62pt x 289.08pt>
 File: ./images/Raw_Beam_Loss.png Graphic file (type png)
 
 <use ./images/Raw_Beam_Loss.png>
 Package pdftex.def Info: ./images/Raw_Beam_Loss.png used on input line 25.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/BLM_3D_Plot.png, id=666, 454.69875pt x 310.15875pt>
+<./images/BLM_3D_Plot.png, id=671, 454.69875pt x 310.15875pt>
 File: ./images/BLM_3D_Plot.png Graphic file (type png)
 
 <use ./images/BLM_3D_Plot.png>
@@ -1365,7 +1402,7 @@ l.39
 l.39 
       <./images/Histogram_of_Sum_of_Beam_Losses.png> <./images/Raw_Beam_Loss.pn
 g> <./images/BLM_3D_Plot.png>]
-<./images/Histogram_of_Abort_Gap_Population.png, id=678, 433.62pt x 289.08pt>
+<./images/Histogram_of_Abort_Gap_Population.png, id=683, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_Abort_Gap_Population.png Graphic file (type png)
 
 <use ./images/Histogram_of_Abort_Gap_Population.png>
@@ -1373,7 +1410,7 @@ Package pdftex.def Info: ./images/Histogram_of_Abort_Gap_Population.png used on
  input line 46.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Histogram_of_Change_in_Abort_Gap_Population.png, id=679, 433.62pt x 2
+<./images/Histogram_of_Change_in_Abort_Gap_Population.png, id=684, 433.62pt x 2
 89.08pt>
 File: ./images/Histogram_of_Change_in_Abort_Gap_Population.png Graphic file (ty
 pe png)
@@ -1382,7 +1419,7 @@ Package pdftex.def Info: ./images/Histogram_of_Change_in_Abort_Gap_Population.p
 ng used on input line 53.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Time_Series_of_Abort_Gap_Population.png, id=680, 433.62pt x 289.08pt>
+<./images/Time_Series_of_Abort_Gap_Population.png, id=685, 433.62pt x 289.08pt>
 File: ./images/Time_Series_of_Abort_Gap_Population.png Graphic file (type png)
 <use ./images/Time_Series_of_Abort_Gap_Population.png>
 Package pdftex.def Info: ./images/Time_Series_of_Abort_Gap_Population.png used 
@@ -1402,7 +1439,7 @@ l.71
 l.71 
       <./images/Histogram_of_Abort_Gap_Population.png> <./images/Histogram_of_C
 hange_in_Abort_Gap_Population.png>]
-<./images/Histogram_of_Change_in_LHC_Intensity.png, id=710, 433.62pt x 289.08pt
+<./images/Histogram_of_Change_in_LHC_Intensity.png, id=715, 433.62pt x 289.08pt
 >
 File: ./images/Histogram_of_Change_in_LHC_Intensity.png Graphic file (type png)
 
@@ -1411,7 +1448,7 @@ Package pdftex.def Info: ./images/Histogram_of_Change_in_LHC_Intensity.png used
  on input line 75.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/Histogram_of_SPS_Intensity.png, id=711, 433.62pt x 289.08pt>
+<./images/Histogram_of_SPS_Intensity.png, id=716, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_SPS_Intensity.png Graphic file (type png)
 
 <use ./images/Histogram_of_SPS_Intensity.png>
@@ -1419,7 +1456,7 @@ Package pdftex.def Info: ./images/Histogram_of_SPS_Intensity.png used on input
 line 82.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/SPS_and_LHC_Intensities.png, id=712, 433.62pt x 289.08pt>
+<./images/SPS_and_LHC_Intensities.png, id=717, 433.62pt x 289.08pt>
 File: ./images/SPS_and_LHC_Intensities.png Graphic file (type png)
 
 <use ./images/SPS_and_LHC_Intensities.png>
@@ -1427,7 +1464,7 @@ Package pdftex.def Info: ./images/SPS_and_LHC_Intensities.png used on input lin
 e 90.
 (pdftex.def)             Requested size: 252.60257pt x 168.40314pt.
 
-<./images/Histogram_of_BPM.png, id=730, 433.62pt x 289.08pt>
+<./images/Histogram_of_BPM.png, id=735, 433.62pt x 289.08pt>
 File: ./images/Histogram_of_BPM.png Graphic file (type png)
 
 <use ./images/Histogram_of_BPM.png>
@@ -1463,7 +1500,7 @@ l.116 \paragraph
                 { }After the first single bunch is injected, the number of b...
  <./images/Histogram_of_Change_in_LHC_Intensity.png> <./images/Histogram_of_SPS
 _Intensity.png> <./images/SPS_and_LHC_Intensities.png>]
-<./images/Number_of_Bunches.png, id=752, 433.62pt x 289.08pt>
+<./images/Number_of_Bunches.png, id=757, 433.62pt x 289.08pt>
 File: ./images/Number_of_Bunches.png Graphic file (type png)
 
 <use ./images/Number_of_Bunches.png>
@@ -1484,7 +1521,7 @@ l.136 	\begin{minipage}[t]{0.475\linewidth}
                                                   \fi \fi 
 l.168 
        <./images/Number_of_Bunches.png>]
-<./images/Scaling.png, id=828, 454.69875pt x 310.15875pt>
+<./images/Scaling.png, id=833, 454.69875pt x 310.15875pt>
 File: ./images/Scaling.png Graphic file (type png)
 
 <use ./images/Scaling.png>
@@ -1497,14 +1534,14 @@ Package pdftex.def Info: ./images/Scaling.png used on input line 176.
                                                   \fi \fi 
 l.184 
        <./images/Scaling.png>]) (./Chapter4/results.tex [17]
-<./images/BPM_MSE_Trend_B1.png, id=861, 433.62pt x 289.08pt>
+<./images/BPM_MSE_Trend_B1.png, id=866, 433.62pt x 289.08pt>
 File: ./images/BPM_MSE_Trend_B1.png Graphic file (type png)
 
 <use ./images/BPM_MSE_Trend_B1.png>
 Package pdftex.def Info: ./images/BPM_MSE_Trend_B1.png used on input line 11.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/BPM_MSE_Trend_B2.png, id=862, 433.62pt x 289.08pt>
+<./images/BPM_MSE_Trend_B2.png, id=867, 433.62pt x 289.08pt>
 File: ./images/BPM_MSE_Trend_B2.png Graphic file (type png)
 
 <use ./images/BPM_MSE_Trend_B2.png>
@@ -1525,14 +1562,14 @@ l.27
                                                   \fi \fi 
 l.27 
       <./images/BPM_MSE_Trend_B1.png> <./images/BPM_MSE_Trend_B2.png>]
-<./images/BPM_MSE_Diff_B1.png, id=882, 433.62pt x 289.08pt>
+<./images/BPM_MSE_Diff_B1.png, id=887, 433.62pt x 289.08pt>
 File: ./images/BPM_MSE_Diff_B1.png Graphic file (type png)
 
 <use ./images/BPM_MSE_Diff_B1.png>
 Package pdftex.def Info: ./images/BPM_MSE_Diff_B1.png used on input line 33.
 (pdftex.def)             Requested size: 199.97757pt x 133.31805pt.
 
-<./images/BPM_MSE_Diff_B2.png, id=883, 433.62pt x 289.08pt>
+<./images/BPM_MSE_Diff_B2.png, id=888, 433.62pt x 289.08pt>
 File: ./images/BPM_MSE_Diff_B2.png Graphic file (type png)
 
 <use ./images/BPM_MSE_Diff_B2.png>
@@ -1551,14 +1588,14 @@ l.53
                                                   \fi \fi 
 l.53 
       <./images/BPM_MSE_Diff_B1.png> <./images/BPM_MSE_Diff_B2.png>]
-<./images/3D_LOF_Results.png, id=903, 454.69875pt x 310.15875pt>
+<./images/3D_LOF_Results.png, id=909, 454.69875pt x 310.15875pt>
 File: ./images/3D_LOF_Results.png Graphic file (type png)
 
 <use ./images/3D_LOF_Results.png>
 Package pdftex.def Info: ./images/3D_LOF_Results.png used on input line 60.
 (pdftex.def)             Requested size: 336.80128pt x 229.74104pt.
 
-<./images/Beam2_3D_LOF_Results.png, id=904, 454.69875pt x 310.15875pt>
+<./images/Beam2_3D_LOF_Results.png, id=910, 454.69875pt x 310.15875pt>
 File: ./images/Beam2_3D_LOF_Results.png Graphic file (type png)
 
 <use ./images/Beam2_3D_LOF_Results.png>
@@ -1572,14 +1609,14 @@ Package pdftex.def Info: ./images/Beam2_3D_LOF_Results.png used on input line 6
                                                   \fi \fi 
 l.71 
       <./images/3D_LOF_Results.png>]
-<./images/3D_LOF_BLMBPM.png, id=915, 389.455pt x 279.0425pt>
+<./images/3D_LOF_BLMBPM.png, id=920, 389.455pt x 279.0425pt>
 File: ./images/3D_LOF_BLMBPM.png Graphic file (type png)
 
 <use ./images/3D_LOF_BLMBPM.png>
 Package pdftex.def Info: ./images/3D_LOF_BLMBPM.png used on input line 75.
 (pdftex.def)             Requested size: 336.80128pt x 241.32585pt.
 
-<./images/3D_LOF_ResultsBPMIntensity.png, id=916, 389.455pt x 279.0425pt>
+<./images/3D_LOF_ResultsBPMIntensity.png, id=921, 389.455pt x 279.0425pt>
 File: ./images/3D_LOF_ResultsBPMIntensity.png Graphic file (type png)
 
 <use ./images/3D_LOF_ResultsBPMIntensity.png>
@@ -1599,7 +1636,7 @@ l.86
                                                   \fi \fi 
 l.86 
       <./images/Beam2_3D_LOF_Results.png> <./images/3D_LOF_BLMBPM.png>]
-<./images/DBSCAN_Results.png, id=931, 454.69875pt x 310.15875pt>
+<./images/DBSCAN_Results.png, id=936, 454.69875pt x 310.15875pt>
 File: ./images/DBSCAN_Results.png Graphic file (type png)
 
 <use ./images/DBSCAN_Results.png>
@@ -1612,7 +1649,7 @@ Package pdftex.def Info: ./images/DBSCAN_Results.png used on input line 95.
                                                   \fi \fi 
 l.99 
       <./images/3D_LOF_ResultsBPMIntensity.png>]
-<./images/Beam2_DBSCAN_Results.png, id=939, 454.69875pt x 310.15875pt>
+<./images/Beam2_DBSCAN_Results.png, id=944, 454.69875pt x 310.15875pt>
 File: ./images/Beam2_DBSCAN_Results.png Graphic file (type png)
 
 <use ./images/Beam2_DBSCAN_Results.png>
@@ -1632,14 +1669,14 @@ l.109
                                                   \fi \fi 
 l.109 
        <./images/DBSCAN_Results.png> <./images/Beam2_DBSCAN_Results.png>]
-<./images/Full_Results.png, id=952, 454.69875pt x 310.15875pt>
+<./images/Full_Results.png, id=957, 454.69875pt x 310.15875pt>
 File: ./images/Full_Results.png Graphic file (type png)
 
 <use ./images/Full_Results.png>
 Package pdftex.def Info: ./images/Full_Results.png used on input line 114.
 (pdftex.def)             Requested size: 336.80128pt x 229.74104pt.
 
-<./images/Beam2_Full_Results.png, id=953, 454.69875pt x 310.15875pt>
+<./images/Beam2_Full_Results.png, id=958, 454.69875pt x 310.15875pt>
 File: ./images/Beam2_Full_Results.png Graphic file (type png)
 
 <use ./images/Beam2_Full_Results.png>
@@ -1653,7 +1690,7 @@ Package pdftex.def Info: ./images/Beam2_Full_Results.png used on input line 121
                                                   \fi \fi 
 l.125 
        <./images/Full_Results.png>]
-<./images/Beam2_Full_BLMBPM.png, id=961, 389.455pt x 279.0425pt>
+<./images/Beam2_Full_BLMBPM.png, id=966, 389.455pt x 279.0425pt>
 File: ./images/Beam2_Full_BLMBPM.png Graphic file (type png)
 
 <use ./images/Beam2_Full_BLMBPM.png>
@@ -1661,7 +1698,7 @@ Package pdftex.def Info: ./images/Beam2_Full_BLMBPM.png used on input line 128.
 
 (pdftex.def)             Requested size: 336.80128pt x 241.32585pt.
 
-<./images/Beam2_Full_ResultsBPMIntensity.png, id=962, 389.455pt x 279.0425pt>
+<./images/Beam2_Full_ResultsBPMIntensity.png, id=967, 389.455pt x 279.0425pt>
 File: ./images/Beam2_Full_ResultsBPMIntensity.png Graphic file (type png)
 
 <use ./images/Beam2_Full_ResultsBPMIntensity.png>
@@ -1681,7 +1718,7 @@ l.139
                                                   \fi \fi 
 l.139 
        <./images/Beam2_Full_Results.png> <./images/Beam2_Full_BLMBPM.png>]
-<./images/PCA_Results.png, id=972, 454.69875pt x 310.15875pt>
+<./images/PCA_Results.png, id=977, 454.69875pt x 310.15875pt>
 File: ./images/PCA_Results.png Graphic file (type png)
 
 <use ./images/PCA_Results.png>
@@ -1694,7 +1731,7 @@ Package pdftex.def Info: ./images/PCA_Results.png used on input line 146.
                                                   \fi \fi 
 l.150 
        <./images/Beam2_Full_ResultsBPMIntensity.png>]
-<./images/Beam2_PCA_Results.png, id=980, 454.69875pt x 310.15875pt>
+<./images/Beam2_PCA_Results.png, id=985, 454.69875pt x 310.15875pt>
 File: ./images/Beam2_PCA_Results.png Graphic file (type png)
 
 <use ./images/Beam2_PCA_Results.png>
@@ -1714,14 +1751,14 @@ l.160
                                                   \fi \fi 
 l.160 
        <./images/PCA_Results.png> <./images/Beam2_PCA_Results.png>]
-<./images/TrueAnomalies.png, id=989, 454.69875pt x 310.15875pt>
+<./images/TrueAnomalies.png, id=994, 454.69875pt x 310.15875pt>
 File: ./images/TrueAnomalies.png Graphic file (type png)
 
 <use ./images/TrueAnomalies.png>
 Package pdftex.def Info: ./images/TrueAnomalies.png used on input line 163.
 (pdftex.def)             Requested size: 294.69872pt x 201.0234pt.
 
-<./images/Beam2_TrueAnomalies.png, id=990, 454.69875pt x 310.15875pt>
+<./images/Beam2_TrueAnomalies.png, id=995, 454.69875pt x 310.15875pt>
 File: ./images/Beam2_TrueAnomalies.png Graphic file (type png)
 
 <use ./images/Beam2_TrueAnomalies.png>
@@ -1807,7 +1844,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ))
 (./Appendix/plots.tex
-<./images/TrueAnomalies_BLMBPM.png, id=1089, 389.455pt x 279.0425pt>
+<./images/TrueAnomalies_BLMBPM.png, id=1094, 389.455pt x 279.0425pt>
 File: ./images/TrueAnomalies_BLMBPM.png Graphic file (type png)
 
 <use ./images/TrueAnomalies_BLMBPM.png>
@@ -1815,7 +1852,7 @@ Package pdftex.def Info: ./images/TrueAnomalies_BLMBPM.png used on input line 7
 .
 (pdftex.def)             Requested size: 336.80128pt x 241.32585pt.
 
-<./images/TrueAnomalies_BPMIntensity.png, id=1090, 389.455pt x 279.0425pt>
+<./images/TrueAnomalies_BPMIntensity.png, id=1095, 389.455pt x 279.0425pt>
 File: ./images/TrueAnomalies_BPMIntensity.png Graphic file (type png)
 
 <use ./images/TrueAnomalies_BPMIntensity.png>
@@ -1825,7 +1862,7 @@ line 12.
  [36
 
 ]
-<./images/Beam2_TrueAnomalies_BLMBPM.png, id=1104, 389.455pt x 279.0425pt>
+<./images/Beam2_TrueAnomalies_BLMBPM.png, id=1109, 389.455pt x 279.0425pt>
 File: ./images/Beam2_TrueAnomalies_BLMBPM.png Graphic file (type png)
 
 <use ./images/Beam2_TrueAnomalies_BLMBPM.png>
@@ -1833,7 +1870,7 @@ Package pdftex.def Info: ./images/Beam2_TrueAnomalies_BLMBPM.png used on input
 line 17.
 (pdftex.def)             Requested size: 336.80128pt x 241.32585pt.
 
-<./images/Beam2_TrueAnomalies_BPMIntensity.png, id=1105, 389.455pt x 279.0425pt
+<./images/Beam2_TrueAnomalies_BPMIntensity.png, id=1110, 389.455pt x 279.0425pt
 >
 File: ./images/Beam2_TrueAnomalies_BPMIntensity.png Graphic file (type png)
  <use ./images/Beam2_TrueAnomalies_BPMIntensity.png>
@@ -1853,22 +1890,80 @@ ame{figure.Alph0.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.24 \end{figure}
                   <./images/TrueAnomalies_BLMBPM.png> <./images/TrueAnomalies_B
-PMIntensity.png>])
+PMIntensity.png>]) (./Appendix/plagiarism.tex
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Plagiarism_Declaration_Form.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Plagiarism_Declaration_Form.pdf, id=1117, 614.295pt x 794.97pt>
+File: Plagiarism_Declaration_Form.pdf Graphic file (type pdf)
+
+<use Plagiarism_Declaration_Form.pdf>
+Package pdftex.def Info: Plagiarism_Declaration_Form.pdf used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Plagiarism_Declaration_Form.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+File: Plagiarism_Declaration_Form.pdf Graphic file (type pdf)
+<use Plagiarism_Declaration_Form.pdf>
+Package pdftex.def Info: Plagiarism_Declaration_Form.pdf used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Plagiarism_Declaration_Form.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Plagiarism_Declaration_Form.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<Plagiarism_Declaration_Form.pdf, id=1120, page=1, 614.295pt x 794.97pt>
+File: Plagiarism_Declaration_Form.pdf Graphic file (type pdf)
+
+<use Plagiarism_Declaration_Form.pdf, page 1>
+Package pdftex.def Info: Plagiarism_Declaration_Form.pdf, page1 used on input l
+ine 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Plagiarism_Declaration_Form.pdf Graphic file (type pdf)
+
+<use Plagiarism_Declaration_Form.pdf, page 1>
+Package pdftex.def Info: Plagiarism_Declaration_Form.pdf, page1 used on input l
+ine 2.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.Al
+ph0.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 ...scale=0.8]{Plagiarism_Declaration_Form.pdf}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.Alph0.4}) has been already used, du
+plicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 ...scale=0.8]{Plagiarism_Declaration_Form.pdf}
+                                                   <./images/Beam2_TrueAnomalie
+s_BLMBPM.png> <./images/Beam2_TrueAnomalies_BPMIntensity.png>]
+File: Plagiarism_Declaration_Form.pdf Graphic file (type pdf)
+
+<use Plagiarism_Declaration_Form.pdf, page 1>
+Package pdftex.def Info: Plagiarism_Declaration_Form.pdf, page1 used on input l
+ine 2.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: Plagiarism_Declaration_Form.pdf Graphic file (type pdf)
+
+<use Plagiarism_Declaration_Form.pdf, page 1>
+Package pdftex.def Info: Plagiarism_Declaration_Form.pdf, page1 used on input l
+ine 2.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: Plagiarism_Declaration_Form.pdf Graphic file (type pdf)
+
+<use Plagiarism_Declaration_Form.pdf, page 1>
+Package pdftex.def Info: Plagiarism_Declaration_Form.pdf, page1 used on input l
+ine 2.
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [39 <./Plagiarism_Declaration_Form.pdf>])
 No complaints by nag.
-[38pdfTeX warning (ext4): destination with the same identifier (name{figure.Alp
-h0.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.77 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{figure.Alph0.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.77 \end{document}
-                    <./images/Beam2_TrueAnomalies_BLMBPM.png> <./images/Beam2_T
-rueAnomalies_BPMIntensity.png>]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1878,23 +1973,23 @@ rueAnomalies_BPMIntensity.png>]
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 27F74E9FB330187F77BEE79B599576BE;2281.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+(rerunfilecheck)             Checksum: 7BC55F1D8A305655B3B42C24E716CEDF;2360.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 14901 strings out of 493029
- 210735 string characters out of 6136235
- 363532 words of memory out of 5000000
- 17797 multiletter control sequences out of 15000+600000
+ 15511 strings out of 493029
+ 220832 string characters out of 6136235
+ 375158 words of memory out of 5000000
+ 18382 multiletter control sequences out of 15000+600000
  91233 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,51p,1047b,1199s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,19n,51p,1047b,1205s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/share/texlive/texmf-dist/fo
 nts/type1/public/lato/Lato-Reg.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1908,10 +2003,10 @@ st/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.
 pfb>
-Output written on main.pdf (49 pages, 2177304 bytes).
+Output written on main.pdf (50 pages, 2183477 bytes).
 PDF statistics:
- 1233 PDF objects out of 1440 (max. 8388607)
- 1083 compressed objects within 11 object streams
- 325 named destinations out of 1000 (max. 500000)
- 471 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1281 PDF objects out of 1440 (max. 8388607)
+ 1106 compressed objects within 12 object streams
+ 327 named destinations out of 1000 (max. 500000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 

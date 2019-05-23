@@ -113,3 +113,4 @@
 \contentsline {section}{Media Content and Running the Code}{36}{section*.108}
 \contentsline {paragraph}{ }{36}{section*.109}
 \contentsline {section}{Other Plots}{36}{section*.110}
+\contentsline {section}{Plagiarism Declaration Form}{39}{section*.111}
